@@ -1,0 +1,2488 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: https://docs.swift.org/swift-book/ReferenceManual/Types.html
+Subject: =?utf-8?Q?Types=20=E2=80=94=20The=20Swift=20Programming=20Language=20(Swi?=
+ =?utf-8?Q?ft=205.1)?=
+Date: Tue, 20 Aug 2019 00:59:31 -0000
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--Py0nj2lqhyt7y0nwfDkyaRZzwr9CbSSH25m0tZxgOU----"
+
+
+------MultipartBoundary--Py0nj2lqhyt7y0nwfDkyaRZzwr9CbSSH25m0tZxgOU----
+Content-Type: text/html
+Content-ID: <frame-9C591BE0CAA5C51CCB7B775B6C6BFEFC@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://docs.swift.org/swift-book/ReferenceManual/Types.html
+
+<!DOCTYPE html><html class=3D"  ext-strict"><head><meta http-equiv=3D"Conte=
+nt-Type" content=3D"text/html; charset=3DUTF-8">
+   =20
+    <meta name=3D"author" content=3D"Apple Inc.">
+    <meta name=3D"viewport" content=3D"width=3Ddevice-width initial-scale=
+=3D1">
+   =20
+    <title>Types =E2=80=94 The Swift Programming Language (Swift 5.1)</titl=
+e>
+   =20
+    <link rel=3D"license" href=3D"https://docs.swift.org/LICENSE.txt">
+    <link rel=3D"stylesheet" media=3D"all" href=3D"https://docs.swift.org/s=
+wift-book/_static/stylesheets/application.css">
+    <link rel=3D"stylesheet" media=3D"all" href=3D"https://docs.swift.org/s=
+wift-book/_static/stylesheets/tspl.css">
+    <link rel=3D"shortcut icon" sizes=3D"16x16 24x24 32x32 48x48 64x64" typ=
+e=3D"image/vnd.microsoft.icon" href=3D"https://docs.swift.org/favicon.ico">
+    <link rel=3D"apple-touch-icon" href=3D"https://docs.swift.org/apple-tou=
+ch-icon.png">
+    <link rel=3D"apple-touch-icon" sizes=3D"57x57" href=3D"https://docs.swi=
+ft.org/apple-touch-icon-57x57.png">
+    <link rel=3D"apple-touch-icon" sizes=3D"72x72" href=3D"https://docs.swi=
+ft.org/apple-touch-icon-72x72.png">
+    <link rel=3D"apple-touch-icon" sizes=3D"76x76" href=3D"https://docs.swi=
+ft.org/apple-touch-icon-76x76.png">
+    <link rel=3D"apple-touch-icon" sizes=3D"114x114" href=3D"https://docs.s=
+wift.org/apple-touch-icon-114x114.png">
+    <link rel=3D"apple-touch-icon" sizes=3D"120x120" href=3D"https://docs.s=
+wift.org/apple-touch-icon-120x120.png">
+    <link rel=3D"apple-touch-icon" sizes=3D"144x144" href=3D"https://docs.s=
+wift.org/apple-touch-icon-144x144.png">
+    <link rel=3D"apple-touch-icon" sizes=3D"152x152" href=3D"https://docs.s=
+wift.org/apple-touch-icon-152x152.png">
+    <link rel=3D"apple-touch-icon" sizes=3D"180x180" href=3D"https://docs.s=
+wift.org/apple-touch-icon-180x180.png">
+    <link rel=3D"mask-icon" href=3D"https://docs.swift.org/assets/images/ic=
+on-swift.svg" color=3D"#F05339">=20
+  <style>img.chromoji { width:1.2em !important; height:1.2em !important; }.=
+chromoji-font, #chromoji-font { font-size:1.2em !important; }</style></head=
+>
+  <body class=3D" ext-webkit ext-chrome" id=3D"syno-nsc-ext-gen3">
+
+
+<nav role=3D"navigation">
+    <header role=3D"banner">
+      <h1 id=3D"logo">
+        <a href=3D"https://swift.org/" title=3D"Swift.org" role=3D"img" ari=
+a-label=3D"Swift.org">
+          Swift.org
+        </a>
+      </h1>
+    </header>
+
+    <div id=3D"menu-toggle" class=3D"menu-toggle open"></div>
+
+    <h2>The Swift Programming Language<div>Swift 5.1</div></h2>
+
+    <ul>
+    <ul class=3D"current">
+<li class=3D"toctree-l1"><a class=3D"reference internal" href=3D"https://do=
+cs.swift.org/swift-book/">Welcome to Swift</a></li>
+<li class=3D"toctree-l1"><a class=3D"reference internal" href=3D"https://do=
+cs.swift.org/swift-book/LanguageGuide/TheBasics.html">Language Guide</a></l=
+i>
+<li class=3D"toctree-l1 current"><a class=3D"reference internal" href=3D"ht=
+tps://docs.swift.org/swift-book/ReferenceManual/AboutTheLanguageReference.h=
+tml">Language Reference</a><ul class=3D"current">
+<li class=3D"toctree-l2"><a class=3D"reference internal" href=3D"https://do=
+cs.swift.org/swift-book/ReferenceManual/AboutTheLanguageReference.html">Abo=
+ut the Language Reference</a></li>
+<li class=3D"toctree-l2"><a class=3D"reference internal" href=3D"https://do=
+cs.swift.org/swift-book/ReferenceManual/LexicalStructure.html">Lexical Stru=
+cture</a></li>
+<li class=3D"toctree-l2 current"><a class=3D"current reference internal" hr=
+ef=3D"https://docs.swift.org/swift-book/ReferenceManual/Types.html#">Types<=
+/a></li>
+<li class=3D"toctree-l2"><a class=3D"reference internal" href=3D"https://do=
+cs.swift.org/swift-book/ReferenceManual/Expressions.html">Expressions</a></=
+li>
+<li class=3D"toctree-l2"><a class=3D"reference internal" href=3D"https://do=
+cs.swift.org/swift-book/ReferenceManual/Statements.html">Statements</a></li=
+>
+<li class=3D"toctree-l2"><a class=3D"reference internal" href=3D"https://do=
+cs.swift.org/swift-book/ReferenceManual/Declarations.html">Declarations</a>=
+</li>
+<li class=3D"toctree-l2"><a class=3D"reference internal" href=3D"https://do=
+cs.swift.org/swift-book/ReferenceManual/Attributes.html">Attributes</a></li=
+>
+<li class=3D"toctree-l2"><a class=3D"reference internal" href=3D"https://do=
+cs.swift.org/swift-book/ReferenceManual/Patterns.html">Patterns</a></li>
+<li class=3D"toctree-l2"><a class=3D"reference internal" href=3D"https://do=
+cs.swift.org/swift-book/ReferenceManual/GenericParametersAndArguments.html"=
+>Generic Parameters and Arguments</a></li>
+<li class=3D"toctree-l2"><a class=3D"reference internal" href=3D"https://do=
+cs.swift.org/swift-book/ReferenceManual/zzSummaryOfTheGrammar.html">Summary=
+ of the Grammar</a></li>
+</ul>
+</li>
+<li class=3D"toctree-l1"><a class=3D"reference internal" href=3D"https://do=
+cs.swift.org/swift-book/RevisionHistory/RevisionHistory.html">Revision Hist=
+ory</a></li>
+</ul>
+
+    <li class=3D"toctree-l1 return"><a class=3D"reference internal" href=3D=
+"https://swift.org/">=E2=86=90 Return to Swift.org</a></li>
+    </ul>
+</nav>
+
+
+
+
+<main role=3D"main">
+    <article class=3D"page">
+        <menu id=3D"bashful" type=3D"toolbar">
+          <div class=3D"inner">
+            <menuitem id=3D"jump_to" class=3D"menu-bar-item closed">
+            <span id=3D"jump_to_toggle">On This Page</span>
+            <div class=3D"chevron">
+                <div class=3D"chevy chevron-left"></div>
+                <div class=3D"chevy chevron-right"></div>
+            </div>
+            <menu type=3D"list" class=3D"details">
+                <ul>
+<li><a class=3D"reference internal" href=3D"https://docs.swift.org/swift-bo=
+ok/ReferenceManual/Types.html#">Types</a><ul>
+<li><a class=3D"reference internal" href=3D"https://docs.swift.org/swift-bo=
+ok/ReferenceManual/Types.html#ID446">Type Annotation</a></li>
+<li><a class=3D"reference internal" href=3D"https://docs.swift.org/swift-bo=
+ok/ReferenceManual/Types.html#ID447">Type Identifier</a></li>
+<li><a class=3D"reference internal" href=3D"https://docs.swift.org/swift-bo=
+ok/ReferenceManual/Types.html#ID448">Tuple Type</a></li>
+<li><a class=3D"reference internal" href=3D"https://docs.swift.org/swift-bo=
+ok/ReferenceManual/Types.html#ID449">Function Type</a><ul>
+<li><a class=3D"reference internal" href=3D"https://docs.swift.org/swift-bo=
+ok/ReferenceManual/Types.html#ID572">Restrictions for Nonescaping Closures<=
+/a></li>
+</ul>
+</li>
+<li><a class=3D"reference internal" href=3D"https://docs.swift.org/swift-bo=
+ok/ReferenceManual/Types.html#ID450">Array Type</a></li>
+<li><a class=3D"reference internal" href=3D"https://docs.swift.org/swift-bo=
+ok/ReferenceManual/Types.html#ID451">Dictionary Type</a></li>
+<li><a class=3D"reference internal" href=3D"https://docs.swift.org/swift-bo=
+ok/ReferenceManual/Types.html#ID452">Optional Type</a></li>
+<li><a class=3D"reference internal" href=3D"https://docs.swift.org/swift-bo=
+ok/ReferenceManual/Types.html#ID453">Implicitly Unwrapped Optional Type</a>=
+</li>
+<li><a class=3D"reference internal" href=3D"https://docs.swift.org/swift-bo=
+ok/ReferenceManual/Types.html#ID454">Protocol Composition Type</a></li>
+<li><a class=3D"reference internal" href=3D"https://docs.swift.org/swift-bo=
+ok/ReferenceManual/Types.html#ID616">Opaque Type</a></li>
+<li><a class=3D"reference internal" href=3D"https://docs.swift.org/swift-bo=
+ok/ReferenceManual/Types.html#ID455">Metatype Type</a></li>
+<li><a class=3D"reference internal" href=3D"https://docs.swift.org/swift-bo=
+ok/ReferenceManual/Types.html#ID610">Self Type</a></li>
+<li><a class=3D"reference internal" href=3D"https://docs.swift.org/swift-bo=
+ok/ReferenceManual/Types.html#ID456">Type Inheritance Clause</a></li>
+<li><a class=3D"reference internal" href=3D"https://docs.swift.org/swift-bo=
+ok/ReferenceManual/Types.html#ID457">Type Inference</a></li>
+</ul>
+</li>
+</ul>
+
+            </menu>
+            </menuitem>
+          </div>
+        </menu>
+
+       =20
+  <div class=3D"section" id=3D"types">
+<h1>Types<a class=3D"headerlink" href=3D"https://docs.swift.org/swift-book/=
+ReferenceManual/Types.html#types" title=3D"Permalink to this headline">=C2=
+=B6</a></h1>
+<p>In Swift, there are two kinds of types: named types and compound types. =
+A <em>named type</em> is a type that can be given a particular name when it=
+=E2=80=99s defined. Named types include classes, structures, enumerations, =
+and protocols. For example, instances of a user-defined class named <code c=
+lass=3D"docutils literal notranslate"><span class=3D"pre">MyClass</span></c=
+ode> have the type <code class=3D"docutils literal notranslate"><span class=
+=3D"pre">MyClass</span></code>. In addition to user-defined named types, th=
+e Swift standard library defines many commonly used named types, including =
+those that represent arrays, dictionaries, and optional values.</p>
+<p>Data types that are normally considered basic or primitive in other lang=
+uages=E2=80=94such as types that represent numbers, characters, and strings=
+=E2=80=94are actually named types, defined and implemented in the Swift sta=
+ndard library using structures. Because they=E2=80=99re named types, you ca=
+n extend their behavior to suit the needs of your program, using an extensi=
+on declaration, discussed in <a class=3D"reference internal" href=3D"https:=
+//docs.swift.org/swift-book/LanguageGuide/Extensions.html"><span class=3D"d=
+oc">Extensions</span></a> and <a class=3D"reference internal" href=3D"https=
+://docs.swift.org/swift-book/ReferenceManual/Declarations.html#ID378"><span=
+ class=3D"std std-ref">Extension Declaration</span></a>.</p>
+<p>A <em>compound type</em> is a type without a name, defined in the Swift =
+language itself. There are two compound types: function types and tuple typ=
+es. A compound type may contain named types and other compound types. For e=
+xample, the tuple type <code class=3D"docutils literal notranslate"><span c=
+lass=3D"pre">(Int,</span> <span class=3D"pre">(Int,</span> <span class=3D"p=
+re">Int))</span></code> contains two elements: The first is the named type =
+<code class=3D"docutils literal notranslate"><span class=3D"pre">Int</span>=
+</code>, and the second is another compound type <code class=3D"docutils li=
+teral notranslate"><span class=3D"pre">(Int,</span> <span class=3D"pre">Int=
+)</span></code>.</p>
+<p>You can put parentheses around a named type or a compound type. However,=
+ adding parentheses around a type doesn=E2=80=99t have any effect. For exam=
+ple, <code class=3D"docutils literal notranslate"><span class=3D"pre">(Int)=
+</span></code> is equivalent to <code class=3D"docutils literal notranslate=
+"><span class=3D"pre">Int</span></code>.</p>
+<p>This chapter discusses the types defined in the Swift language itself an=
+d describes the type inference behavior of Swift.</p>
+<div class=3D"admonition grammar"><p class=3D"first admonition-title">Gramm=
+ar of a type</p><div class=3D"syntax-group"><p class=3D"syntax-def"><span c=
+lass=3D"syntax-def-name"><a id=3D"grammar_type"></a>type</span><span class=
+=3D"arrow"> =E2=86=92 </span> <span class=3D"syntactic-category"><a href=3D=
+"https://docs.swift.org/swift-book/ReferenceManual/Types.html#grammar_funct=
+ion-type">function-type</a></span> </p><p class=3D"syntax-def"><span class=
+=3D"syntax-def-name"><a id=3D"grammar_type_1209"></a>type</span><span class=
+=3D"arrow"> =E2=86=92 </span> <span class=3D"syntactic-category"><a href=3D=
+"https://docs.swift.org/swift-book/ReferenceManual/Types.html#grammar_array=
+-type">array-type</a></span> </p><p class=3D"syntax-def"><span class=3D"syn=
+tax-def-name"><a id=3D"grammar_type_1210"></a>type</span><span class=3D"arr=
+ow"> =E2=86=92 </span> <span class=3D"syntactic-category"><a href=3D"https:=
+//docs.swift.org/swift-book/ReferenceManual/Types.html#grammar_dictionary-t=
+ype">dictionary-type</a></span> </p><p class=3D"syntax-def"><span class=3D"=
+syntax-def-name"><a id=3D"grammar_type_1211"></a>type</span><span class=3D"=
+arrow"> =E2=86=92 </span> <span class=3D"syntactic-category"><a href=3D"htt=
+ps://docs.swift.org/swift-book/ReferenceManual/Types.html#grammar_type-iden=
+tifier">type-identifier</a></span> </p><p class=3D"syntax-def"><span class=
+=3D"syntax-def-name"><a id=3D"grammar_type_1212"></a>type</span><span class=
+=3D"arrow"> =E2=86=92 </span> <span class=3D"syntactic-category"><a href=3D=
+"https://docs.swift.org/swift-book/ReferenceManual/Types.html#grammar_tuple=
+-type">tuple-type</a></span> </p><p class=3D"syntax-def"><span class=3D"syn=
+tax-def-name"><a id=3D"grammar_type_1213"></a>type</span><span class=3D"arr=
+ow"> =E2=86=92 </span> <span class=3D"syntactic-category"><a href=3D"https:=
+//docs.swift.org/swift-book/ReferenceManual/Types.html#grammar_optional-typ=
+e">optional-type</a></span> </p><p class=3D"syntax-def"><span class=3D"synt=
+ax-def-name"><a id=3D"grammar_type_1214"></a>type</span><span class=3D"arro=
+w"> =E2=86=92 </span> <span class=3D"syntactic-category"><a href=3D"https:/=
+/docs.swift.org/swift-book/ReferenceManual/Types.html#grammar_implicitly-un=
+wrapped-optional-type">implicitly-unwrapped-optional-type</a></span> </p><p=
+ class=3D"syntax-def"><span class=3D"syntax-def-name"><a id=3D"grammar_type=
+_1215"></a>type</span><span class=3D"arrow"> =E2=86=92 </span> <span class=
+=3D"syntactic-category"><a href=3D"https://docs.swift.org/swift-book/Refere=
+nceManual/Types.html#grammar_protocol-composition-type">protocol-compositio=
+n-type</a></span> </p><p class=3D"syntax-def"><span class=3D"syntax-def-nam=
+e"><a id=3D"grammar_type_1216"></a>type</span><span class=3D"arrow"> =E2=86=
+=92 </span> <span class=3D"syntactic-category"><a href=3D"https://docs.swif=
+t.org/swift-book/ReferenceManual/Types.html#grammar_opaque-type">opaque-typ=
+e</a></span> </p><p class=3D"syntax-def"><span class=3D"syntax-def-name"><a=
+ id=3D"grammar_type_1217"></a>type</span><span class=3D"arrow"> =E2=86=92 <=
+/span> <span class=3D"syntactic-category"><a href=3D"https://docs.swift.org=
+/swift-book/ReferenceManual/Types.html#grammar_metatype-type">metatype-type=
+</a></span> </p><p class=3D"syntax-def"><span class=3D"syntax-def-name"><a =
+id=3D"grammar_type_1218"></a>type</span><span class=3D"arrow"> =E2=86=92 </=
+span> <span class=3D"syntactic-category"><a href=3D"https://docs.swift.org/=
+swift-book/ReferenceManual/Types.html#grammar_self-type">self-type</a></spa=
+n> </p><p class=3D"syntax-def"><span class=3D"syntax-def-name"><a id=3D"gra=
+mmar_type_1219"></a>type</span><span class=3D"arrow"> =E2=86=92 </span> <co=
+de>Any</code></p><p class=3D"syntax-def"><span class=3D"syntax-def-name"><a=
+ id=3D"grammar_type_1220"></a>type</span><span class=3D"arrow"> =E2=86=92 <=
+/span> <code>(</code> <span class=3D"syntactic-category"><a href=3D"https:/=
+/docs.swift.org/swift-book/ReferenceManual/Types.html#grammar_type">type</a=
+></span>  <code>)</code></p></div></div><div class=3D"section" id=3D"ID446"=
+>
+<h2>Type Annotation<a class=3D"headerlink" href=3D"https://docs.swift.org/s=
+wift-book/ReferenceManual/Types.html#ID446" title=3D"Permalink to this head=
+line">=C2=B6</a></h2>
+<p>A <em>type annotation</em> explicitly specifies the type of a variable o=
+r expression. Type annotations begin with a colon (<code class=3D"docutils =
+literal notranslate"><span class=3D"pre">:</span></code>) and end with a ty=
+pe, as the following examples show:</p>
+<div class=3D"highlight-swift notranslate"><div class=3D"code-sample"><div =
+class=3D"Swift highlight"><ol class=3D"code-lines"><li><span class=3D"k">le=
+t</span> <span class=3D"nv">someTuple</span>: (<span class=3D"nc">Double</s=
+pan>, <span class=3D"nc">Double</span>) =3D (<span class=3D"m">3.14159</spa=
+n>, <span class=3D"m">2.71828</span>)
+</li><li><span class=3D"k">func</span> <span class=3D"nv">someFunction</spa=
+n>(<span class=3D"nv">a</span>: <span class=3D"nc">Int</span>) { <span clas=
+s=3D"c">/* ... */</span> }
+</li></ol></div></div></div>
+<p>In the first example, the expression <code class=3D"docutils literal not=
+ranslate"><span class=3D"pre">someTuple</span></code> is specified to have =
+the tuple type <code class=3D"docutils literal notranslate"><span class=3D"=
+pre">(Double,</span> <span class=3D"pre">Double)</span></code>. In the seco=
+nd example, the parameter <code class=3D"docutils literal notranslate"><spa=
+n class=3D"pre">a</span></code> to the function <code class=3D"docutils lit=
+eral notranslate"><span class=3D"pre">someFunction</span></code> is specifi=
+ed to have the type <code class=3D"docutils literal notranslate"><span clas=
+s=3D"pre">Int</span></code>.</p>
+<p>Type annotations can contain an optional list of type attributes before =
+the type.</p>
+<div class=3D"admonition grammar"><p class=3D"first admonition-title">Gramm=
+ar of a type annotation</p><div class=3D"syntax-group"><p class=3D"syntax-d=
+ef"><span class=3D"syntax-def-name"><a id=3D"grammar_type-annotation"></a>t=
+ype-annotation</span><span class=3D"arrow"> =E2=86=92 </span> <code>:</code=
+> <span class=3D"syntactic-category"><a href=3D"https://docs.swift.org/swif=
+t-book/ReferenceManual/Attributes.html#grammar_attributes">attributes</a></=
+span> <sub>opt</sub> <code>inout</code><sub>opt</sub> <span class=3D"syntac=
+tic-category"><a href=3D"https://docs.swift.org/swift-book/ReferenceManual/=
+Types.html#grammar_type">type</a></span> </p></div></div></div>
+<div class=3D"section" id=3D"ID447">
+<h2>Type Identifier<a class=3D"headerlink" href=3D"https://docs.swift.org/s=
+wift-book/ReferenceManual/Types.html#ID447" title=3D"Permalink to this head=
+line">=C2=B6</a></h2>
+<p>A <em>type identifier</em> refers to either a named type or a type alias=
+ of a named or compound type.</p>
+<p>Most of the time, a type identifier directly refers to a named type with=
+ the same name as the identifier. For example, <code class=3D"docutils lite=
+ral notranslate"><span class=3D"pre">Int</span></code> is a type identifier=
+ that directly refers to the named type <code class=3D"docutils literal not=
+ranslate"><span class=3D"pre">Int</span></code>, and the type identifier <c=
+ode class=3D"docutils literal notranslate"><span class=3D"pre">Dictionary&l=
+t;String,</span> <span class=3D"pre">Int&gt;</span></code> directly refers =
+to the named type <code class=3D"docutils literal notranslate"><span class=
+=3D"pre">Dictionary&lt;String,</span> <span class=3D"pre">Int&gt;</span></c=
+ode>.</p>
+<p>There are two cases in which a type identifier doesn=E2=80=99t refer to =
+a type with the same name. In the first case, a type identifier refers to a=
+ type alias of a named or compound type. For instance, in the example below=
+, the use of <code class=3D"docutils literal notranslate"><span class=3D"pr=
+e">Point</span></code> in the type annotation refers to the tuple type <cod=
+e class=3D"docutils literal notranslate"><span class=3D"pre">(Int,</span> <=
+span class=3D"pre">Int)</span></code>.</p>
+<div class=3D"highlight-swift notranslate"><div class=3D"code-sample"><div =
+class=3D"Swift highlight"><ol class=3D"code-lines"><li><span class=3D"k">ty=
+pealias</span> <span class=3D"nv">Point</span> =3D (<span class=3D"nc">Int<=
+/span>, <span class=3D"nc">Int</span>)
+</li><li><span class=3D"k">let</span> <span class=3D"nv">origin</span>: <sp=
+an class=3D"nc">Point</span> =3D (<span class=3D"m">0</span>, <span class=
+=3D"m">0</span>)
+</li></ol></div></div></div>
+<p>In the second case, a type identifier uses dot (<code class=3D"docutils =
+literal notranslate"><span class=3D"pre">.</span></code>) syntax to refer t=
+o named types declared in other modules or nested within other types. For e=
+xample, the type identifier in the following code references the named type=
+ <code class=3D"docutils literal notranslate"><span class=3D"pre">MyType</s=
+pan></code> that is declared in the <code class=3D"docutils literal notrans=
+late"><span class=3D"pre">ExampleModule</span></code> module.</p>
+<div class=3D"highlight-swift notranslate"><div class=3D"code-sample"><div =
+class=3D"Swift highlight"><ol class=3D"code-lines"><li><span class=3D"k">va=
+r</span> <span class=3D"nv">someValue</span>: <span class=3D"nc">ExampleMod=
+ule</span>.<span class=3D"nc">MyType</span>
+</li></ol></div></div></div>
+<div class=3D"admonition grammar"><p class=3D"first admonition-title">Gramm=
+ar of a type identifier</p><div class=3D"syntax-group"><p class=3D"syntax-d=
+ef"><span class=3D"syntax-def-name"><a id=3D"grammar_type-identifier"></a>t=
+ype-identifier</span><span class=3D"arrow"> =E2=86=92 </span> <span class=
+=3D"syntactic-category"><a href=3D"https://docs.swift.org/swift-book/Refere=
+nceManual/Types.html#grammar_type-name">type-name</a></span>  <span class=
+=3D"syntactic-category"><a href=3D"https://docs.swift.org/swift-book/Refere=
+nceManual/GenericParametersAndArguments.html#grammar_generic-argument-claus=
+e">generic-argument-clause</a></span> <sub>opt</sub> |  <span class=3D"synt=
+actic-category"><a href=3D"https://docs.swift.org/swift-book/ReferenceManua=
+l/Types.html#grammar_type-name">type-name</a></span>  <span class=3D"syntac=
+tic-category"><a href=3D"https://docs.swift.org/swift-book/ReferenceManual/=
+GenericParametersAndArguments.html#grammar_generic-argument-clause">generic=
+-argument-clause</a></span> <sub>opt</sub> <code>.</code> <span class=3D"sy=
+ntactic-category"><a href=3D"https://docs.swift.org/swift-book/ReferenceMan=
+ual/Types.html#grammar_type-identifier">type-identifier</a></span> </p><p c=
+lass=3D"syntax-def"><span class=3D"syntax-def-name"><a id=3D"grammar_type-n=
+ame"></a>type-name</span><span class=3D"arrow"> =E2=86=92 </span> <span cla=
+ss=3D"syntactic-category"><a href=3D"https://docs.swift.org/swift-book/Refe=
+renceManual/LexicalStructure.html#grammar_identifier">identifier</a></span>=
+ </p></div></div></div>
+<div class=3D"section" id=3D"ID448">
+<h2>Tuple Type<a class=3D"headerlink" href=3D"https://docs.swift.org/swift-=
+book/ReferenceManual/Types.html#ID448" title=3D"Permalink to this headline"=
+>=C2=B6</a></h2>
+<p>A <em>tuple type</em> is a comma-separated list of types, enclosed in pa=
+rentheses.</p>
+<p>You can use a tuple type as the return type of a function to enable the =
+function to return a single tuple containing multiple values. You can also =
+name the elements of a tuple type and use those names to refer to the value=
+s of the individual elements. An element name consists of an identifier fol=
+lowed immediately by a colon (:). For an example that demonstrates both of =
+these features, see <a class=3D"reference internal" href=3D"https://docs.sw=
+ift.org/swift-book/LanguageGuide/Functions.html#ID164"><span class=3D"std s=
+td-ref">Functions with Multiple Return Values</span></a>.</p>
+<p>When an element of a tuple type has a name, that name is part of the typ=
+e.</p>
+<div class=3D"highlight-swift notranslate"><div class=3D"code-sample"><div =
+class=3D"Swift highlight"><ol class=3D"code-lines"><li><span class=3D"k">va=
+r</span> <span class=3D"nv">someTuple</span> =3D (<span class=3D"nv">top</s=
+pan>: <span class=3D"m">10</span>, <span class=3D"nv">bottom</span>: <span =
+class=3D"m">12</span>)  <span class=3D"c">// someTuple is of type (top: Int=
+, bottom: Int)</span>
+</li><li><span class=3D"nv">someTuple</span> =3D (<span class=3D"nv">top</s=
+pan>: <span class=3D"m">4</span>, <span class=3D"nv">bottom</span>: <span c=
+lass=3D"m">42</span>) <span class=3D"c">// OK: names match</span>
+</li><li><span class=3D"nv">someTuple</span> =3D (<span class=3D"m">9</span=
+>, <span class=3D"m">99</span>)              <span class=3D"c">// OK: names=
+ are inferred</span>
+</li><li><span class=3D"nv">someTuple</span> =3D (<span class=3D"nv">left</=
+span>: <span class=3D"m">5</span>, <span class=3D"nv">right</span>: <span c=
+lass=3D"m">5</span>)  <span class=3D"c">// Error: names don't match</span>
+</li></ol></div></div></div>
+<p>All tuple types contain two or more types, except for <code class=3D"doc=
+utils literal notranslate"><span class=3D"pre">Void</span></code> which is =
+a type alias for the empty tuple type, <code class=3D"docutils literal notr=
+anslate"><span class=3D"pre">()</span></code>.</p>
+<div class=3D"admonition grammar"><p class=3D"first admonition-title">Gramm=
+ar of a tuple type</p><div class=3D"syntax-group"><p class=3D"syntax-def"><=
+span class=3D"syntax-def-name"><a id=3D"grammar_tuple-type"></a>tuple-type<=
+/span><span class=3D"arrow"> =E2=86=92 </span> <code>(</code> <code>)</code=
+> |  <code>(</code> <span class=3D"syntactic-category"><a href=3D"https://d=
+ocs.swift.org/swift-book/ReferenceManual/Types.html#grammar_tuple-type-elem=
+ent">tuple-type-element</a></span>  <code>,</code> <span class=3D"syntactic=
+-category"><a href=3D"https://docs.swift.org/swift-book/ReferenceManual/Typ=
+es.html#grammar_tuple-type-element-list">tuple-type-element-list</a></span>=
+  <code>)</code></p><p class=3D"syntax-def"><span class=3D"syntax-def-name"=
+><a id=3D"grammar_tuple-type-element-list"></a>tuple-type-element-list</spa=
+n><span class=3D"arrow"> =E2=86=92 </span> <span class=3D"syntactic-categor=
+y"><a href=3D"https://docs.swift.org/swift-book/ReferenceManual/Types.html#=
+grammar_tuple-type-element">tuple-type-element</a></span>  |  <span class=
+=3D"syntactic-category"><a href=3D"https://docs.swift.org/swift-book/Refere=
+nceManual/Types.html#grammar_tuple-type-element">tuple-type-element</a></sp=
+an>  <code>,</code> <span class=3D"syntactic-category"><a href=3D"https://d=
+ocs.swift.org/swift-book/ReferenceManual/Types.html#grammar_tuple-type-elem=
+ent-list">tuple-type-element-list</a></span> </p><p class=3D"syntax-def"><s=
+pan class=3D"syntax-def-name"><a id=3D"grammar_tuple-type-element"></a>tupl=
+e-type-element</span><span class=3D"arrow"> =E2=86=92 </span> <span class=
+=3D"syntactic-category"><a href=3D"https://docs.swift.org/swift-book/Refere=
+nceManual/Types.html#grammar_element-name">element-name</a></span>  <span c=
+lass=3D"syntactic-category"><a href=3D"https://docs.swift.org/swift-book/Re=
+ferenceManual/Types.html#grammar_type-annotation">type-annotation</a></span=
+>  |  <span class=3D"syntactic-category"><a href=3D"https://docs.swift.org/=
+swift-book/ReferenceManual/Types.html#grammar_type">type</a></span> </p><p =
+class=3D"syntax-def"><span class=3D"syntax-def-name"><a id=3D"grammar_eleme=
+nt-name"></a>element-name</span><span class=3D"arrow"> =E2=86=92 </span> <s=
+pan class=3D"syntactic-category"><a href=3D"https://docs.swift.org/swift-bo=
+ok/ReferenceManual/LexicalStructure.html#grammar_identifier">identifier</a>=
+</span> </p></div></div></div>
+<div class=3D"section" id=3D"ID449">
+<h2>Function Type<a class=3D"headerlink" href=3D"https://docs.swift.org/swi=
+ft-book/ReferenceManual/Types.html#ID449" title=3D"Permalink to this headli=
+ne">=C2=B6</a></h2>
+<p>A <em>function type</em> represents the type of a function, method, or c=
+losure and consists of a parameter and return type separated by an arrow (<=
+code class=3D"docutils literal notranslate"><span class=3D"pre">-&gt;</span=
+></code>):</p>
+<div class=3D"syntax-outline highlight-swift notranslate"><div class=3D"cod=
+e-sample"><div class=3D"Swift highlight"><ol class=3D"code-lines"><li>(<spa=
+n class=3D"gi">parameter type</span>) -&gt; <span class=3D"gi">return type<=
+/span>
+</li></ol></div></div></div>
+<p>The <em>parameter type</em> is comma-separated list of types. Because th=
+e <em>return type</em> can be a tuple type, function types support function=
+s and methods that return multiple values.</p>
+<p>A parameter of the function type <code class=3D"docutils literal notrans=
+late"><span class=3D"pre">()</span> <span class=3D"pre">-&gt;</span> <span =
+class=3D"pre">T</span></code> (where <code class=3D"docutils literal notran=
+slate"><span class=3D"pre">T</span></code> is any type) can apply the <code=
+ class=3D"docutils literal notranslate"><span class=3D"pre">autoclosure</sp=
+an></code> attribute to implicitly create a closure at its call sites. This=
+ provides a syntactically convenient way to defer the evaluation of an expr=
+ession without needing to write an explicit closure when you call the funct=
+ion. For an example of an autoclosure function type parameter, see <a class=
+=3D"reference internal" href=3D"https://docs.swift.org/swift-book/LanguageG=
+uide/Closures.html#ID543"><span class=3D"std std-ref">Autoclosures</span></=
+a>.</p>
+<p>A function type can have a variadic parameter in its <em>parameter type<=
+/em>. Syntactically, a variadic parameter consists of a base type name foll=
+owed immediately by three dots (<code class=3D"docutils literal notranslate=
+"><span class=3D"pre">...</span></code>), as in <code class=3D"docutils lit=
+eral notranslate"><span class=3D"pre">Int...</span></code>. A variadic para=
+meter is treated as an array that contains elements of the base type name. =
+For instance, the variadic parameter <code class=3D"docutils literal notran=
+slate"><span class=3D"pre">Int...</span></code> is treated as <code class=
+=3D"docutils literal notranslate"><span class=3D"pre">[Int]</span></code>. =
+For an example that uses a variadic parameter, see <a class=3D"reference in=
+ternal" href=3D"https://docs.swift.org/swift-book/LanguageGuide/Functions.h=
+tml#ID171"><span class=3D"std std-ref">Variadic Parameters</span></a>.</p>
+<p>To specify an in-out parameter, prefix the parameter type with the <code=
+ class=3D"docutils literal notranslate"><span class=3D"pre">inout</span></c=
+ode> keyword. You can=E2=80=99t mark a variadic parameter or a return type =
+with the <code class=3D"docutils literal notranslate"><span class=3D"pre">i=
+nout</span></code> keyword. In-out parameters are discussed in <a class=3D"=
+reference internal" href=3D"https://docs.swift.org/swift-book/LanguageGuide=
+/Functions.html#ID173"><span class=3D"std std-ref">In-Out Parameters</span>=
+</a>.</p>
+<p>If a function type has only one parameter and that parameter=E2=80=99s t=
+ype is a tuple type, then the tuple type must be parenthesized when writing=
+ the function=E2=80=99s type. For example, <code class=3D"docutils literal =
+notranslate"><span class=3D"pre">((Int,</span> <span class=3D"pre">Int))</s=
+pan> <span class=3D"pre">-&gt;</span> <span class=3D"pre">Void</span></code=
+> is the type of a function that takes a single parameter of the tuple type=
+ <code class=3D"docutils literal notranslate"><span class=3D"pre">(Int,</sp=
+an> <span class=3D"pre">Int)</span></code> and doesn=E2=80=99t return any v=
+alue. In contrast, without parentheses, <code class=3D"docutils literal not=
+ranslate"><span class=3D"pre">(Int,</span> <span class=3D"pre">Int)</span> =
+<span class=3D"pre">-&gt;</span> <span class=3D"pre">Void</span></code> is =
+the type of a function that takes two <code class=3D"docutils literal notra=
+nslate"><span class=3D"pre">Int</span></code> parameters and doesn=E2=80=99=
+t return any value. Likewise, because <code class=3D"docutils literal notra=
+nslate"><span class=3D"pre">Void</span></code> is a type alias for <code cl=
+ass=3D"docutils literal notranslate"><span class=3D"pre">()</span></code>, =
+the function type <code class=3D"docutils literal notranslate"><span class=
+=3D"pre">(Void)</span> <span class=3D"pre">-&gt;</span> <span class=3D"pre"=
+>Void</span></code> is the same as <code class=3D"docutils literal notransl=
+ate"><span class=3D"pre">(())</span> <span class=3D"pre">-&gt;</span> <span=
+ class=3D"pre">()</span></code>=E2=80=94a function that takes a single argu=
+ment that is an empty tuple. These types are not the same as <code class=3D=
+"docutils literal notranslate"><span class=3D"pre">()</span> <span class=3D=
+"pre">-&gt;</span> <span class=3D"pre">()</span></code>=E2=80=94a function =
+that takes no arguments.</p>
+<p>Argument names in functions and methods are not part of the correspondin=
+g function type. For example:</p>
+<div class=3D"highlight-swift notranslate"><div class=3D"code-sample"><div =
+class=3D"Swift highlight"><ol class=3D"code-lines"><li><span class=3D"k">fu=
+nc</span> <span class=3D"nv">someFunction</span>(<span class=3D"nv">left</s=
+pan>: <span class=3D"nc">Int</span>, <span class=3D"nv">right</span>: <span=
+ class=3D"nc">Int</span>) {}
+</li><li><span class=3D"k">func</span> <span class=3D"nv">anotherFunction</=
+span>(<span class=3D"nv">left</span>: <span class=3D"nc">Int</span>, <span =
+class=3D"nv">right</span>: <span class=3D"nc">Int</span>) {}
+</li><li><span class=3D"k">func</span> <span class=3D"nv">functionWithDiffe=
+rentLabels</span>(<span class=3D"nv">top</span>: <span class=3D"nc">Int</sp=
+an>, <span class=3D"nv">bottom</span>: <span class=3D"nc">Int</span>) {}
+</li><li>
+</li><li><span class=3D"k">var</span> <span class=3D"nv">f</span> =3D <span=
+ class=3D"nv">someFunction</span> <span class=3D"c">// The type of f is (In=
+t, Int) -&gt; Void, not (left: Int, right: Int) -&gt; Void.</span>
+</li><li><span class=3D"nv">f</span> =3D <span class=3D"nv">anotherFunction=
+</span>              <span class=3D"c">// OK</span>
+</li><li><span class=3D"nv">f</span> =3D <span class=3D"nv">functionWithDif=
+ferentLabels</span>  <span class=3D"c">// OK</span>
+</li><li>
+</li><li><span class=3D"k">func</span> <span class=3D"nv">functionWithDiffe=
+rentArgumentTypes</span>(<span class=3D"nv">left</span>: <span class=3D"nc"=
+>Int</span>, <span class=3D"nv">right</span>: <span class=3D"nc">String</sp=
+an>) {}
+</li><li><span class=3D"nv">f</span> =3D <span class=3D"nv">functionWithDif=
+ferentArgumentTypes</span>     <span class=3D"c">// Error</span>
+</li><li>
+</li><li><span class=3D"k">func</span> <span class=3D"nv">functionWithDiffe=
+rentNumberOfArguments</span>(<span class=3D"nv">left</span>: <span class=3D=
+"nc">Int</span>, <span class=3D"nv">right</span>: <span class=3D"nc">Int</s=
+pan>, <span class=3D"nv">top</span>: <span class=3D"nc">Int</span>) {}
+</li><li><span class=3D"nv">f</span> =3D <span class=3D"nv">functionWithDif=
+ferentNumberOfArguments</span> <span class=3D"c">// Error</span>
+</li></ol></div></div></div>
+<p>Because argument labels are not part of a function=E2=80=99s type, you o=
+mit them when writing a function type.</p>
+<div class=3D"highlight-swift notranslate"><div class=3D"code-sample"><div =
+class=3D"Swift highlight"><ol class=3D"code-lines"><li><span class=3D"k">va=
+r</span> <span class=3D"nv">operation</span>: (<span class=3D"nv">lhs</span=
+>: <span class=3D"nc">Int</span>, <span class=3D"nv">rhs</span>: <span clas=
+s=3D"nc">Int</span>) -&gt; <span class=3D"nc">Int</span>     <span class=3D=
+"c">// Error</span>
+</li><li><span class=3D"k">var</span> <span class=3D"nv">operation</span>: =
+(<span class=3D"k">_</span> <span class=3D"nv">lhs</span>: <span class=3D"n=
+c">Int</span>, <span class=3D"k">_</span> <span class=3D"nv">rhs</span>: <s=
+pan class=3D"nc">Int</span>) -&gt; <span class=3D"nc">Int</span> <span clas=
+s=3D"c">// OK</span>
+</li><li><span class=3D"k">var</span> <span class=3D"nv">operation</span>: =
+(<span class=3D"nc">Int</span>, <span class=3D"nc">Int</span>) -&gt; <span =
+class=3D"nc">Int</span>               <span class=3D"c">// OK</span>
+</li></ol></div></div></div>
+<p>If a function type includes more than a single arrow (<code class=3D"doc=
+utils literal notranslate"><span class=3D"pre">-&gt;</span></code>), the fu=
+nction types are grouped from right to left. For example, the function type=
+ <code class=3D"docutils literal notranslate"><span class=3D"pre">(Int)</sp=
+an> <span class=3D"pre">-&gt;</span> <span class=3D"pre">(Int)</span> <span=
+ class=3D"pre">-&gt;</span> <span class=3D"pre">Int</span></code> is unders=
+tood as <code class=3D"docutils literal notranslate"><span class=3D"pre">(I=
+nt)</span> <span class=3D"pre">-&gt;</span> <span class=3D"pre">((Int)</spa=
+n> <span class=3D"pre">-&gt;</span> <span class=3D"pre">Int)</span></code>=
+=E2=80=94that is, a function that takes an <code class=3D"docutils literal =
+notranslate"><span class=3D"pre">Int</span></code> and returns another func=
+tion that takes and returns an <code class=3D"docutils literal notranslate"=
+><span class=3D"pre">Int</span></code>.</p>
+<p>Function types that can throw an error must be marked with the <code cla=
+ss=3D"docutils literal notranslate"><span class=3D"pre">throws</span></code=
+> keyword, and function types that can rethrow an error must be marked with=
+ the <code class=3D"docutils literal notranslate"><span class=3D"pre">rethr=
+ows</span></code> keyword. The <code class=3D"docutils literal notranslate"=
+><span class=3D"pre">throws</span></code> keyword is part of a function=E2=
+=80=99s type, and nonthrowing functions are subtypes of throwing functions.=
+ As a result, you can use a nonthrowing function in the same places as a th=
+rowing one. Throwing and rethrowing functions are described in <a class=3D"=
+reference internal" href=3D"https://docs.swift.org/swift-book/ReferenceManu=
+al/Declarations.html#ID530"><span class=3D"std std-ref">Throwing Functions =
+and Methods</span></a> and <a class=3D"reference internal" href=3D"https://=
+docs.swift.org/swift-book/ReferenceManual/Declarations.html#ID531"><span cl=
+ass=3D"std std-ref">Rethrowing Functions and Methods</span></a>.</p>
+<div class=3D"section" id=3D"ID572">
+<h3>Restrictions for Nonescaping Closures<a class=3D"headerlink" href=3D"ht=
+tps://docs.swift.org/swift-book/ReferenceManual/Types.html#ID572" title=3D"=
+Permalink to this headline">=C2=B6</a></h3>
+<p>A parameter that=E2=80=99s a nonescaping function can=E2=80=99t be store=
+d in a property, variable, or constant of type <code class=3D"docutils lite=
+ral notranslate"><span class=3D"pre">Any</span></code>, because that might =
+allow the value to escape.</p>
+<p>A parameter that=E2=80=99s a nonescaping function can=E2=80=99t be passe=
+d as an argument to another nonescaping function parameter. This restrictio=
+n helps Swift perform more of its checks for conflicting access to memory a=
+t compile time instead of at runtime. For example:</p>
+<div class=3D"highlight-swift notranslate"><div class=3D"code-sample"><div =
+class=3D"Swift highlight"><ol class=3D"code-lines"><li><span class=3D"k">le=
+t</span> <span class=3D"nv">external</span>: (() -&gt; <span class=3D"nc">V=
+oid</span>) -&gt; <span class=3D"nc">Void</span> =3D { <span class=3D"k">_<=
+/span> <span class=3D"k">in</span> () }
+</li><li><span class=3D"k">func</span> <span class=3D"nv">takesTwoFunctions=
+</span>(<span class=3D"nv">first</span>: (() -&gt; <span class=3D"nc">Void<=
+/span>) -&gt; <span class=3D"nc">Void</span>, <span class=3D"nv">second</sp=
+an>: (() -&gt; <span class=3D"nc">Void</span>) -&gt; <span class=3D"nc">Voi=
+d</span>) {
+</li><li>    <span class=3D"nv">first</span> { <span class=3D"nv">first</sp=
+an> {} }       <span class=3D"c">// Error</span>
+</li><li>    <span class=3D"nv">second</span> { <span class=3D"nv">second</=
+span> {}  }    <span class=3D"c">// Error</span>
+</li><li>
+</li><li>    <span class=3D"nv">first</span> { <span class=3D"nv">second</s=
+pan> {} }      <span class=3D"c">// Error</span>
+</li><li>    <span class=3D"nv">second</span> { <span class=3D"nv">first</s=
+pan> {} }      <span class=3D"c">// Error</span>
+</li><li>
+</li><li>    <span class=3D"nv">first</span> { <span class=3D"nv">external<=
+/span> {} }    <span class=3D"c">// OK</span>
+</li><li>    <span class=3D"nv">external</span> { <span class=3D"nv">first<=
+/span> {} }    <span class=3D"c">// OK</span>
+</li><li>}
+</li></ol></div></div></div>
+<p>In the code above, both of the parameters to <code class=3D"docutils lit=
+eral notranslate"><span class=3D"pre">takesTwoFunctions(first:second:)</spa=
+n></code> are functions. Neither parameter is marked <code class=3D"docutil=
+s literal notranslate"><span class=3D"pre">@escaping</span></code>, so they=
+=E2=80=99re both nonescaping as a result.</p>
+<p>The four function calls marked =E2=80=9CError=E2=80=9D in the example ab=
+ove cause compiler errors. Because the <code class=3D"docutils literal notr=
+anslate"><span class=3D"pre">first</span></code> and <code class=3D"docutil=
+s literal notranslate"><span class=3D"pre">second</span></code> parameters =
+are nonescaping functions, they can=E2=80=99t be passed as arguments to ano=
+ther nonescaping function parameter. In contrast, the two function calls ma=
+rked =E2=80=9COK=E2=80=9D don=E2=80=99t cause a compiler error. These funct=
+ion calls don=E2=80=99t violate the restriction because <code class=3D"docu=
+tils literal notranslate"><span class=3D"pre">external</span></code> isn=E2=
+=80=99t one of the parameters of <code class=3D"docutils literal notranslat=
+e"><span class=3D"pre">takesTwoFunctions(first:second:)</span></code>.</p>
+<p>If you need to avoid this restriction, mark one of the parameters as esc=
+aping, or temporarily convert one of the nonescaping function parameters to=
+ an escaping function by using the <code class=3D"docutils literal notransl=
+ate"><span class=3D"pre">withoutActuallyEscaping(_:do:)</span></code> funct=
+ion. For information about avoiding conflicting access to memory, see <a cl=
+ass=3D"reference internal" href=3D"https://docs.swift.org/swift-book/Langua=
+geGuide/MemorySafety.html"><span class=3D"doc">Memory Safety</span></a>.</p=
+>
+<div class=3D"admonition grammar"><p class=3D"first admonition-title">Gramm=
+ar of a function type</p><div class=3D"syntax-group"><p class=3D"syntax-def=
+"><span class=3D"syntax-def-name"><a id=3D"grammar_function-type"></a>funct=
+ion-type</span><span class=3D"arrow"> =E2=86=92 </span> <span class=3D"synt=
+actic-category"><a href=3D"https://docs.swift.org/swift-book/ReferenceManua=
+l/Attributes.html#grammar_attributes">attributes</a></span> <sub>opt</sub> =
+<span class=3D"syntactic-category"><a href=3D"https://docs.swift.org/swift-=
+book/ReferenceManual/Types.html#grammar_function-type-argument-clause">func=
+tion-type-argument-clause</a></span>  <code>throws</code><sub>opt</sub> <co=
+de>-&gt;</code> <span class=3D"syntactic-category"><a href=3D"https://docs.=
+swift.org/swift-book/ReferenceManual/Types.html#grammar_type">type</a></spa=
+n> </p><p class=3D"syntax-def"><span class=3D"syntax-def-name"><a id=3D"gra=
+mmar_function-type_1221"></a>function-type</span><span class=3D"arrow"> =E2=
+=86=92 </span> <span class=3D"syntactic-category"><a href=3D"https://docs.s=
+wift.org/swift-book/ReferenceManual/Attributes.html#grammar_attributes">att=
+ributes</a></span> <sub>opt</sub> <span class=3D"syntactic-category"><a hre=
+f=3D"https://docs.swift.org/swift-book/ReferenceManual/Types.html#grammar_f=
+unction-type-argument-clause">function-type-argument-clause</a></span>  <co=
+de>rethrows</code> <code>-&gt;</code> <span class=3D"syntactic-category"><a=
+ href=3D"https://docs.swift.org/swift-book/ReferenceManual/Types.html#gramm=
+ar_type">type</a></span> </p></div><div class=3D"syntax-group"><p class=3D"=
+syntax-def"><span class=3D"syntax-def-name"><a id=3D"grammar_function-type-=
+argument-clause"></a>function-type-argument-clause</span><span class=3D"arr=
+ow"> =E2=86=92 </span> <code>(</code> <code>)</code></p><p class=3D"syntax-=
+def"><span class=3D"syntax-def-name"><a id=3D"grammar_function-type-argumen=
+t-clause_1222"></a>function-type-argument-clause</span><span class=3D"arrow=
+"> =E2=86=92 </span> <code>(</code> <span class=3D"syntactic-category"><a h=
+ref=3D"https://docs.swift.org/swift-book/ReferenceManual/Types.html#grammar=
+_function-type-argument-list">function-type-argument-list</a></span>  <code=
+>...</code><sub>opt</sub> <code>)</code></p></div><div class=3D"syntax-grou=
+p"><p class=3D"syntax-def"><span class=3D"syntax-def-name"><a id=3D"grammar=
+_function-type-argument-list"></a>function-type-argument-list</span><span c=
+lass=3D"arrow"> =E2=86=92 </span> <span class=3D"syntactic-category"><a hre=
+f=3D"https://docs.swift.org/swift-book/ReferenceManual/Types.html#grammar_f=
+unction-type-argument">function-type-argument</a></span>  |  <span class=3D=
+"syntactic-category"><a href=3D"https://docs.swift.org/swift-book/Reference=
+Manual/Types.html#grammar_function-type-argument">function-type-argument</a=
+></span>  <code>,</code> <span class=3D"syntactic-category"><a href=3D"http=
+s://docs.swift.org/swift-book/ReferenceManual/Types.html#grammar_function-t=
+ype-argument-list">function-type-argument-list</a></span> </p><p class=3D"s=
+yntax-def"><span class=3D"syntax-def-name"><a id=3D"grammar_function-type-a=
+rgument"></a>function-type-argument</span><span class=3D"arrow"> =E2=86=92 =
+</span> <span class=3D"syntactic-category"><a href=3D"https://docs.swift.or=
+g/swift-book/ReferenceManual/Attributes.html#grammar_attributes">attributes=
+</a></span> <sub>opt</sub> <code>inout</code><sub>opt</sub> <span class=3D"=
+syntactic-category"><a href=3D"https://docs.swift.org/swift-book/ReferenceM=
+anual/Types.html#grammar_type">type</a></span>  |  <span class=3D"syntactic=
+-category"><a href=3D"https://docs.swift.org/swift-book/ReferenceManual/Typ=
+es.html#grammar_argument-label">argument-label</a></span>  <span class=3D"s=
+yntactic-category"><a href=3D"https://docs.swift.org/swift-book/ReferenceMa=
+nual/Types.html#grammar_type-annotation">type-annotation</a></span> </p><p =
+class=3D"syntax-def"><span class=3D"syntax-def-name"><a id=3D"grammar_argum=
+ent-label"></a>argument-label</span><span class=3D"arrow"> =E2=86=92 </span=
+> <span class=3D"syntactic-category"><a href=3D"https://docs.swift.org/swif=
+t-book/ReferenceManual/LexicalStructure.html#grammar_identifier">identifier=
+</a></span> </p></div></div></div>
+</div>
+<div class=3D"section" id=3D"ID450">
+<h2>Array Type<a class=3D"headerlink" href=3D"https://docs.swift.org/swift-=
+book/ReferenceManual/Types.html#ID450" title=3D"Permalink to this headline"=
+>=C2=B6</a></h2>
+<p>The Swift language provides the following syntactic sugar for the Swift =
+standard library <code class=3D"docutils literal notranslate"><span class=
+=3D"pre">Array&lt;Element&gt;</span></code> type:</p>
+<div class=3D"syntax-outline highlight-swift notranslate"><div class=3D"cod=
+e-sample"><div class=3D"Swift highlight"><ol class=3D"code-lines"><li>[<spa=
+n class=3D"gi">type</span>]
+</li></ol></div></div></div>
+<p>In other words, the following two declarations are equivalent:</p>
+<div class=3D"highlight-swift notranslate"><div class=3D"code-sample"><div =
+class=3D"Swift highlight"><ol class=3D"code-lines"><li><span class=3D"k">le=
+t</span> <span class=3D"nv">someArray</span>: <span class=3D"nc">Array</spa=
+n>&lt;<span class=3D"nc">String</span>&gt; =3D [<span class=3D"s">"Alex"</s=
+pan>, <span class=3D"s">"Brian"</span>, <span class=3D"s">"Dave"</span>]
+</li><li><span class=3D"k">let</span> <span class=3D"nv">someArray</span>: =
+[<span class=3D"nc">String</span>] =3D [<span class=3D"s">"Alex"</span>, <s=
+pan class=3D"s">"Brian"</span>, <span class=3D"s">"Dave"</span>]
+</li></ol></div></div></div>
+<p>In both cases, the constant <code class=3D"docutils literal notranslate"=
+><span class=3D"pre">someArray</span></code> is declared as an array of str=
+ings. The elements of an array can be accessed through subscripting by spec=
+ifying a valid index value in square brackets: <code class=3D"docutils lite=
+ral notranslate"><span class=3D"pre">someArray[0]</span></code> refers to t=
+he element at index 0, <code class=3D"docutils literal notranslate"><span c=
+lass=3D"pre">"Alex"</span></code>.</p>
+<p>You can create multidimensional arrays by nesting pairs of square bracke=
+ts, where the name of the base type of the elements is contained in the inn=
+ermost pair of square brackets. For example, you can create a three-dimensi=
+onal array of integers using three sets of square brackets:</p>
+<div class=3D"highlight-swift notranslate"><div class=3D"code-sample"><div =
+class=3D"Swift highlight"><ol class=3D"code-lines"><li><span class=3D"k">va=
+r</span> <span class=3D"nv">array3D</span>: [[[<span class=3D"nc">Int</span=
+>]]] =3D [[[<span class=3D"m">1</span>, <span class=3D"m">2</span>], [<span=
+ class=3D"m">3</span>, <span class=3D"m">4</span>]], [[<span class=3D"m">5<=
+/span>, <span class=3D"m">6</span>], [<span class=3D"m">7</span>, <span cla=
+ss=3D"m">8</span>]]]
+</li></ol></div></div></div>
+<p>When accessing the elements in a multidimensional array, the left-most s=
+ubscript index refers to the element at that index in the outermost array. =
+The next subscript index to the right refers to the element at that index i=
+n the array that=E2=80=99s nested one level in. And so on. This means that =
+in the example above, <code class=3D"docutils literal notranslate"><span cl=
+ass=3D"pre">array3D[0]</span></code> refers to <code class=3D"docutils lite=
+ral notranslate"><span class=3D"pre">[[1,</span> <span class=3D"pre">2],</s=
+pan> <span class=3D"pre">[3,</span> <span class=3D"pre">4]]</span></code>, =
+<code class=3D"docutils literal notranslate"><span class=3D"pre">array3D[0]=
+[1]</span></code> refers to <code class=3D"docutils literal notranslate"><s=
+pan class=3D"pre">[3,</span> <span class=3D"pre">4]</span></code>, and <cod=
+e class=3D"docutils literal notranslate"><span class=3D"pre">array3D[0][1][=
+1]</span></code> refers to the value 4.</p>
+<p>For a detailed discussion of the Swift standard library <code class=3D"d=
+ocutils literal notranslate"><span class=3D"pre">Array</span></code> type, =
+see <a class=3D"reference internal" href=3D"https://docs.swift.org/swift-bo=
+ok/LanguageGuide/CollectionTypes.html#ID107"><span class=3D"std std-ref">Ar=
+rays</span></a>.</p>
+<div class=3D"admonition grammar"><p class=3D"first admonition-title">Gramm=
+ar of an array type</p><div class=3D"syntax-group"><p class=3D"syntax-def">=
+<span class=3D"syntax-def-name"><a id=3D"grammar_array-type"></a>array-type=
+</span><span class=3D"arrow"> =E2=86=92 </span> <code>[</code> <span class=
+=3D"syntactic-category"><a href=3D"https://docs.swift.org/swift-book/Refere=
+nceManual/Types.html#grammar_type">type</a></span>  <code>]</code></p></div=
+></div></div>
+<div class=3D"section" id=3D"ID451">
+<h2>Dictionary Type<a class=3D"headerlink" href=3D"https://docs.swift.org/s=
+wift-book/ReferenceManual/Types.html#ID451" title=3D"Permalink to this head=
+line">=C2=B6</a></h2>
+<p>The Swift language provides the following syntactic sugar for the Swift =
+standard library <code class=3D"docutils literal notranslate"><span class=
+=3D"pre">Dictionary&lt;Key,</span> <span class=3D"pre">Value&gt;</span></co=
+de> type:</p>
+<div class=3D"syntax-outline highlight-swift notranslate"><div class=3D"cod=
+e-sample"><div class=3D"Swift highlight"><ol class=3D"code-lines"><li>[<spa=
+n class=3D"gi">key type</span>: <span class=3D"gi">value type</span>]
+</li></ol></div></div></div>
+<p>In other words, the following two declarations are equivalent:</p>
+<div class=3D"highlight-swift notranslate"><div class=3D"code-sample"><div =
+class=3D"Swift highlight"><ol class=3D"code-lines"><li><span class=3D"k">le=
+t</span> <span class=3D"nv">someDictionary</span>: [<span class=3D"nc">Stri=
+ng</span>: <span class=3D"nc">Int</span>] =3D [<span class=3D"s">"Alex"</sp=
+an>: <span class=3D"m">31</span>, <span class=3D"s">"Paul"</span>: <span cl=
+ass=3D"m">39</span>]
+</li><li><span class=3D"k">let</span> <span class=3D"nv">someDictionary</sp=
+an>: <span class=3D"nc">Dictionary</span>&lt;<span class=3D"nc">String</spa=
+n>, <span class=3D"nc">Int</span>&gt; =3D [<span class=3D"s">"Alex"</span>:=
+ <span class=3D"m">31</span>, <span class=3D"s">"Paul"</span>: <span class=
+=3D"m">39</span>]
+</li></ol></div></div></div>
+<p>In both cases, the constant <code class=3D"docutils literal notranslate"=
+><span class=3D"pre">someDictionary</span></code> is declared as a dictiona=
+ry with strings as keys and integers as values.</p>
+<p>The values of a dictionary can be accessed through subscripting by speci=
+fying the corresponding key in square brackets: <code class=3D"docutils lit=
+eral notranslate"><span class=3D"pre">someDictionary["Alex"]</span></code> =
+refers to the value associated with the key <code class=3D"docutils literal=
+ notranslate"><span class=3D"pre">"Alex"</span></code>. The subscript retur=
+ns an optional value of the dictionary=E2=80=99s value type. If the specifi=
+ed key isn=E2=80=99t contained in the dictionary, the subscript returns <co=
+de class=3D"docutils literal notranslate"><span class=3D"pre">nil</span></c=
+ode>.</p>
+<p>The key type of a dictionary must conform to the Swift standard library =
+<code class=3D"docutils literal notranslate"><span class=3D"pre">Hashable</=
+span></code> protocol.</p>
+<p>For a detailed discussion of the Swift standard library <code class=3D"d=
+ocutils literal notranslate"><span class=3D"pre">Dictionary</span></code> t=
+ype, see <a class=3D"reference internal" href=3D"https://docs.swift.org/swi=
+ft-book/LanguageGuide/CollectionTypes.html#ID113"><span class=3D"std std-re=
+f">Dictionaries</span></a>.</p>
+<div class=3D"admonition grammar"><p class=3D"first admonition-title">Gramm=
+ar of a dictionary type</p><div class=3D"syntax-group"><p class=3D"syntax-d=
+ef"><span class=3D"syntax-def-name"><a id=3D"grammar_dictionary-type"></a>d=
+ictionary-type</span><span class=3D"arrow"> =E2=86=92 </span> <code>[</code=
+> <span class=3D"syntactic-category"><a href=3D"https://docs.swift.org/swif=
+t-book/ReferenceManual/Types.html#grammar_type">type</a></span>  <code>:</c=
+ode> <span class=3D"syntactic-category"><a href=3D"https://docs.swift.org/s=
+wift-book/ReferenceManual/Types.html#grammar_type">type</a></span>  <code>]=
+</code></p></div></div></div>
+<div class=3D"section" id=3D"ID452">
+<h2>Optional Type<a class=3D"headerlink" href=3D"https://docs.swift.org/swi=
+ft-book/ReferenceManual/Types.html#ID452" title=3D"Permalink to this headli=
+ne">=C2=B6</a></h2>
+<p>The Swift language defines the postfix <code class=3D"docutils literal n=
+otranslate"><span class=3D"pre">?</span></code> as syntactic sugar for the =
+named type <code class=3D"docutils literal notranslate"><span class=3D"pre"=
+>Optional&lt;Wrapped&gt;</span></code>, which is defined in the Swift stand=
+ard library. In other words, the following two declarations are equivalent:=
+</p>
+<div class=3D"highlight-swift notranslate"><div class=3D"code-sample"><div =
+class=3D"Swift highlight"><ol class=3D"code-lines"><li><span class=3D"k">va=
+r</span> <span class=3D"nv">optionalInteger</span>: <span class=3D"nc">Int<=
+/span>?
+</li><li><span class=3D"k">var</span> <span class=3D"nv">optionalInteger</s=
+pan>: <span class=3D"nc">Optional</span>&lt;<span class=3D"nc">Int</span>&g=
+t;
+</li></ol></div></div></div>
+<p>In both cases, the variable <code class=3D"docutils literal notranslate"=
+><span class=3D"pre">optionalInteger</span></code> is declared to have the =
+type of an optional integer. Note that no whitespace may appear between the=
+ type and the <code class=3D"docutils literal notranslate"><span class=3D"p=
+re">?</span></code>.</p>
+<p>The type <code class=3D"docutils literal notranslate"><span class=3D"pre=
+">Optional&lt;Wrapped&gt;</span></code> is an enumeration with two cases, <=
+code class=3D"docutils literal notranslate"><span class=3D"pre">none</span>=
+</code> and <code class=3D"docutils literal notranslate"><span class=3D"pre=
+">some(Wrapped)</span></code>, which are used to represent values that may =
+or may not be present. Any type can be explicitly declared to be (or implic=
+itly converted to) an optional type. If you don=E2=80=99t provide an initia=
+l value when you declare an optional variable or property, its value automa=
+tically defaults to <code class=3D"docutils literal notranslate"><span clas=
+s=3D"pre">nil</span></code>.</p>
+<p>If an instance of an optional type contains a value, you can access that=
+ value using the postfix operator <code class=3D"docutils literal notransla=
+te"><span class=3D"pre">!</span></code>, as shown below:</p>
+<div class=3D"highlight-swift notranslate"><div class=3D"code-sample"><div =
+class=3D"Swift highlight"><ol class=3D"code-lines"><li><span class=3D"nv">o=
+ptionalInteger</span> =3D <span class=3D"m">42</span>
+</li><li><span class=3D"nv">optionalInteger</span>! <span class=3D"c">// 42=
+</span>
+</li></ol></div></div></div>
+<p>Using the <code class=3D"docutils literal notranslate"><span class=3D"pr=
+e">!</span></code> operator to unwrap an optional that has a value of <code=
+ class=3D"docutils literal notranslate"><span class=3D"pre">nil</span></cod=
+e> results in a runtime error.</p>
+<p>You can also use optional chaining and optional binding to conditionally=
+ perform an operation on an optional expression. If the value is <code clas=
+s=3D"docutils literal notranslate"><span class=3D"pre">nil</span></code>, n=
+o operation is performed and therefore no runtime error is produced.</p>
+<p>For more information and to see examples that show how to use optional t=
+ypes, see <a class=3D"reference internal" href=3D"https://docs.swift.org/sw=
+ift-book/LanguageGuide/TheBasics.html#ID330"><span class=3D"std std-ref">Op=
+tionals</span></a>.</p>
+<div class=3D"admonition grammar"><p class=3D"first admonition-title">Gramm=
+ar of an optional type</p><div class=3D"syntax-group"><p class=3D"syntax-de=
+f"><span class=3D"syntax-def-name"><a id=3D"grammar_optional-type"></a>opti=
+onal-type</span><span class=3D"arrow"> =E2=86=92 </span> <span class=3D"syn=
+tactic-category"><a href=3D"https://docs.swift.org/swift-book/ReferenceManu=
+al/Types.html#grammar_type">type</a></span>  <code>?</code></p></div></div>=
+</div>
+<div class=3D"section" id=3D"ID453">
+<h2>Implicitly Unwrapped Optional Type<a class=3D"headerlink" href=3D"https=
+://docs.swift.org/swift-book/ReferenceManual/Types.html#ID453" title=3D"Per=
+malink to this headline">=C2=B6</a></h2>
+<p>The Swift language defines the postfix <code class=3D"docutils literal n=
+otranslate"><span class=3D"pre">!</span></code> as syntactic sugar for the =
+named type <code class=3D"docutils literal notranslate"><span class=3D"pre"=
+>Optional&lt;Wrapped&gt;</span></code>, which is defined in the Swift stand=
+ard library, with the additional behavior that it=E2=80=99s automatically u=
+nwrapped when it=E2=80=99s accessed. If you try to use an implicitly unwrap=
+ped optional that has a value of <code class=3D"docutils literal notranslat=
+e"><span class=3D"pre">nil</span></code>, you=E2=80=99ll get a runtime erro=
+r. With the exception of the implicit unwrapping behavior, the following tw=
+o declarations are equivalent:</p>
+<div class=3D"highlight-swift notranslate"><div class=3D"code-sample"><div =
+class=3D"Swift highlight"><ol class=3D"code-lines"><li><span class=3D"k">va=
+r</span> <span class=3D"nv">implicitlyUnwrappedString</span>: <span class=
+=3D"nc">String</span>!
+</li><li><span class=3D"k">var</span> <span class=3D"nv">explicitlyUnwrappe=
+dString</span>: <span class=3D"nc">Optional</span>&lt;<span class=3D"nc">St=
+ring</span>&gt;
+</li></ol></div></div></div>
+<p>Note that no whitespace may appear between the type and the <code class=
+=3D"docutils literal notranslate"><span class=3D"pre">!</span></code>.</p>
+<p>Because implicit unwrapping changes the meaning of the declaration that =
+contains that type, optional types that are nested inside a tuple type or a=
+ generic type=E2=80=94such as the element types of a dictionary or array=E2=
+=80=94can=E2=80=99t be marked as implicitly unwrapped. For example:</p>
+<div class=3D"highlight-swift notranslate"><div class=3D"code-sample"><div =
+class=3D"Swift highlight"><ol class=3D"code-lines"><li><span class=3D"k">le=
+t</span> <span class=3D"nv">tupleOfImplicitlyUnwrappedElements</span>: (<sp=
+an class=3D"nc">Int</span>!, <span class=3D"nc">Int</span>!)  <span class=
+=3D"c">// Error</span>
+</li><li><span class=3D"k">let</span> <span class=3D"nv">implicitlyUnwrappe=
+dTuple</span>: (<span class=3D"nc">Int</span>, <span class=3D"nc">Int</span=
+>)!             <span class=3D"c">// OK</span>
+</li><li>
+</li><li><span class=3D"k">let</span> <span class=3D"nv">arrayOfImplicitlyU=
+nwrappedElements</span>: [<span class=3D"nc">Int</span>!]        <span clas=
+s=3D"c">// Error</span>
+</li><li><span class=3D"k">let</span> <span class=3D"nv">implicitlyUnwrappe=
+dArray</span>: [<span class=3D"nc">Int</span>]!                  <span clas=
+s=3D"c">// OK</span>
+</li></ol></div></div></div>
+<p>Because implicitly unwrapped optionals have the same <code class=3D"docu=
+tils literal notranslate"><span class=3D"pre">Optional&lt;Wrapped&gt;</span=
+></code> type as optional values, you can use implicitly unwrapped optional=
+s in all the same places in your code that you can use optionals. For examp=
+le, you can assign values of implicitly unwrapped optionals to variables, c=
+onstants, and properties of optionals, and vice versa.</p>
+<p>As with optionals, if you don=E2=80=99t provide an initial value when yo=
+u declare an implicitly unwrapped optional variable or property, its value =
+automatically defaults to <code class=3D"docutils literal notranslate"><spa=
+n class=3D"pre">nil</span></code>.</p>
+<p>Use optional chaining to conditionally perform an operation on an implic=
+itly unwrapped optional expression. If the value is <code class=3D"docutils=
+ literal notranslate"><span class=3D"pre">nil</span></code>, no operation i=
+s performed and therefore no runtime error is produced.</p>
+<p>For more information about implicitly unwrapped optional types, see <a c=
+lass=3D"reference internal" href=3D"https://docs.swift.org/swift-book/Langu=
+ageGuide/TheBasics.html#ID334"><span class=3D"std std-ref">Implicitly Unwra=
+pped Optionals</span></a>.</p>
+<div class=3D"admonition grammar"><p class=3D"first admonition-title">Gramm=
+ar of an implicitly unwrapped optional type</p><div class=3D"syntax-group">=
+<p class=3D"syntax-def"><span class=3D"syntax-def-name"><a id=3D"grammar_im=
+plicitly-unwrapped-optional-type"></a>implicitly-unwrapped-optional-type</s=
+pan><span class=3D"arrow"> =E2=86=92 </span> <span class=3D"syntactic-categ=
+ory"><a href=3D"https://docs.swift.org/swift-book/ReferenceManual/Types.htm=
+l#grammar_type">type</a></span>  <code>!</code></p></div></div></div>
+<div class=3D"section" id=3D"ID454">
+<h2>Protocol Composition Type<a class=3D"headerlink" href=3D"https://docs.s=
+wift.org/swift-book/ReferenceManual/Types.html#ID454" title=3D"Permalink to=
+ this headline">=C2=B6</a></h2>
+<p>A <em>protocol composition type</em> defines a type that conforms to eac=
+h protocol in a list of specified protocols, or a type that is a subclass o=
+f a given class and conforms to each protocol in a list of specified protoc=
+ols. Protocol composition types may be used only when specifying a type in =
+type annotations, in generic parameter clauses, and in generic <code class=
+=3D"docutils literal notranslate"><span class=3D"pre">where</span></code> c=
+lauses.</p>
+<p>Protocol composition types have the following form:</p>
+<div class=3D"syntax-outline highlight-swift notranslate"><div class=3D"cod=
+e-sample"><div class=3D"Swift highlight"><ol class=3D"code-lines"><li><span=
+ class=3D"gi">Protocol 1</span> &amp; <span class=3D"gi">Protocol 2</span>
+</li></ol></div></div></div>
+<p>A protocol composition type allows you to specify a value whose type con=
+forms to the requirements of multiple protocols without explicitly defining=
+ a new, named protocol that inherits from each protocol you want the type t=
+o conform to. For example, you can use the protocol composition type <code =
+class=3D"docutils literal notranslate"><span class=3D"pre">ProtocolA</span>=
+ <span class=3D"pre">&amp;</span> <span class=3D"pre">ProtocolB</span> <spa=
+n class=3D"pre">&amp;</span> <span class=3D"pre">ProtocolC</span></code> in=
+stead of declaring a new protocol that inherits from <code class=3D"docutil=
+s literal notranslate"><span class=3D"pre">ProtocolA</span></code>, <code c=
+lass=3D"docutils literal notranslate"><span class=3D"pre">ProtocolB</span><=
+/code>, and <code class=3D"docutils literal notranslate"><span class=3D"pre=
+">ProtocolC</span></code>. Likewise, you can use <code class=3D"docutils li=
+teral notranslate"><span class=3D"pre">SuperClass</span> <span class=3D"pre=
+">&amp;</span> <span class=3D"pre">ProtocolA</span></code> instead of decla=
+ring a new protocol that is a subclass of <code class=3D"docutils literal n=
+otranslate"><span class=3D"pre">SuperClass</span></code> and conforms to <c=
+ode class=3D"docutils literal notranslate"><span class=3D"pre">ProtocolA</s=
+pan></code>.</p>
+<p>Each item in a protocol composition list is one of the following; the li=
+st can contain at most one class:</p>
+<ul class=3D"simple">
+<li>The name of a class</li>
+<li>The name of a protocol</li>
+<li>A type alias whose underlying type is a protocol composition type, a pr=
+otocol, or a class.</li>
+</ul>
+<p>When a protocol composition type contains type aliases, it=E2=80=99s pos=
+sible for the same protocol to appear more than once in the definitions=E2=
+=80=94duplicates are ignored. For example, the definition of <code class=3D=
+"docutils literal notranslate"><span class=3D"pre">PQR</span></code> in the=
+ code below is equivalent to <code class=3D"docutils literal notranslate"><=
+span class=3D"pre">P</span> <span class=3D"pre">&amp;</span> <span class=3D=
+"pre">Q</span> <span class=3D"pre">&amp;</span> <span class=3D"pre">R</span=
+></code>.</p>
+<div class=3D"highlight-swift notranslate"><div class=3D"code-sample"><div =
+class=3D"Swift highlight"><ol class=3D"code-lines"><li><span class=3D"k">ty=
+pealias</span> <span class=3D"nv">PQ</span> =3D <span class=3D"nc">P</span>=
+ &amp; <span class=3D"nc">Q</span>
+</li><li><span class=3D"k">typealias</span> <span class=3D"nv">PQR</span> =
+=3D <span class=3D"nc">PQ</span> &amp; <span class=3D"nc">Q</span> &amp; <s=
+pan class=3D"nc">R</span>
+</li></ol></div></div></div>
+<div class=3D"admonition grammar"><p class=3D"first admonition-title">Gramm=
+ar of a protocol composition type</p><div class=3D"syntax-group"><p class=
+=3D"syntax-def"><span class=3D"syntax-def-name"><a id=3D"grammar_protocol-c=
+omposition-type"></a>protocol-composition-type</span><span class=3D"arrow">=
+ =E2=86=92 </span> <span class=3D"syntactic-category"><a href=3D"https://do=
+cs.swift.org/swift-book/ReferenceManual/Types.html#grammar_type-identifier"=
+>type-identifier</a></span>  <code>&amp;</code> <span class=3D"syntactic-ca=
+tegory"><a href=3D"https://docs.swift.org/swift-book/ReferenceManual/Types.=
+html#grammar_protocol-composition-continuation">protocol-composition-contin=
+uation</a></span> </p><p class=3D"syntax-def"><span class=3D"syntax-def-nam=
+e"><a id=3D"grammar_protocol-composition-continuation"></a>protocol-composi=
+tion-continuation</span><span class=3D"arrow"> =E2=86=92 </span> <span clas=
+s=3D"syntactic-category"><a href=3D"https://docs.swift.org/swift-book/Refer=
+enceManual/Types.html#grammar_type-identifier">type-identifier</a></span>  =
+|  <span class=3D"syntactic-category"><a href=3D"https://docs.swift.org/swi=
+ft-book/ReferenceManual/Types.html#grammar_protocol-composition-type">proto=
+col-composition-type</a></span> </p></div></div></div>
+<div class=3D"section" id=3D"ID616">
+<h2>Opaque Type<a class=3D"headerlink" href=3D"https://docs.swift.org/swift=
+-book/ReferenceManual/Types.html#ID616" title=3D"Permalink to this headline=
+">=C2=B6</a></h2>
+<p>An <em>opaque type</em> defines a type that conforms to a protocol or pr=
+otocol composition, without specifying the underlying concrete type.</p>
+<p>Opaque types appear as the return type of a function or subscript, or th=
+e type of a property. Opaque types can=E2=80=99t appear as part of a tuple =
+type or a generic type, such as the element type of an array or the wrapped=
+ type of an optional.</p>
+<p>Opaque types have the following form:</p>
+<div class=3D"syntax-outline highlight-swift notranslate"><div class=3D"cod=
+e-sample"><div class=3D"Swift highlight"><ol class=3D"code-lines"><li><span=
+ class=3D"nv">some</span> <span class=3D"gi">constraint</span>
+</li></ol></div></div></div>
+<p>The <em>constraint</em> is a class type, protocol type, protocol composi=
+tion type, or <code class=3D"docutils literal notranslate"><span class=3D"p=
+re">Any</span></code>. A value can be used as an instance of the opaque typ=
+e only if it=E2=80=99s an instance of a type that conforms to the listed pr=
+otocol or protocol composition, or inherits from the listed class. Code tha=
+t interacts with an opaque value can use the value only in ways that are pa=
+rt of the interface defined by the <em>constraint</em>.</p>
+<p>Protocol declarations can=E2=80=99t include opaque types. Classes can=E2=
+=80=99t use an opaque type as the return type of a nonfinal method.</p>
+<p>A function that uses an opaque type as its return type must return value=
+s that share a single underlying type. The return type can include types th=
+at are part of the function=E2=80=99s generic type parameters. For example,=
+ a function <code class=3D"docutils literal notranslate"><span class=3D"pre=
+">someFunction&lt;T&gt;()</span></code> could return a value of type <code =
+class=3D"docutils literal notranslate"><span class=3D"pre">T</span></code> =
+or <code class=3D"docutils literal notranslate"><span class=3D"pre">Diction=
+ary&lt;String,</span> <span class=3D"pre">T&gt;</span></code>.</p>
+<div class=3D"admonition grammar"><p class=3D"first admonition-title">Gramm=
+ar of an opaque type</p><div class=3D"syntax-group"><p class=3D"syntax-def"=
+><span class=3D"syntax-def-name"><a id=3D"grammar_opaque-type"></a>opaque-t=
+ype</span><span class=3D"arrow"> =E2=86=92 </span> <code>some</code> <span =
+class=3D"syntactic-category"><a href=3D"https://docs.swift.org/swift-book/R=
+eferenceManual/Types.html#grammar_type">type</a></span> </p></div></div></d=
+iv>
+<div class=3D"section" id=3D"ID455">
+<h2>Metatype Type<a class=3D"headerlink" href=3D"https://docs.swift.org/swi=
+ft-book/ReferenceManual/Types.html#ID455" title=3D"Permalink to this headli=
+ne">=C2=B6</a></h2>
+<p>A <em>metatype type</em> refers to the type of any type, including class=
+ types, structure types, enumeration types, and protocol types.</p>
+<p>The metatype of a class, structure, or enumeration type is the name of t=
+hat type followed by <code class=3D"docutils literal notranslate"><span cla=
+ss=3D"pre">.Type</span></code>. The metatype of a protocol type=E2=80=94not=
+ the concrete type that conforms to the protocol at runtime=E2=80=94is the =
+name of that protocol followed by <code class=3D"docutils literal notransla=
+te"><span class=3D"pre">.Protocol</span></code>. For example, the metatype =
+of the class type <code class=3D"docutils literal notranslate"><span class=
+=3D"pre">SomeClass</span></code> is <code class=3D"docutils literal notrans=
+late"><span class=3D"pre">SomeClass.Type</span></code> and the metatype of =
+the protocol <code class=3D"docutils literal notranslate"><span class=3D"pr=
+e">SomeProtocol</span></code> is <code class=3D"docutils literal notranslat=
+e"><span class=3D"pre">SomeProtocol.Protocol</span></code>.</p>
+<p>You can use the postfix <code class=3D"docutils literal notranslate"><sp=
+an class=3D"pre">self</span></code> expression to access a type as a value.=
+ For example, <code class=3D"docutils literal notranslate"><span class=3D"p=
+re">SomeClass.self</span></code> returns <code class=3D"docutils literal no=
+translate"><span class=3D"pre">SomeClass</span></code> itself, not an insta=
+nce of <code class=3D"docutils literal notranslate"><span class=3D"pre">Som=
+eClass</span></code>. And <code class=3D"docutils literal notranslate"><spa=
+n class=3D"pre">SomeProtocol.self</span></code> returns <code class=3D"docu=
+tils literal notranslate"><span class=3D"pre">SomeProtocol</span></code> it=
+self, not an instance of a type that conforms to <code class=3D"docutils li=
+teral notranslate"><span class=3D"pre">SomeProtocol</span></code> at runtim=
+e. You can call the <code class=3D"docutils literal notranslate"><span clas=
+s=3D"pre">type(of:)</span></code> function with an instance of a type to ac=
+cess that instance=E2=80=99s dynamic, runtime type as a value, as the follo=
+wing example shows:</p>
+<div class=3D"highlight-swift notranslate"><div class=3D"code-sample"><div =
+class=3D"Swift highlight"><ol class=3D"code-lines"><li><span class=3D"k">cl=
+ass</span> <span class=3D"nv">SomeBaseClass</span> {
+</li><li>    <span class=3D"k">class</span> <span class=3D"k">func</span> <=
+span class=3D"nv">printClassName</span>() {
+</li><li>        <span class=3D"nv">print</span>(<span class=3D"s">"SomeBas=
+eClass"</span>)
+</li><li>    }
+</li><li>}
+</li><li><span class=3D"k">class</span> <span class=3D"nv">SomeSubClass</sp=
+an>: <span class=3D"nc">SomeBaseClass</span> {
+</li><li>    <span class=3D"k">override</span> <span class=3D"k">class</spa=
+n> <span class=3D"k">func</span> <span class=3D"nv">printClassName</span>()=
+ {
+</li><li>        <span class=3D"nv">print</span>(<span class=3D"s">"SomeSub=
+Class"</span>)
+</li><li>    }
+</li><li>}
+</li><li><span class=3D"k">let</span> <span class=3D"nv">someInstance</span=
+>: <span class=3D"nc">SomeBaseClass</span> =3D <span class=3D"nv">SomeSubCl=
+ass</span>()
+</li><li><span class=3D"c">// The compile-time type of someInstance is Some=
+BaseClass,</span>
+</li><li><span class=3D"c">// and the runtime type of someInstance is SomeS=
+ubClass</span>
+</li><li><span class=3D"nv">type</span>(<span class=3D"nv">of</span>: <span=
+ class=3D"nv">someInstance</span>).<span class=3D"nv">printClassName</span>=
+()
+</li><li><span class=3D"c">// Prints "SomeSubClass"</span>
+</li></ol></div></div></div>
+<p>For more information, see <a class=3D"reference external" href=3D"https:=
+//developer.apple.com/documentation/swift/2885064-type"><code class=3D"docu=
+tils literal notranslate"><span class=3D"pre">type(of:)</span></code></a> i=
+n the Swift standard library.</p>
+<p>Use an initializer expression to construct an instance of a type from th=
+at type=E2=80=99s metatype value. For class instances, the initializer that=
+=E2=80=99s called must be marked with the <code class=3D"docutils literal n=
+otranslate"><span class=3D"pre">required</span></code> keyword or the entir=
+e class marked with the <code class=3D"docutils literal notranslate"><span =
+class=3D"pre">final</span></code> keyword.</p>
+<div class=3D"highlight-swift notranslate"><div class=3D"code-sample"><div =
+class=3D"Swift highlight"><ol class=3D"code-lines"><li><span class=3D"k">cl=
+ass</span> <span class=3D"nv">AnotherSubClass</span>: <span class=3D"nc">So=
+meBaseClass</span> {
+</li><li>    <span class=3D"k">let</span> <span class=3D"nv">string</span>:=
+ <span class=3D"nc">String</span>
+</li><li>    <span class=3D"k">required</span> <span class=3D"k">init</span=
+>(<span class=3D"nv">string</span>: <span class=3D"nc">String</span>) {
+</li><li>        <span class=3D"k">self</span>.<span class=3D"nv">string</s=
+pan> =3D <span class=3D"nv">string</span>
+</li><li>    }
+</li><li>    <span class=3D"k">override</span> <span class=3D"k">class</spa=
+n> <span class=3D"k">func</span> <span class=3D"nv">printClassName</span>()=
+ {
+</li><li>        <span class=3D"nv">print</span>(<span class=3D"s">"Another=
+SubClass"</span>)
+</li><li>    }
+</li><li>}
+</li><li><span class=3D"k">let</span> <span class=3D"nv">metatype</span>: <=
+span class=3D"nc">AnotherSubClass</span>.<span class=3D"nv">Type</span> =3D=
+ <span class=3D"nv">AnotherSubClass</span>.<span class=3D"k">self</span>
+</li><li><span class=3D"k">let</span> <span class=3D"nv">anotherInstance</s=
+pan> =3D <span class=3D"nv">metatype</span>.<span class=3D"nv">init</span>(=
+<span class=3D"nv">string</span>: <span class=3D"s">"some string"</span>)
+</li></ol></div></div></div>
+<div class=3D"admonition grammar"><p class=3D"first admonition-title">Gramm=
+ar of a metatype type</p><div class=3D"syntax-group"><p class=3D"syntax-def=
+"><span class=3D"syntax-def-name"><a id=3D"grammar_metatype-type"></a>metat=
+ype-type</span><span class=3D"arrow"> =E2=86=92 </span> <span class=3D"synt=
+actic-category"><a href=3D"https://docs.swift.org/swift-book/ReferenceManua=
+l/Types.html#grammar_type">type</a></span>  <code>.</code> <code>Type</code=
+> |  <span class=3D"syntactic-category"><a href=3D"https://docs.swift.org/s=
+wift-book/ReferenceManual/Types.html#grammar_type">type</a></span>  <code>.=
+</code> <code>Protocol</code></p></div></div></div>
+<div class=3D"section" id=3D"ID610">
+<h2>Self Type<a class=3D"headerlink" href=3D"https://docs.swift.org/swift-b=
+ook/ReferenceManual/Types.html#ID610" title=3D"Permalink to this headline">=
+=C2=B6</a></h2>
+<p>The <code class=3D"docutils literal notranslate"><span class=3D"pre">Sel=
+f</span></code> type isn=E2=80=99t a specific type, but rather lets you con=
+veniently refer to the current type without repeating or knowing that type=
+=E2=80=99s name.</p>
+<p>In a protocol declaration or a protocol member declaration, the <code cl=
+ass=3D"docutils literal notranslate"><span class=3D"pre">Self</span></code>=
+ type refers to the eventual type that conforms to the protocol.</p>
+<p>In a structure, class, or enumeration declaration, the <code class=3D"do=
+cutils literal notranslate"><span class=3D"pre">Self</span></code> type ref=
+ers to the type introduced by the declaration. Inside the declaration for a=
+ member of a type, the <code class=3D"docutils literal notranslate"><span c=
+lass=3D"pre">Self</span></code> type refers to that type. In the members of=
+ a class declaration, <code class=3D"docutils literal notranslate"><span cl=
+ass=3D"pre">Self</span></code> can appear as the return type of a method an=
+d in the body of a method, but not in any other context. For example, the c=
+ode below shows an instance method <code class=3D"docutils literal notransl=
+ate"><span class=3D"pre">f</span></code> whose return type is <code class=
+=3D"docutils literal notranslate"><span class=3D"pre">Self</span></code>.</=
+p>
+<div class=3D"highlight-swift notranslate"><div class=3D"code-sample"><div =
+class=3D"Swift highlight"><ol class=3D"code-lines"><li><span class=3D"k">cl=
+ass</span> <span class=3D"nv">Superclass</span> {
+</li><li>    <span class=3D"k">func</span> <span class=3D"nv">f</span>() -&=
+gt; <span class=3D"nc">Self</span> { <span class=3D"k">return</span> <span =
+class=3D"k">self</span> }
+</li><li>}
+</li><li><span class=3D"k">let</span> <span class=3D"nv">x</span> =3D <span=
+ class=3D"nv">Superclass</span>()
+</li><li><span class=3D"nv">print</span>(<span class=3D"nv">type</span>(<sp=
+an class=3D"nv">of</span>: <span class=3D"nv">x</span>.<span class=3D"nv">f=
+</span>()))
+</li><li><span class=3D"c">// Prints "Superclass"</span>
+</li><li>
+</li><li><span class=3D"k">class</span> <span class=3D"nv">Subclass</span>:=
+ <span class=3D"nc">Superclass</span> { }
+</li><li><span class=3D"k">let</span> <span class=3D"nv">y</span> =3D <span=
+ class=3D"nv">Subclass</span>()
+</li><li><span class=3D"nv">print</span>(<span class=3D"nv">type</span>(<sp=
+an class=3D"nv">of</span>: <span class=3D"nv">y</span>.<span class=3D"nv">f=
+</span>()))
+</li><li><span class=3D"c">// Prints "Subclass"</span>
+</li><li>
+</li><li><span class=3D"k">let</span> <span class=3D"nv">z</span>: <span cl=
+ass=3D"nc">Superclass</span> =3D <span class=3D"nv">Subclass</span>()
+</li><li><span class=3D"nv">print</span>(<span class=3D"nv">type</span>(<sp=
+an class=3D"nv">of</span>: <span class=3D"nv">z</span>.<span class=3D"nv">f=
+</span>()))
+</li><li><span class=3D"c">// Prints "Subclass"</span>
+</li></ol></div></div></div>
+<p>The last part of the example above shows that <code class=3D"docutils li=
+teral notranslate"><span class=3D"pre">Self</span></code> refers to the run=
+time type <code class=3D"docutils literal notranslate"><span class=3D"pre">=
+Subclass</span></code> of the value of <code class=3D"docutils literal notr=
+anslate"><span class=3D"pre">z</span></code>, not the compile-time type <co=
+de class=3D"docutils literal notranslate"><span class=3D"pre">Superclass</s=
+pan></code> of the variable itself.</p>
+<p>Inside a nested type declaration, the <code class=3D"docutils literal no=
+translate"><span class=3D"pre">Self</span></code> type refers to the type i=
+ntroduced by the innermost type declaration.</p>
+<p>The <code class=3D"docutils literal notranslate"><span class=3D"pre">Sel=
+f</span></code> type refers to the same type as the <a class=3D"reference e=
+xternal" href=3D"https://developer.apple.com/documentation/swift/2885064-ty=
+pe"><code class=3D"docutils literal notranslate"><span class=3D"pre">type(o=
+f:)</span></code></a> function in the Swift standard library. Writing <code=
+ class=3D"docutils literal notranslate"><span class=3D"pre">Self.someStatic=
+Member</span></code> to access a member of the current type is the same as =
+writing <code class=3D"docutils literal notranslate"><span class=3D"pre">ty=
+pe(of:</span> <span class=3D"pre">self).someStaticMember</span></code>.</p>
+<div class=3D"admonition grammar"><p class=3D"first admonition-title">Gramm=
+ar of a Self type</p><div class=3D"syntax-group"><p class=3D"syntax-def"><s=
+pan class=3D"syntax-def-name"><a id=3D"grammar_self-type"></a>self-type</sp=
+an><span class=3D"arrow"> =E2=86=92 </span> <code>Self</code></p></div></di=
+v></div>
+<div class=3D"section" id=3D"ID456">
+<h2>Type Inheritance Clause<a class=3D"headerlink" href=3D"https://docs.swi=
+ft.org/swift-book/ReferenceManual/Types.html#ID456" title=3D"Permalink to t=
+his headline">=C2=B6</a></h2>
+<p>A <em>type inheritance clause</em> is used to specify which class a name=
+d type inherits from and which protocols a named type conforms to. A type i=
+nheritance clause begins with a colon (<code class=3D"docutils literal notr=
+anslate"><span class=3D"pre">:</span></code>), followed by a list of type i=
+dentifiers.</p>
+<p>Class types can inherit from a single superclass and conform to any numb=
+er of protocols. When defining a class, the name of the superclass must app=
+ear first in the list of type identifiers, followed by any number of protoc=
+ols the class must conform to. If the class doesn=E2=80=99t inherit from an=
+other class, the list can begin with a protocol instead. For an extended di=
+scussion and several examples of class inheritance, see <a class=3D"referen=
+ce internal" href=3D"https://docs.swift.org/swift-book/LanguageGuide/Inheri=
+tance.html"><span class=3D"doc">Inheritance</span></a>.</p>
+<p>Other named types can only inherit from or conform to a list of protocol=
+s. Protocol types can inherit from any number of other protocols. When a pr=
+otocol type inherits from other protocols, the set of requirements from tho=
+se other protocols are aggregated together, and any type that inherits from=
+ the current protocol must conform to all of those requirements.</p>
+<p>A type inheritance clause in an enumeration definition can be either a l=
+ist of protocols, or in the case of an enumeration that assigns raw values =
+to its cases, a single, named type that specifies the type of those raw val=
+ues. For an example of an enumeration definition that uses a type inheritan=
+ce clause to specify the type of its raw values, see <a class=3D"reference =
+internal" href=3D"https://docs.swift.org/swift-book/LanguageGuide/Enumerati=
+ons.html#ID149"><span class=3D"std std-ref">Raw Values</span></a>.</p>
+<div class=3D"admonition grammar"><p class=3D"first admonition-title">Gramm=
+ar of a type inheritance clause</p><div class=3D"syntax-group"><p class=3D"=
+syntax-def"><span class=3D"syntax-def-name"><a id=3D"grammar_type-inheritan=
+ce-clause"></a>type-inheritance-clause</span><span class=3D"arrow"> =E2=86=
+=92 </span> <code>:</code> <span class=3D"syntactic-category"><a href=3D"ht=
+tps://docs.swift.org/swift-book/ReferenceManual/Types.html#grammar_type-inh=
+eritance-list">type-inheritance-list</a></span> </p><p class=3D"syntax-def"=
+><span class=3D"syntax-def-name"><a id=3D"grammar_type-inheritance-list"></=
+a>type-inheritance-list</span><span class=3D"arrow"> =E2=86=92 </span> <spa=
+n class=3D"syntactic-category"><a href=3D"https://docs.swift.org/swift-book=
+/ReferenceManual/Types.html#grammar_type-identifier">type-identifier</a></s=
+pan>  |  <span class=3D"syntactic-category"><a href=3D"https://docs.swift.o=
+rg/swift-book/ReferenceManual/Types.html#grammar_type-identifier">type-iden=
+tifier</a></span>  <code>,</code> <span class=3D"syntactic-category"><a hre=
+f=3D"https://docs.swift.org/swift-book/ReferenceManual/Types.html#grammar_t=
+ype-inheritance-list">type-inheritance-list</a></span> </p></div></div></di=
+v>
+<div class=3D"section" id=3D"ID457">
+<h2>Type Inference<a class=3D"headerlink" href=3D"https://docs.swift.org/sw=
+ift-book/ReferenceManual/Types.html#ID457" title=3D"Permalink to this headl=
+ine">=C2=B6</a></h2>
+<p>Swift uses <em>type inference</em> extensively, allowing you to omit the=
+ type or part of the type of many variables and expressions in your code. F=
+or example, instead of writing <code class=3D"docutils literal notranslate"=
+><span class=3D"pre">var</span> <span class=3D"pre">x:</span> <span class=
+=3D"pre">Int</span> <span class=3D"pre">=3D</span> <span class=3D"pre">0</s=
+pan></code>, you can write <code class=3D"docutils literal notranslate"><sp=
+an class=3D"pre">var</span> <span class=3D"pre">x</span> <span class=3D"pre=
+">=3D</span> <span class=3D"pre">0</span></code>, omitting the type complet=
+ely=E2=80=94the compiler correctly infers that <code class=3D"docutils lite=
+ral notranslate"><span class=3D"pre">x</span></code> names a value of type =
+<code class=3D"docutils literal notranslate"><span class=3D"pre">Int</span>=
+</code>. Similarly, you can omit part of a type when the full type can be i=
+nferred from context. For example, if you write <code class=3D"docutils lit=
+eral notranslate"><span class=3D"pre">let</span> <span class=3D"pre">dict:<=
+/span> <span class=3D"pre">Dictionary</span> <span class=3D"pre">=3D</span>=
+ <span class=3D"pre">["A":</span> <span class=3D"pre">1]</span></code>, the=
+ compiler infers that <code class=3D"docutils literal notranslate"><span cl=
+ass=3D"pre">dict</span></code> has the type <code class=3D"docutils literal=
+ notranslate"><span class=3D"pre">Dictionary&lt;String,</span> <span class=
+=3D"pre">Int&gt;</span></code>.</p>
+<p>In both of the examples above, the type information is passed up from th=
+e leaves of the expression tree to its root. That is, the type of <code cla=
+ss=3D"docutils literal notranslate"><span class=3D"pre">x</span></code> in =
+<code class=3D"docutils literal notranslate"><span class=3D"pre">var</span>=
+ <span class=3D"pre">x:</span> <span class=3D"pre">Int</span> <span class=
+=3D"pre">=3D</span> <span class=3D"pre">0</span></code> is inferred by firs=
+t checking the type of <code class=3D"docutils literal notranslate"><span c=
+lass=3D"pre">0</span></code> and then passing this type information up to t=
+he root (the variable <code class=3D"docutils literal notranslate"><span cl=
+ass=3D"pre">x</span></code>).</p>
+<p>In Swift, type information can also flow in the opposite direction=E2=80=
+=94from the root down to the leaves. In the following example, for instance=
+, the explicit type annotation (<code class=3D"docutils literal notranslate=
+"><span class=3D"pre">:</span> <span class=3D"pre">Float</span></code>) on =
+the constant <code class=3D"docutils literal notranslate"><span class=3D"pr=
+e">eFloat</span></code> causes the numeric literal <code class=3D"docutils =
+literal notranslate"><span class=3D"pre">2.71828</span></code> to have an i=
+nferred type of <code class=3D"docutils literal notranslate"><span class=3D=
+"pre">Float</span></code> instead of <code class=3D"docutils literal notran=
+slate"><span class=3D"pre">Double</span></code>.</p>
+<div class=3D"highlight-swift notranslate"><div class=3D"code-sample"><div =
+class=3D"Swift highlight"><ol class=3D"code-lines"><li><span class=3D"k">le=
+t</span> <span class=3D"nv">e</span> =3D <span class=3D"m">2.71828</span> <=
+span class=3D"c">// The type of e is inferred to be Double.</span>
+</li><li><span class=3D"k">let</span> <span class=3D"nv">eFloat</span>: <sp=
+an class=3D"nc">Float</span> =3D <span class=3D"m">2.71828</span> <span cla=
+ss=3D"c">// The type of eFloat is Float.</span>
+</li></ol></div></div></div>
+<p>Type inference in Swift operates at the level of a single expression or =
+statement. This means that all of the information needed to infer an omitte=
+d type or part of a type in an expression must be accessible from type-chec=
+king the expression or one of its subexpressions.</p>
+</div>
+</div>
+
+
+    </article>
+    <div class=3D"next_previous">
+        <p class=3D"previous"><a href=3D"https://docs.swift.org/swift-book/=
+ReferenceManual/LexicalStructure.html">Lexical Structure</a></p>
+        <p class=3D"next"><a href=3D"https://docs.swift.org/swift-book/Refe=
+renceManual/Expressions.html">Expressions</a></p>
+    </div>
+    <div class=3D"admonition-beta admonition">
+        <p class=3D"first admonition-title">Beta Software</p>
+        <p>
+          This documentation contains preliminary information about an API =
+or technology in development.
+          This information is subject to change, and software implemented a=
+ccording to this documentation should be tested with final operating system=
+ software.
+        </p>
+        <p class=3D"last"><a class=3D"reference external" href=3D"https://d=
+eveloper.apple.com/support/beta-software/">Learn more about using Apple's b=
+eta software</a></p>
+    </div>
+</main>
+
+
+<footer role=3D"contentinfo">
+  <aside>
+    <a href=3D"https://swift.org/atom.xml" title=3D"Subscribe to Site Updat=
+es"><i class=3D"feed">Subscribe</i></a>
+    <a href=3D"https://twitter.com/swiftlang" rel=3D"nofollow" title=3D"Fol=
+low @SwiftLang on Twitter"><i class=3D"twitter">Twitter</i></a>
+  </aside>
+
+  <p class=3D"copyright">Copyright =C2=A9 2019 Apple Inc. All rights reserv=
+ed.</p>
+  <p class=3D"trademark">Swift and the Swift logo are trademarks of Apple I=
+nc.</p>
+  <p class=3D"privacy">
+    <a href=3D"https://www.apple.com/privacy/privacy-policy/">Privacy Polic=
+y</a>
+    <a href=3D"https://www.apple.com/legal/privacy/en-ww/cookies/">Cookies<=
+/a>
+  </p>
+</footer>
+<div id=3D"jump_to_overlay"></div>
+
+ =20
+
+<span id=3D"buffer-extension-hover-button" style=3D"display: none; position=
+: absolute; z-index: 8675309; width: 100px; height: 25px; background-image:=
+ url(&quot;chrome-extension://noojglkidnpfjbincgijbaiedldjfbhh/data/shared/=
+img/buffer-hover-icon@2x.png&quot;); background-size: 100px 25px; opacity: =
+0.9; cursor: pointer;"></span><div id=3D"syno-nsc-ext-comp-1008" class=3D" =
+x-tip-invalid" style=3D"position: absolute; z-index: 11000; visibility: hid=
+den; display: none;"><div class=3D"x-tip-invalid-tl"><div class=3D"x-tip-in=
+valid-tr"><div class=3D"x-tip-invalid-tc"><div class=3D"x-tip-invalid-heade=
+r x-unselectable" id=3D"syno-nsc-ext-gen4"><span class=3D"x-tip-invalid-hea=
+der-text"></span></div></div></div></div><div class=3D"x-tip-invalid-bwrap"=
+ id=3D"syno-nsc-ext-gen5"><div class=3D"x-tip-invalid-ml"><div class=3D"x-t=
+ip-invalid-mr"><div class=3D"x-tip-invalid-mc" id=3D"syno-nsc-ext-gen8"><di=
+v class=3D"x-tip-invalid-body" id=3D"syno-nsc-ext-gen6" style=3D"height: au=
+to;"></div></div></div></div><div class=3D"x-tip-invalid-bl x-panel-nofoote=
+r" id=3D"syno-nsc-ext-gen7"><div class=3D"x-tip-invalid-br"><div class=3D"x=
+-tip-invalid-bc"></div></div></div></div><div class=3D"x-tip-anchor x-tip-a=
+nchor-top" id=3D"syno-nsc-ext-gen9" style=3D"z-index: 11001;"></div></div><=
+/body></html>
+------MultipartBoundary--Py0nj2lqhyt7y0nwfDkyaRZzwr9CbSSH25m0tZxgOU----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://docs.swift.org/swift-book/_static/stylesheets/application.css
+
+@charset "utf-8";
+
+html { font-size: 100%; text-size-adjust: 100%; }
+
+body { margin: 0px; padding: 0px; }
+
+ul, ol, li, dl, dt, dd, h1, h2, h3, h4, h5, h6, hgroup, p, blockquote, figu=
+re, form, fieldset, input, legend, pre, abbr { margin: 0px; padding: 0px; }
+
+pre, code, address, caption, th, figcaption { font-size: 1em; font-weight: =
+normal; font-style: normal; }
+
+fieldset, iframe, img { border: none; }
+
+caption, th { text-align: left; }
+
+table { border-collapse: collapse; border-spacing: 0px; }
+
+article, aside, footer, header, nav, main, section, summary, details, hgrou=
+p, figure, figcaption { display: block; }
+
+audio, canvas, video, progress { display: inline-block; vertical-align: bas=
+eline; }
+
+button { font: inherit; vertical-align: middle; }
+
+.highlight { background: rgb(255, 255, 255); }
+
+.highlight .c, .highlight .cm, .highlight .cp, .highlight .c1, .highlight .=
+cs { color: rgb(0, 116, 0); }
+
+.highlight .k, .highlight .kc, .highlight .kd, .highlight .kp, .highlight .=
+kr, .highlight .nb { color: rgb(170, 13, 145); }
+
+.highlight .kt { color: rgb(63, 110, 116); }
+
+.highlight .err { color: rgb(166, 23, 23); }
+
+.highlight .o { font-weight: bold; }
+
+.highlight .gd { color: rgb(0, 0, 0); background-color: rgb(255, 221, 221);=
+ }
+
+.highlight .gd .x { color: rgb(0, 0, 0); background-color: rgb(255, 170, 17=
+0); }
+
+.highlight .ge { font-style: italic; }
+
+.highlight .gr { color: rgb(170, 0, 0); }
+
+.highlight .gh { color: rgb(153, 153, 153); }
+
+.highlight .gi { color: rgb(0, 0, 0); background-color: rgb(221, 255, 221);=
+ }
+
+.highlight .gi .x { color: rgb(0, 0, 0); background-color: rgb(170, 255, 17=
+0); }
+
+.highlight .go { color: rgb(136, 136, 136); }
+
+.highlight .gp { color: rgb(85, 85, 85); }
+
+.highlight .gs { font-weight: bold; }
+
+.highlight .gu { color: rgb(170, 170, 170); }
+
+.highlight .gt { color: rgb(170, 0, 0); }
+
+.highlight .m, .highlight .mf, .highlight .mh, .highlight .mi, .highlight .=
+mo { color: rgb(28, 0, 207); }
+
+.highlight .s { color: rgb(196, 26, 22); }
+
+.highlight .na { color: teal; }
+
+.highlight .nc { color: rgb(92, 38, 153); }
+
+.highlight .no { color: teal; }
+
+.highlight .ni { color: purple; }
+
+.highlight .ne { color: rgb(153, 0, 0); }
+
+.highlight .nn { color: rgb(85, 85, 85); }
+
+.highlight .nt { color: navy; }
+
+.highlight .nv, .highlight .nf { color: rgb(63, 110, 116); }
+
+.highlight .ow { font-weight: bold; }
+
+.highlight .w { color: rgb(187, 187, 187); }
+
+.highlight .sb { color: rgb(221, 17, 68); }
+
+.highlight .sc { color: rgb(221, 17, 68); }
+
+.highlight .sd { color: rgb(221, 17, 68); }
+
+.highlight .s2 { color: rgb(221, 17, 68); }
+
+.highlight .se { color: rgb(221, 17, 68); }
+
+.highlight .sh { color: rgb(221, 17, 68); }
+
+.highlight .si { color: rgb(221, 17, 68); }
+
+.highlight .sx { color: rgb(221, 17, 68); }
+
+.highlight .sr { color: rgb(0, 153, 38); }
+
+.highlight .s1 { color: rgb(221, 17, 68); }
+
+.highlight .ss { color: rgb(153, 0, 115); }
+
+.highlight .bp { color: rgb(153, 153, 153); }
+
+.highlight .vc { color: teal; }
+
+.highlight .vg { color: teal; }
+
+.highlight .vi { color: teal; }
+
+.highlight .il { color: rgb(0, 153, 153); }
+
+*, ::before, ::after { box-sizing: border-box; }
+
+html, body { height: 100%; }
+
+body { font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", He=
+lvetica, Arial, Verdana, sans-serif; font-size: 18px; line-height: 1.5; col=
+or: rgb(51, 51, 51); font-weight: 300; }
+
+body pre, body code { font-family: Menlo, Consolas, Monaco, "Courier New", =
+monospace, serif; }
+
+a:link { color: rgb(0, 136, 204); text-decoration: none; }
+
+a:visited { color: rgb(119, 102, 204); }
+
+a:active { color: rgb(0, 136, 204); }
+
+a:hover { color: rgb(0, 136, 204); text-decoration: underline; }
+
+p { margin-bottom: 1.5em; }
+
+h1 { margin-bottom: 0.8em; font-size: 3em; font-weight: 300; line-height: 1=
+; }
+
+h1.active + .main-nav { border-top: 1px solid rgb(51, 51, 51); }
+
+h2 { margin-bottom: 0.5em; font-size: 2.5em; font-weight: 300; line-height:=
+ 1; }
+
+h3 { margin-bottom: 0.5em; font-size: 1.5em; font-weight: 300; line-height:=
+ 1; }
+
+h4 { margin-bottom: 0.5em; font-size: 1.25em; font-weight: 300; line-height=
+: 1.2; }
+
+h5 { margin-bottom: 0.5em; font-size: 1.175em; font-weight: 500; line-heigh=
+t: 1.4; }
+
+h6 { margin-bottom: 0.5em; font-size: 1em; font-weight: 700; line-height: 1=
+.5; }
+
+pre { font-size: 14px; line-height: 18px; border-left: 3px solid rgb(239, 8=
+1, 56); margin: 0.5em 0.5em 1.5em 10px; padding: 0.5em 0.5em 0.5em 1em; ove=
+rflow: scroll; }
+
+p > code, li > code, dd > code, blockquote > code, td > code { color: rgb(0=
+, 0, 0); padding: 3px 8px; font-size: 14px; white-space: nowrap; border: 1p=
+x solid rgb(229, 229, 229); background-color: rgb(247, 247, 247); }
+
+hr { border-right: none; border-bottom: none; border-left: none; border-ima=
+ge: initial; border-top: 1px solid rgb(243, 243, 243); margin: 2em 0px; }
+
+hr:last-child { display: none; }
+
+details { margin-bottom: 2em; }
+
+details :first-child { margin-top: 1.5em; }
+
+cite { display: block; }
+
+cite::before { content: "=E2=80=94 "; }
+
+#logo { text-indent: -9999px; height: 48px; width: 100%; margin-top: 20px; =
+margin-bottom: 0.5em; padding-bottom: 10px; }
+
+#logo a { display: block; width: 190px; height: 48px; background-image: url=
+("../images/swift.svg"); background-repeat: no-repeat; background-size: 190=
+px 48px; background-position-x: -8px; }
+
+nav[role=3D"navigation"] { width: 250px; position: fixed; overflow: scroll;=
+ left: 0px; top: 0px; bottom: 0px; background: rgb(250, 250, 250); border-r=
+ight: 1px solid rgb(230, 230, 230); padding: 20px 30px; }
+
+nav[role=3D"navigation"] ul { border-top: 1px solid rgb(230, 230, 230); fon=
+t-weight: 400; margin-bottom: 30px; list-style: none; }
+
+nav[role=3D"navigation"] ul ul { list-style: none; }
+
+nav[role=3D"navigation"] ul li { border-bottom: 1px solid rgb(230, 230, 230=
+); }
+
+nav[role=3D"navigation"] ul li.active { border-bottom: 1px solid rgb(51, 51=
+, 51); }
+
+nav[role=3D"navigation"] ul li.active a { font-weight: 700; }
+
+nav[role=3D"navigation"] ul li a:link { color: rgb(51, 51, 51); text-decora=
+tion: none; text-transform: uppercase; letter-spacing: 1px; font-size: 12px=
+; display: block; padding: 10px; }
+
+nav[role=3D"navigation"] ul li a:visited { color: rgb(51, 51, 51); }
+
+nav[role=3D"navigation"] ul li a:active { font-weight: 700; }
+
+nav[role=3D"navigation"] ul li a:hover { color: rgb(0, 136, 204); }
+
+nav[role=3D"navigation"] ul li ul { margin-bottom: 10px; border-top: none; =
+}
+
+nav[role=3D"navigation"] ul li ul li { border-bottom: none; padding: 0.1em;=
+ }
+
+nav[role=3D"navigation"] ul li ul li.active { border-bottom: none; }
+
+nav[role=3D"navigation"] ul li ul li.active a { font-weight: 700; }
+
+nav[role=3D"navigation"] ul li ul a:link { color: rgb(0, 136, 204); text-de=
+coration: none; text-transform: none; letter-spacing: 0px; font-size: 12px;=
+ display: block; margin-left: 15px; padding: 0px 0px 3px; border-bottom: no=
+ne; font-weight: 300; }
+
+nav[role=3D"navigation"] ul li ul a:hover { text-decoration: underline; }
+
+nav[role=3D"navigation"] h2 { font-size: 0.75em; font-weight: 600; text-tra=
+nsform: lowercase; font-variant: small-caps; color: rgb(153, 153, 153); pad=
+ding-bottom: 0.5em; }
+
+main { max-width: 798px; min-width: 320px; margin-left: 250px; padding: 35p=
+x 30px 0px; min-height: 100%; height: auto !important; }
+
+footer[role=3D"contentinfo"] { background: rgb(51, 51, 51); color: white; p=
+adding: 20px 30px; margin-left: 250px; min-height: 74px; }
+
+footer[role=3D"contentinfo"] p { font-size: 0.625em; color: rgb(204, 204, 2=
+04); line-height: 1em; margin-bottom: 1em; }
+
+footer[role=3D"contentinfo"] p.privacy a { color: rgb(204, 204, 204); borde=
+r-right: 1px solid rgb(204, 204, 204); margin-right: 6px; padding-right: 8p=
+x; }
+
+footer[role=3D"contentinfo"] p.privacy a:last-child { border: none; margin:=
+ 0px; padding: 0px; }
+
+footer[role=3D"contentinfo"] aside { position: relative; width: 100%; max-w=
+idth: 700px; margin-right: 68px; }
+
+footer[role=3D"contentinfo"] aside i { width: 16px; height: 16px; backgroun=
+d-repeat: no-repeat; background-size: 16px; display: block; margin-left: 1e=
+m; float: right; text-indent: -5000em; }
+
+footer[role=3D"contentinfo"] aside i.twitter { background-image: url("../im=
+ages/icon-twitter.svg"); }
+
+footer[role=3D"contentinfo"] aside i.feed { background-image: url("../image=
+s/icon-feed.svg"); }
+
+article:first-of-type { padding-bottom: 36px; }
+
+article h2 { padding-top: 1.1em; }
+
+article h3 { padding-top: 1em; }
+
+article h4 { padding-top: 1em; border-bottom: 1px solid rgb(243, 243, 243);=
+ padding-bottom: 0.5em; }
+
+article h5 { margin-top: 1em; }
+
+article header { width: 100%; display: inline-block; padding-bottom: 3em; }
+
+article header h1 { padding-bottom: 0.125em; }
+
+article header .byline { float: left; font-size: 14px; margin-left: 3em; }
+
+article header .byline img { width: 32px; height: 32px; border-radius: 50%;=
+ border: 1px solid rgb(204, 204, 204); position: absolute; margin-right: 0.=
+25em; margin-top: -6px; }
+
+article header .byline span { padding-left: 42px; }
+
+article header time { float: left; text-transform: uppercase; font-size: 14=
+px; font-weight: 400; color: rgb(170, 170, 170); }
+
+article header .tags { display: block; font-size: 12px; font-weight: 400; m=
+argin-top: 0px; }
+
+article:not(:first-of-type) { border-top: 1px solid rgb(230, 230, 230); pad=
+ding: 36px 0px; }
+
+article blockquote { border-left: 3px solid rgb(195, 195, 195); margin: 0.5=
+em 0.5em 1.5em 10px; padding: 0.5em 0.5em 0.5em 1em; color: rgb(51, 51, 51)=
+; }
+
+article ul, article ol { padding-left: 40px; margin: 1em 0px; }
+
+article ul ul, article ul ol, article ol ul, article ol ol { margin: 0px; }
+
+article ul { list-style: disc; }
+
+article ul ul { list-style: circle; }
+
+article ul ul ul { list-style: square; }
+
+article ol { list-style: decimal; }
+
+article dl { margin: 2em 0px 1em; }
+
+article dl dt { display: block; }
+
+article dl dd { margin: 0px 0px 1em 1em; }
+
+article table { width: auto; min-width: 68%; margin: 2em auto 3em; border-c=
+ollapse: separate; border: 1px solid rgb(227, 227, 227); }
+
+article table th { background: rgb(250, 250, 250); font-weight: 700; text-a=
+lign: center; }
+
+article table th, article table td { padding: 0.5em 1.5em; border-bottom: 1=
+px solid rgb(243, 243, 243); }
+
+article table th:not(:first-child), article table td:not(:first-child) { bo=
+rder-left: 1px solid rgb(243, 243, 243); }
+
+article table tr:last-child td { border-bottom: none; }
+
+article details { margin-top: 0px; cursor: pointer; }
+
+article details summary { padding-bottom: 0.5em; outline: none; margin-top:=
+ 0px; }
+
+article details summary::after { content: "Expand"; text-transform: lowerca=
+se; font-variant: small-caps; border-bottom: 1px dashed rgb(204, 204, 204);=
+ }
+
+article details[open] summary::after { content: "Collapse"; }
+
+article details[open] :not(summary) { cursor: auto; }
+
+article details.download { margin-top: 0px; cursor: pointer; }
+
+article details.download summary { padding-bottom: 0.5em; outline: none; ma=
+rgin-top: 0px; }
+
+article details.download summary::after { content: none; text-transform: lo=
+wercase; font-variant: small-caps; border-bottom: 1px dashed rgb(204, 204, =
+204); }
+
+article details.download[open] summary::after { content: none; }
+
+article details.download[open] :not(summary) { cursor: auto; }
+
+article > details { margin-left: 40px; }
+
+article .good pre, article pre.good { background: rgb(230, 255, 229); borde=
+r-color: rgb(192, 255, 188); }
+
+article .good pre::before, article pre.good::before { content: "=E2=9C=85";=
+ float: right; }
+
+article .bad pre, article pre.bad { background: rgb(249, 226, 228); border-=
+color: rgb(246, 183, 190); }
+
+article .bad pre::before, article pre.bad::before { content: "=E2=9B=94=EF=
+=B8=8F"; float: right; }
+
+article footer { margin: 4em 0px 0px; padding: 1.5em 0px 1em; border-top: 1=
+px solid rgb(243, 243, 243); }
+
+article footer::after { content: ""; display: table; clear: both; }
+
+article footer nav [rel=3D"prev"] { width: 45%; float: left; text-align: le=
+ft; }
+
+article footer nav [rel=3D"prev"]::before { content: "=E2=86=90 "; }
+
+article footer nav [rel=3D"next"] { width: 45%; float: right; text-align: r=
+ight; }
+
+article footer nav [rel=3D"next"]::after { content: " =E2=86=92"; }
+
+.title a:link, .title a:visited { color: rgb(51, 51, 51); }
+
+.alert, .success, .info, .warning, .danger { border-width: 1px; border-styl=
+e: solid; padding: 0.5em; margin: 0.5em 0px 1.5em; }
+
+.alert p:first-child, .success p:first-child, .info p:first-child, .warning=
+ p:first-child, .danger p:first-child { margin-top: 0px; }
+
+.alert p:last-child, .success p:last-child, .info p:last-child, .warning p:=
+last-child, .danger p:last-child { margin-bottom: 0px; }
+
+.alert code, .success code, .info code, .warning code, .danger code { borde=
+r: none; background: transparent; padding: 0px; }
+
+code { white-space: pre-line; }
+
+pre code { white-space: inherit; }
+
+pre code .graphic { font-size: 19px; line-height: 0; }
+
+pre code .commentary, pre code .graphic { font-family: "Helvetica Neue", He=
+lvetica, Arial, Verdana, sans-serif; }
+
+@supports (overflow: -webkit-marquee) and (justify-content: inherit) {
+  .alert::before, .success::before, .info::before, .warning::before, .dange=
+r::before { font-size: 1em; float: left; clear: left; padding-left: 0.125em=
+; width: 2em; }
+  .alert p, .success p, .info p, .warning p, .danger p { padding-left: 2em;=
+ }
+  .success::before { content: "=E2=9C=85"; }
+  .info::before { content: "=E2=84=B9=EF=B8=8F"; }
+  .warning::before { content: "=E2=9A=A0=EF=B8=8F"; }
+  .danger::before { content: "=E2=9D=97=EF=B8=8F"; }
+}
+
+.success { border-color: rgb(20, 158, 57); background-color: rgb(224, 255, =
+232); }
+
+.info { border-color: rgb(19, 156, 254); background-color: rgb(222, 240, 25=
+3); }
+
+.warning { border-color: rgb(255, 255, 16); background-color: rgb(255, 255,=
+ 235); }
+
+.danger { border-color: rgb(213, 0, 27); background-color: rgb(254, 225, 22=
+6); }
+
+table.downloads { width: 100%; table-layout: fixed; }
+
+table.downloads th { font-size: 0.75em; }
+
+table.downloads .platform { width: 40%; }
+
+table.downloads .download { width: 60%; }
+
+table.downloads .download a.debug, table.downloads .download a.signature { =
+font-size: 0.7em; display: block; }
+
+table.downloads .download a { font-weight: 700; font-size: 1em; }
+
+table.downloads .download a:not([download]) { font-weight: 400; }
+
+table.downloads .download a:not([download])::before { content: "("; }
+
+table.downloads .download a:not([download])::after { content: ")"; }
+
+article input.detail[type=3D"checkbox"] { visibility: hidden; cursor: point=
+er; height: 0px; width: 100%; margin-bottom: 2em; display: block; font-size=
+: inherit; font-style: inherit; font-weight: inherit; font-family: inherit;=
+ position: relative; top: -0.85rem; }
+
+article p + input.detail[type=3D"checkbox"] { margin-top: auto; }
+
+article .screenonly { display: none; }
+
+@media screen {
+  article .screenonly { display: inherit; }
+  article input.detail[type=3D"checkbox"]::before { content: "=E2=96=B6 "; =
+visibility: visible; font-size: 80%; }
+  article input.detail[type=3D"checkbox"]::after { text-transform: lowercas=
+e; font-variant: small-caps; border-bottom: 1px dashed rgb(204, 204, 204); =
+color: rgb(102, 102, 102); content: "More detail"; visibility: visible; }
+  article input.detail[type=3D"checkbox"]:checked::before { content: "=E2=
+=96=BC "; }
+  article input.detail[type=3D"checkbox"]:checked::after { content: "Less d=
+etail"; }
+  article input.detail[type=3D"checkbox"] + .more { transition: opacity 0.5=
+s ease 0s, max-height 0.5s ease 0s; }
+  article input.detail[type=3D"checkbox"]:checked + .more { visibility: vis=
+ible; max-height: 1000rem; }
+  article input.detail[type=3D"checkbox"]:not(:checked) + .more { overflow:=
+ hidden; max-height: 0px; opacity: 0; }
+}
+
+article .more > p:first-of-type { margin-top: 0px; }
+
+@media only screen and (max-width: 767px) {
+  nav[role=3D"navigation"] { width: 100%; position: relative; background: r=
+gb(250, 250, 250); border-bottom: 1px solid rgb(230, 230, 230); border-righ=
+t: none; padding: 20px 30px; overflow: hidden; }
+  nav[role=3D"navigation"].open > * { display: block; }
+  nav[role=3D"navigation"] > h2, nav[role=3D"navigation"] ul { display: non=
+e; }
+  .menu-toggle { float: right; content: " "; height: 20px; width: 20px; bac=
+kground-image: url("../images/icon-close.svg"); background-repeat: no-repea=
+t; background-position: center center; background-size: 21px 21px; margin-t=
+op: -48px; margin-right: 12px; cursor: pointer; }
+  .menu-toggle.open { background-image: url("../images/icon-menu.svg"); }
+  #logo a { width: 198px; margin: 0px auto; }
+  main { max-width: 100%; min-width: 320px; margin-left: 0px; padding: 30px=
+ 30px 0px; }
+  footer[role=3D"contentinfo"] { margin-left: 0px; }
+  h1 { font-size: 48px; font-weight: 200; line-height: 1; }
+  h2 { font-size: 40px; font-weight: 300; line-height: 1.1; }
+  h3 { font-size: 38px; font-weight: 300; line-height: 1.1; }
+  h4 { font-size: 36px; font-weight: 300; line-height: 1.2; }
+  h5 { font-size: 24px; font-weight: 500; line-height: 1.4; }
+  h6 { font-size: 18px; font-weight: 700; line-height: 1.5; }
+  table.downloads { border: 1px solid rgb(243, 243, 243); }
+  table.downloads, table.downloads thead, table.downloads tbody, table.down=
+loads th, table.downloads td, table.downloads tr { display: block !importan=
+t; }
+  table.downloads thead tr { position: absolute; top: -9999px; left: -9999p=
+x; }
+  table.downloads tr { border: 1px solid rgb(243, 243, 243); }
+  table.downloads td { position: relative; padding-left: 35%; border-left: =
+none !important; border-right: none !important; border-bottom: 1px solid rg=
+b(243, 243, 243) !important; width: 100% !important; }
+  table.downloads td::before { position: absolute; top: 0.5em; left: 0.5em;=
+ width: 27.5%; padding-right: 10px; white-space: nowrap; text-align: right;=
+ }
+  table.downloads td.platform::before { content: "Platform"; }
+  table.downloads td.download::before { content: "Download"; top: 1em; }
+  table.downloads td.date::before { content: "Date"; }
+}
+
+@media only print {
+  html body { background: white; font-size: 12pt; padding: 0.5in; }
+  html body * { -webkit-print-color-adjust: exact; }
+  a { color: black !important; text-decoration: underline !important; }
+  h1, h2, h3, h4, h5, h6, p, article > div, pre, table { break-inside: avoi=
+d; }
+  details:not([open]) { visibility: visible; }
+  details:not([open]) summary { display: none !important; }
+  details:not([open]) > *, details:not([open]) { display: block; }
+  .alert, .success, .info, .warning, .danger { margin: 1.5em 0px; }
+  main { width: auto; padding: 0px; border: 0px; color: black; background: =
+transparent; margin: 0px; max-width: 100%; min-height: 1in; float: none !im=
+portant; }
+  nav[role=3D"navigation"] { background: transparent; border: none; width: =
+auto; position: static; padding: 0px; }
+  nav[role=3D"navigation"] h2, nav[role=3D"navigation"] ul { display: none;=
+ }
+  nav[role=3D"navigation"] #logo { position: static; margin-bottom: 1.5em; =
+}
+  nav[role=3D"navigation"] #logo a { background-position: -15px center; }
+  footer[role=3D"contentinfo"] { display: none; }
+}
+------MultipartBoundary--Py0nj2lqhyt7y0nwfDkyaRZzwr9CbSSH25m0tZxgOU----
+Content-Type: image/svg+xml
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://docs.swift.org/swift-book/_static/images/swift.svg
+
+<?xml version=3D"1.0" encoding=3D"iso-8859-1"?>
+<svg version=3D"1.1" id=3D"artwork" xmlns=3D"http://www.w3.org/2000/svg" xm=
+lns:xlink=3D"http://www.w3.org/1999/xlink" x=3D"0px" y=3D"0px"
+	 width=3D"191.1856px" height=3D"59.3911px" viewBox=3D"0 0 191.1856 59.3911=
+" enable-background=3D"new 0 0 191.1856 59.3911"
+	 xml:space=3D"preserve">
+<g>
+	<g>
+		<path fill=3D"#F05138" d=3D"M59.3867,16.4501c-0.0035-0.5973-0.0101-1.1943=
+-0.0266-1.7923c-0.0348-1.3008-0.1117-2.6134-0.3429-3.9003
+			c-0.2346-1.3069-0.6181-2.5221-1.2225-3.7093c-0.5933-1.1659-1.3689-2.2328=
+-2.2941-3.158
+			c-0.925-0.9252-1.9919-1.7007-3.1583-2.2943c-1.1862-0.6037-2.4016-0.9871-=
+3.7073-1.2217
+			c-1.2876-0.2319-2.6002-0.3083-3.902-0.3435c-0.5977-0.0162-1.1948-0.023-1=
+.7923-0.0267C42.2315,0,41.5218,0,40.8128,0H25.0912
+			h-6.5131c-0.7097,0-1.4186,0-2.1276,0.0041c-0.5977,0.0037-1.1955,0.0105-1=
+.7923,0.0267
+			c-0.3254,0.0088-0.6515,0.0202-0.9778,0.0359c-0.9788,0.0472-1.9591,0.1337=
+-2.9243,0.3076
+			c-0.9793,0.176-1.9079,0.4356-2.8113,0.8091C7.6437,1.3078,7.3453,1.445,7.=
+0487,1.5959C6.1739,2.0411,5.3549,2.5886,4.61,3.2248
+			c-0.2483,0.2121-0.4884,0.434-0.7196,0.6653c-0.9254,0.9252-1.701,1.9921-2=
+.2943,3.158
+			c-0.6044,1.1872-0.9874,2.4024-1.2222,3.7093c-0.231,1.2869-0.3078,2.5995-=
+0.3428,3.9003
+			c-0.0164,0.598-0.0233,1.195-0.0272,1.7923C-0.0006,17.1594,0,17.8689,0,18=
+.5781V28.26v12.5525
+			c0,0.7099-0.0007,1.4187,0.0039,2.1286c0.0039,0.5973,0.0108,1.1943,0.0272=
+,1.7913c0.035,1.3015,0.1117,2.6144,0.3428,3.9007
+			c0.2348,1.3065,0.6178,2.5228,1.2222,3.7097c0.5933,1.1662,1.3689,2.2328,2=
+.2943,3.1576c0.9247,0.9256,1.9919,1.701,3.1584,2.295
+			c1.1863,0.6038,2.4016,0.9867,3.7076,1.2213c1.2868,0.2316,2.6004,0.3086,3=
+.9019,0.3434c0.5968,0.0159,1.1946,0.023,1.7923,0.0264
+			c0.709,0.0051,1.4179,0.0044,2.1276,0.0044h22.2346c0.709,0,1.4187,0.0007,=
+2.1278-0.0044
+			c0.5975-0.0034,1.1946-0.0105,1.7923-0.0264c1.3018-0.0348,2.6144-0.1119,3=
+.902-0.3434c1.3057-0.2346,2.5211-0.6176,3.7073-1.2213
+			c1.1664-0.5939,2.2333-1.3694,3.1583-2.295c0.9252-0.9249,1.7009-1.9914,2.=
+2941-3.1576c0.6044-1.1869,0.9879-2.4031,1.2225-3.7097
+			c0.2312-1.2863,0.3081-2.5992,0.3429-3.9007c0.0164-0.597,0.023-1.1939,0.0=
+266-1.7913c0.0046-0.7099,0.0042-1.4187,0.0042-2.1286
+			V18.5781C59.3909,17.8689,59.3912,17.1594,59.3867,16.4501z"/>
+		<path fill=3D"#FFFFFF" d=3D"M47.0606,36.6607c-0.0014-0.0018-0.0027-0.0031=
+-0.0042-0.0048c0.0657-0.2236,0.1335-0.4458,0.191-0.675
+			c2.465-9.8209-3.5511-21.4319-13.7316-27.5454c4.4613,6.0479,6.4339,13.373=
+3,4.6813,19.7795
+			c-0.1563,0.5714-0.3442,1.1198-0.5519,1.6528c-0.2254-0.1481-0.5094-0.3162=
+-0.8908-0.5265c0,0-10.1269-6.2527-21.1028-17.3122
+			c-0.288-0.2903,5.8528,8.777,12.8219,16.1399c-3.2834-1.8427-12.4338-8.500=
+4-18.2266-13.8023
+			c0.7117,1.1869,1.5582,2.3298,2.4887,3.4301c4.8375,6.1349,11.1462,13.7044=
+,18.7043,19.5169
+			c-5.3104,3.2498-12.8141,3.5025-20.2852,0.0034c-1.8479-0.866-3.5851-1.910=
+9-5.1932-3.0981
+			c3.1625,5.0585,8.0332,9.4229,13.9613,11.9708c7.0695,3.0381,14.0996,2.832=
+1,19.3356,0.0498l-0.0041,0.006
+			c0.0239-0.0151,0.0543-0.0316,0.0791-0.0469c0.215-0.1156,0.4284-0.2333,0.=
+6371-0.3576
+			c2.5157-1.3058,7.4847-2.6306,10.1518,2.5588C50.7755,49.6699,52.1635,42.9=
+395,47.0606,36.6607z"/>
+	</g>
+</g>
+<g id=3D"XMLID_1_">
+	<g>
+		<path d=3D"M81.9306,38.5423c0.464,4.1203,4.3938,6.8217,9.8514,6.8217c5.18=
+54,0,8.9239-2.7014,8.9239-6.4393
+			c0-3.2203-2.2648-5.186-7.4776-6.4953l-5.0484-1.2825c-7.259-1.8013-10.534=
+-5.0764-10.534-10.4792
+			c0-6.6585,5.8127-11.2709,14.0819-11.2709c8.0226,0,13.7263,4.6392,13.9175=
+,11.3257h-5.3212
+			c-0.4098-4.0935-3.7391-6.6049-8.7327-6.6049c-4.94,0-8.3783,2.5382-8.3783=
+,6.2493c0,2.8926,2.129,4.6124,7.3686,5.9497
+			l4.2025,1.0913c8.1323,1.9926,11.4615,5.158,11.4615,10.8617c0,7.259-5.758=
+5,11.8166-14.9278,11.8166
+			c-8.5141,0-14.3268-4.5308-14.7634-11.5437H81.9306z"/>
+		<path d=3D"M140.0488,49.4308h-5.3492l-6.2493-21.777h-0.109l-6.2219,21.777=
+h-5.3486l-7.9142-28.5183h5.1848l5.5124,22.8963h0.1096
+			l6.2219-22.8963h5.021l6.2767,22.8963h0.1096l5.5125-22.8963h5.13L140.0488=
+,49.4308z"/>
+		<path d=3D"M151.3891,13.2442c0-1.7185,1.4195-3.1106,3.1387-3.1106c1.7466,=
+0,3.1655,1.3921,3.1655,3.1106
+			c0,1.7197-1.4189,3.1387-3.1655,3.1387C152.8086,16.3829,151.3891,14.964,1=
+51.3891,13.2442z M151.9353,20.9125h5.2122v28.5183
+			h-5.2122V20.9125z"/>
+		<path d=3D"M191.1856,25.1156v-4.2032h-5.5125v-6.8217h-5.1854v6.8217h-4.22=
+99h-5.7335v-2.5102
+			c0.0268-2.5382,1.0096-3.6027,3.3567-3.6027c0.7636,0,1.5279,0.0828,2.1558=
+,0.1912v-4.0935
+			c-0.9281-0.1364-1.774-0.218-2.7562-0.218c-5.5673,0-7.9142,2.3202-7.9142,=
+7.6414v2.5918h-3.9839v4.2032h3.9839v24.3151h5.1848
+			V25.1156h5.7067h4.2299v16.8381c0,5.5125,2.1016,7.6402,7.5592,7.6402c1.17=
+35,0,2.5108-0.0816,3.1113-0.218v-4.2567
+			c-0.355,0.0548-1.3922,0.1364-1.9651,0.1364c-2.4286,0-3.5199-1.1461-3.519=
+9-3.7111V25.1156H191.1856z"/>
+	</g>
+</g>
+</svg>=0A
+------MultipartBoundary--Py0nj2lqhyt7y0nwfDkyaRZzwr9CbSSH25m0tZxgOU----
+Content-Type: image/svg+xml
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://docs.swift.org/swift-book/_static/images/icon-twitter.svg
+
+<?xml version=3D"1.0" encoding=3D"utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/=
+SVG/1.1/DTD/svg11.dtd">
+<svg version=3D"1.1" xmlns=3D"http://www.w3.org/2000/svg" xmlns:xlink=3D"ht=
+tp://www.w3.org/1999/xlink" width=3D"16" height=3D"16" viewBox=3D"0 0 16 16=
+">
+<path fill=3D"#cccccc" d=3D"M16 3.038c-0.589 0.261-1.221 0.438-1.885 0.517 =
+0.678-0.406 1.198-1.050 1.443-1.816-0.634 0.376-1.337 0.649-2.085 0.797-0.5=
+99-0.638-1.452-1.037-2.396-1.037-1.813 0-3.283 1.47-3.283 3.282 0 0.257 0.0=
+29 0.508 0.085 0.748-2.728-0.137-5.147-1.444-6.766-3.43-0.283 0.485-0.444 1=
+.049-0.444 1.65 0 1.139 0.579 2.144 1.46 2.732-0.538-0.017-1.044-0.165-1.48=
+7-0.411-0 0.014-0 0.027-0 0.041 0 1.59 1.132 2.917 2.633 3.219-0.275 0.075-=
+0.565 0.115-0.865 0.115-0.212 0-0.417-0.021-0.618-0.059 0.418 1.304 1.63 2.=
+253 3.066 2.28-1.123 0.88-2.539 1.405-4.077 1.405-0.265 0-0.526-0.016-0.783=
+-0.046 1.453 0.931 3.178 1.475 5.032 1.475 6.038 0 9.34-5.002 9.34-9.34 0-0=
+.142-0.003-0.284-0.010-0.425 0.642-0.463 1.198-1.041 1.638-1.699z"></path>
+</svg>=0A
+------MultipartBoundary--Py0nj2lqhyt7y0nwfDkyaRZzwr9CbSSH25m0tZxgOU----
+Content-Type: image/svg+xml
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://docs.swift.org/swift-book/_static/images/icon-feed.svg
+
+<?xml version=3D"1.0" encoding=3D"utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/=
+SVG/1.1/DTD/svg11.dtd">
+<svg version=3D"1.1" xmlns=3D"http://www.w3.org/2000/svg" xmlns:xlink=3D"ht=
+tp://www.w3.org/1999/xlink" width=3D"16" height=3D"16" viewBox=3D"0 0 16 16=
+">
+<path fill=3D"#cccccc" d=3D"M2.13 11.733c-1.175 0-2.13 0.958-2.13 2.126 0 1=
+.174 0.955 2.122 2.13 2.122 1.179 0 2.133-0.948 2.133-2.122-0-1.168-0.954-2=
+.126-2.133-2.126zM0.002 5.436v3.067c1.997 0 3.874 0.781 5.288 2.196 1.412 1=
+.411 2.192 3.297 2.192 5.302h3.080c-0-5.825-4.739-10.564-10.56-10.564zM0.00=
+6 0v3.068c7.122 0 12.918 5.802 12.918 12.932h3.076c0-8.82-7.176-16-15.994-1=
+6z"></path>
+</svg>=0A
+------MultipartBoundary--Py0nj2lqhyt7y0nwfDkyaRZzwr9CbSSH25m0tZxgOU----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://docs.swift.org/swift-book/_static/stylesheets/tspl.css
+
+@charset "utf-8";
+
+div.Swift { font-family: Menlo, monospace; font-size: 14px; line-height: 18=
+px; margin: 0.5em 0.5em 1.5em 10px; padding: 0.5em 0.5em 0.5em 1em; overflo=
+w: scroll; }
+
+.code-sample { display: block; font-size: 1.4em; margin-left: 21px; }
+
+.code-sample .code-lines { margin-left: 0px; }
+
+.code-lines { counter-reset: li 0; line-height: 1.6em; list-style: none; ma=
+rgin: 0px 0px 0px 20px; padding: 0px; }
+
+.code-sample .code-lines li { list-style-type: none; margin: 0px; padding-r=
+ight: 10px; }
+
+.code-lines li { padding-left: 0px; text-indent: -13px; white-space: pre-wr=
+ap; border-left: 18px solid transparent; }
+
+.code-lines li::before { color: rgb(128, 128, 128); content: counter(li); c=
+ounter-increment: li 1; font-family: Menlo, monospace; font-size: 0.9em; ma=
+rgin-right: 16px; user-select: none; }
+
+.code-sample .code-lines li::before { margin-left: -35px; margin-right: 25p=
+x; }
+
+.code-sample .code-lines li:nth-child(n+10)::before { margin-left: -43px; m=
+argin-right: 25px; }
+
+.code-sample .code-lines li:only-of-type::before { color: rgb(255, 255, 255=
+); content: " "; }
+
+.syntax-outline .code-lines li::before { content: " "; }
+
+.syntax-outline .code-lines { line-height: 1.9em; }
+
+.syntax-outline div.Swift { border-color: transparent; }
+
+.code-sample div.Swift { width: 93%; margin-left: 13px; overflow: visible; =
+}
+
+div.Swift { border-left: 5px solid rgb(205, 233, 244); padding: 4px 0px 2px=
+ 10px; margin: 10px 0px 21px; line-height: 22px; }
+
+.highlight .gi { background-color: rgb(233, 239, 250); border: 1px solid rg=
+b(196, 212, 241); border-radius: 10px; color: rgb(0, 0, 0); padding: 2px 6p=
+x; font-style: inherit; white-space: nowrap; }
+
+.admonition.grammar { border-left: 5px solid rgb(233, 233, 233); margin: 20=
+px 0px; padding-left: 15px; padding-bottom: 1px; font-size: 0.8em; backgrou=
+nd: transparent; }
+
+.admonition.grammar p.admonition-title { margin-bottom: 8px; }
+
+.admonition.grammar p { margin: 0px; }
+
+.admonition.grammar p.syntax-def { margin-left: 25px; text-indent: -25px; }
+
+.admonition.grammar .syntax-def-name { color: rgb(128, 128, 128); font-styl=
+e: italic; font-size: 15px; }
+
+.admonition.grammar .arrow { padding: 0px 6px; }
+
+.admonition.grammar code { border: 0px; background: transparent; font-size:=
+ 14px; font-weight: bold; padding: 0px 3px; }
+
+.admonition.grammar a.syntax-def { font-size: 15px; font-style: italic; pad=
+ding: 0px 3px; }
+
+.admonition.grammar sub { color: rgb(128, 128, 128); font-size: 12px; font-=
+style: italic; margin-left: -3px; padding-right: 5px; vertical-align: basel=
+ine; position: relative; top: 0.3em; }
+
+.admonition.grammar .syntax-group { margin-bottom: 10px; }
+
+nav[role=3D"navigation"] h2 { font-size: 1em; color: rgb(51, 51, 51); paddi=
+ng: 0px 12px 2px; }
+
+nav[role=3D"navigation"] h2 div { font-weight: 100; padding-top: 3px; }
+
+nav[role=3D"navigation"] ul li ul a:link { color: rgb(51, 51, 51); }
+
+nav[role=3D"navigation"] ul li ul a.current:link { font-weight: bold; }
+
+nav[role=3D"navigation"] .return { padding: 0px 0px 20px; text-indent: -18p=
+x; margin-left: 18px; }
+
+img.align-center { max-width: 100%; height: auto; margin: 10px auto; displa=
+y: block; }
+
+a.headerlink { display: none; }
+
+body { background: rgb(255, 255, 255); }
+
+p { margin-bottom: 1em; }
+
+h2 { font-size: 2em; }
+
+h3 { font-size: 1.4em; }
+
+@media only screen and (max-width: 767px) {
+  h2 { font-size: 2em; }
+  h3 { font-size: 1.4em; }
+}
+
+.playground_link a { font-weight: bold; }
+
+p > code.literal, li > code.literal, dt > code.literal, dd > code.literal {=
+ background-color: transparent; border: none; padding: 0px; color: rgb(102,=
+ 102, 102); font-size: 0.9em; }
+
+a > code.literal { background-color: transparent; border: none; padding: 0p=
+x; font-size: 0.9em; }
+
+article table { border-collapse: collapse; border-color: rgb(221, 221, 221)=
+; }
+
+article table th, article table td, article table th:not(:first-child), art=
+icle table td:not(:first-child) { border-color: rgb(221, 221, 221); }
+
+.admonition { margin-left: 34px; border-left: 5px solid rgb(204, 204, 204);=
+ background-color: rgb(245, 245, 245); padding: 10px; font-size: 0.85em; ma=
+rgin-bottom: 1.5em; }
+
+.admonition-experiment { border-color: rgb(0, 136, 204); }
+
+.admonition-beta { margin-top: 4em; clear: both; }
+
+.admonition .admonition-title { text-transform: uppercase; color: rgb(119, =
+119, 119); font-weight: normal; font-size: 0.7em; letter-spacing: 2px; marg=
+in-bottom: 0.7em; }
+
+.admonition .last { margin-bottom: 0px; }
+
+nav[role=3D"navigation"].open ul { display: block; }
+
+#bashful { position: fixed; left: 0px; top: 0px; width: 100%; margin: 0px; =
+z-index: 10; }
+
+#bashful .inner { position: relative; width: 100%; max-width: 985px; }
+
+#jump_to { position: absolute; right: 15px; }
+
+#jump_to_toggle { display: block; float: right; background: url("../images/=
+icon-caret-sm.svg") right 1px no-repeat rgb(250, 250, 250); border-right: 1=
+px solid rgb(230, 230, 230); border-bottom: 1px solid rgb(230, 230, 230); b=
+order-left: 1px solid rgb(230, 230, 230); border-image: initial; border-top=
+: none; padding: 5px 27px 5px 8px; color: rgb(51, 51, 51); font: 12px/14px =
+Helvetica, Arial, Verdana, sans-serif; letter-spacing: 1px; text-transform:=
+ uppercase; height: 25px; cursor: pointer; }
+
+#jump_to.open #jump_to_toggle { border-bottom-color: rgb(250, 250, 250); ba=
+ckground-image: url("../images/icon-close-sm.svg"); }
+
+#jump_to menu { display: none; }
+
+#jump_to.open menu { display: block; margin: 24px 0px 0px; padding: 0px 15p=
+x; background: rgb(250, 250, 250); border: 1px solid rgb(230, 230, 230); wi=
+dth: 300px; font-size: 12px; line-height: 15px; color: rgb(102, 102, 102); =
+}
+
+#jump_to menu ul { list-style: none; margin: 15px 0px; padding: 0px; }
+
+#jump_to menu ul ul { margin: 0px; }
+
+#jump_to menu ul a { display: none; }
+
+#jump_to menu ul ul a { display: inline; color: rgb(51, 51, 51); }
+
+#jump_to menu ul ul ul { display: none; padding-left: 15px; margin-bottom: =
+10px; }
+
+#jump_to menu ul ul ul ul { display: none; }
+
+#jump_to menu ul ul li { margin: 6px 0px; }
+
+#jump_to_overlay { position: fixed; display: none; width: 100%; height: 100=
+%; top: 0px; left: 0px; background-color: transparent; z-index: 5; cursor: =
+default; }
+
+.next_previous p { display: inline; margin: 0px; }
+
+.next_previous .previous a { float: left; padding: 0px 25px; background: ur=
+l("../images/icon-next_previous.svg") 0px 3px no-repeat; display: block; }
+
+.next_previous .next a { float: right; padding: 0px 25px; background: url("=
+../images/icon-next_previous.svg") right -18px no-repeat; display: block; }
+
+footer { margin-top: 4em; clear: both; }
+
+@media only screen and (max-width: 767px) {
+  #jump_to, #bashful { display: none; }
+  .code-sample { margin-left: 10px; }
+  .admonition { margin-left: 23px; }
+}
+------MultipartBoundary--Py0nj2lqhyt7y0nwfDkyaRZzwr9CbSSH25m0tZxgOU----
+Content-Type: image/svg+xml
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://docs.swift.org/swift-book/_static/images/icon-caret-sm.svg
+
+<?xml version=3D"1.0" encoding=3D"utf-8"?>
+<!-- Generator: Adobe Illustrator 15.1.0, SVG Export Plug-In . SVG Version:=
+ 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/=
+SVG/1.1/DTD/svg11.dtd">
+<svg version=3D"1.1" id=3D"Layer_1" xmlns=3D"http://www.w3.org/2000/svg" xm=
+lns:xlink=3D"http://www.w3.org/1999/xlink" x=3D"0px" y=3D"0px"
+	 width=3D"21px" height=3D"21px" viewBox=3D"0 0 21 21" enable-background=3D=
+"new 0 0 21 21" xml:space=3D"preserve">
+<title>icon-close</title>
+<desc>Close Icon</desc>
+<g id=3D"Container">
+	<g id=3D"icon-close">
+		<path id=3D"Line-Copy-8" fill=3D"none" stroke=3D"#333333" stroke-linecap=
+=3D"square" d=3D"M7.002,8.338l3.655,3.655"/>
+		<path id=3D"Line-Copy-7" fill=3D"none" stroke=3D"#333333" stroke-linecap=
+=3D"square" d=3D"M10.657,11.993l3.655-3.655"/>
+	</g>
+</g>
+</svg>
+
+------MultipartBoundary--Py0nj2lqhyt7y0nwfDkyaRZzwr9CbSSH25m0tZxgOU----
+Content-Type: image/svg+xml
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://docs.swift.org/swift-book/_static/images/icon-next_previous.svg
+
+<?xml version=3D"1.0" encoding=3D"utf-8"?>
+<!-- Generator: Adobe Illustrator 15.1.0, SVG Export Plug-In . SVG Version:=
+ 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/=
+SVG/1.1/DTD/svg11.dtd">
+<svg version=3D"1.1" id=3D"Layer_1" xmlns=3D"http://www.w3.org/2000/svg" xm=
+lns:xlink=3D"http://www.w3.org/1999/xlink" x=3D"0px" y=3D"0px"
+	 width=3D"21px" height=3D"41.918px" viewBox=3D"0 0 21 41.918" enable-backg=
+round=3D"new 0 0 21 41.918" xml:space=3D"preserve">
+<title>icon-close</title>
+<desc>Close Icon</desc>
+<g id=3D"Container">
+	<g id=3D"icon-close">
+		<path id=3D"Line-Copy-8" fill=3D"none" stroke=3D"#333333" stroke-linecap=
+=3D"square" d=3D"M7.005,10.5l5.5,5.813"/>
+		<path id=3D"Line-Copy-7" fill=3D"none" stroke=3D"#333333" stroke-linecap=
+=3D"square" d=3D"M7.005,10.5l5.5-5.5"/>
+	</g>
+</g>
+<g id=3D"Container_1_">
+	<g id=3D"icon-close_1_">
+		<path id=3D"Line-Copy-8_1_" fill=3D"none" stroke=3D"#333333" stroke-linec=
+ap=3D"square" d=3D"M8.006,37.347l5.5-5.813"/>
+		<path id=3D"Line-Copy-7_1_" fill=3D"none" stroke=3D"#333333" stroke-linec=
+ap=3D"square" d=3D"M8.006,26.033l5.5,5.5"/>
+	</g>
+</g>
+</svg>
+
+------MultipartBoundary--Py0nj2lqhyt7y0nwfDkyaRZzwr9CbSSH25m0tZxgOU----
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: chrome-extension://noojglkidnpfjbincgijbaiedldjfbhh/data/shared/img/buffer-hover-icon@2x.png
+
+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
+
+------MultipartBoundary--Py0nj2lqhyt7y0nwfDkyaRZzwr9CbSSH25m0tZxgOU------

@@ -1,0 +1,2919 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: https://docs.swift.org/swift-book/LanguageGuide/Properties.html
+Subject: =?utf-8?Q?Properties=20=E2=80=94=20The=20Swift=20Programming=20Language?=
+ =?utf-8?Q?=20(Swift=205.1)?=
+Date: Tue, 20 Aug 2019 00:55:40 -0000
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--f9LTJPDjGEa4x3KXxrJO5hGw3oasyO51EUlneAb4cL----"
+
+
+------MultipartBoundary--f9LTJPDjGEa4x3KXxrJO5hGw3oasyO51EUlneAb4cL----
+Content-Type: text/html
+Content-ID: <frame-F1E52A7A9AAABE13E9F05B62DD249870@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://docs.swift.org/swift-book/LanguageGuide/Properties.html
+
+<!DOCTYPE html><html class=3D"  ext-strict"><head><meta http-equiv=3D"Conte=
+nt-Type" content=3D"text/html; charset=3DUTF-8">
+   =20
+    <meta name=3D"author" content=3D"Apple Inc.">
+    <meta name=3D"viewport" content=3D"width=3Ddevice-width initial-scale=
+=3D1">
+   =20
+    <title>Properties =E2=80=94 The Swift Programming Language (Swift 5.1)<=
+/title>
+   =20
+    <link rel=3D"license" href=3D"https://docs.swift.org/LICENSE.txt">
+    <link rel=3D"stylesheet" media=3D"all" href=3D"https://docs.swift.org/s=
+wift-book/_static/stylesheets/application.css">
+    <link rel=3D"stylesheet" media=3D"all" href=3D"https://docs.swift.org/s=
+wift-book/_static/stylesheets/tspl.css">
+    <link rel=3D"shortcut icon" sizes=3D"16x16 24x24 32x32 48x48 64x64" typ=
+e=3D"image/vnd.microsoft.icon" href=3D"https://docs.swift.org/favicon.ico">
+    <link rel=3D"apple-touch-icon" href=3D"https://docs.swift.org/apple-tou=
+ch-icon.png">
+    <link rel=3D"apple-touch-icon" sizes=3D"57x57" href=3D"https://docs.swi=
+ft.org/apple-touch-icon-57x57.png">
+    <link rel=3D"apple-touch-icon" sizes=3D"72x72" href=3D"https://docs.swi=
+ft.org/apple-touch-icon-72x72.png">
+    <link rel=3D"apple-touch-icon" sizes=3D"76x76" href=3D"https://docs.swi=
+ft.org/apple-touch-icon-76x76.png">
+    <link rel=3D"apple-touch-icon" sizes=3D"114x114" href=3D"https://docs.s=
+wift.org/apple-touch-icon-114x114.png">
+    <link rel=3D"apple-touch-icon" sizes=3D"120x120" href=3D"https://docs.s=
+wift.org/apple-touch-icon-120x120.png">
+    <link rel=3D"apple-touch-icon" sizes=3D"144x144" href=3D"https://docs.s=
+wift.org/apple-touch-icon-144x144.png">
+    <link rel=3D"apple-touch-icon" sizes=3D"152x152" href=3D"https://docs.s=
+wift.org/apple-touch-icon-152x152.png">
+    <link rel=3D"apple-touch-icon" sizes=3D"180x180" href=3D"https://docs.s=
+wift.org/apple-touch-icon-180x180.png">
+    <link rel=3D"mask-icon" href=3D"https://docs.swift.org/assets/images/ic=
+on-swift.svg" color=3D"#F05339">=20
+  <style>img.chromoji { width:1.2em !important; height:1.2em !important; }.=
+chromoji-font, #chromoji-font { font-size:1.2em !important; }</style></head=
+>
+  <body class=3D" ext-webkit ext-chrome" id=3D"syno-nsc-ext-gen3">
+
+
+<nav role=3D"navigation">
+    <header role=3D"banner">
+      <h1 id=3D"logo">
+        <a href=3D"https://swift.org/" title=3D"Swift.org" role=3D"img" ari=
+a-label=3D"Swift.org">
+          Swift.org
+        </a>
+      </h1>
+    </header>
+
+    <div id=3D"menu-toggle" class=3D"menu-toggle open"></div>
+
+    <h2>The Swift Programming Language<div>Swift 5.1</div></h2>
+
+    <ul>
+    <ul class=3D"current">
+<li class=3D"toctree-l1"><a class=3D"reference internal" href=3D"https://do=
+cs.swift.org/swift-book/">Welcome to Swift</a></li>
+<li class=3D"toctree-l1 current"><a class=3D"reference internal" href=3D"ht=
+tps://docs.swift.org/swift-book/LanguageGuide/TheBasics.html">Language Guid=
+e</a><ul class=3D"current">
+<li class=3D"toctree-l2"><a class=3D"reference internal" href=3D"https://do=
+cs.swift.org/swift-book/LanguageGuide/TheBasics.html">The Basics</a></li>
+<li class=3D"toctree-l2"><a class=3D"reference internal" href=3D"https://do=
+cs.swift.org/swift-book/LanguageGuide/BasicOperators.html">Basic Operators<=
+/a></li>
+<li class=3D"toctree-l2"><a class=3D"reference internal" href=3D"https://do=
+cs.swift.org/swift-book/LanguageGuide/StringsAndCharacters.html">Strings an=
+d Characters</a></li>
+<li class=3D"toctree-l2"><a class=3D"reference internal" href=3D"https://do=
+cs.swift.org/swift-book/LanguageGuide/CollectionTypes.html">Collection Type=
+s</a></li>
+<li class=3D"toctree-l2"><a class=3D"reference internal" href=3D"https://do=
+cs.swift.org/swift-book/LanguageGuide/ControlFlow.html">Control Flow</a></l=
+i>
+<li class=3D"toctree-l2"><a class=3D"reference internal" href=3D"https://do=
+cs.swift.org/swift-book/LanguageGuide/Functions.html">Functions</a></li>
+<li class=3D"toctree-l2"><a class=3D"reference internal" href=3D"https://do=
+cs.swift.org/swift-book/LanguageGuide/Closures.html">Closures</a></li>
+<li class=3D"toctree-l2"><a class=3D"reference internal" href=3D"https://do=
+cs.swift.org/swift-book/LanguageGuide/Enumerations.html">Enumeration</a></l=
+i>
+<li class=3D"toctree-l2"><a class=3D"reference internal" href=3D"https://do=
+cs.swift.org/swift-book/LanguageGuide/ClassesAndStructures.html">Structures=
+ and Classes</a></li>
+<li class=3D"toctree-l2 current"><a class=3D"current reference internal" hr=
+ef=3D"https://docs.swift.org/swift-book/LanguageGuide/Properties.html#">Pro=
+perties</a></li>
+<li class=3D"toctree-l2"><a class=3D"reference internal" href=3D"https://do=
+cs.swift.org/swift-book/LanguageGuide/Methods.html">Methods</a></li>
+<li class=3D"toctree-l2"><a class=3D"reference internal" href=3D"https://do=
+cs.swift.org/swift-book/LanguageGuide/Subscripts.html">Subscripts</a></li>
+<li class=3D"toctree-l2"><a class=3D"reference internal" href=3D"https://do=
+cs.swift.org/swift-book/LanguageGuide/Inheritance.html">Inheritance</a></li=
+>
+<li class=3D"toctree-l2"><a class=3D"reference internal" href=3D"https://do=
+cs.swift.org/swift-book/LanguageGuide/Initialization.html">Initialization</=
+a></li>
+<li class=3D"toctree-l2"><a class=3D"reference internal" href=3D"https://do=
+cs.swift.org/swift-book/LanguageGuide/Deinitialization.html">Deinitializati=
+on</a></li>
+<li class=3D"toctree-l2"><a class=3D"reference internal" href=3D"https://do=
+cs.swift.org/swift-book/LanguageGuide/OptionalChaining.html">Optional Chain=
+ing</a></li>
+<li class=3D"toctree-l2"><a class=3D"reference internal" href=3D"https://do=
+cs.swift.org/swift-book/LanguageGuide/ErrorHandling.html">Error Handling</a=
+></li>
+<li class=3D"toctree-l2"><a class=3D"reference internal" href=3D"https://do=
+cs.swift.org/swift-book/LanguageGuide/TypeCasting.html">Type Casting</a></l=
+i>
+<li class=3D"toctree-l2"><a class=3D"reference internal" href=3D"https://do=
+cs.swift.org/swift-book/LanguageGuide/NestedTypes.html">Nested Types</a></l=
+i>
+<li class=3D"toctree-l2"><a class=3D"reference internal" href=3D"https://do=
+cs.swift.org/swift-book/LanguageGuide/Extensions.html">Extensions</a></li>
+<li class=3D"toctree-l2"><a class=3D"reference internal" href=3D"https://do=
+cs.swift.org/swift-book/LanguageGuide/Protocols.html">Protocols</a></li>
+<li class=3D"toctree-l2"><a class=3D"reference internal" href=3D"https://do=
+cs.swift.org/swift-book/LanguageGuide/Generics.html">Generics</a></li>
+<li class=3D"toctree-l2"><a class=3D"reference internal" href=3D"https://do=
+cs.swift.org/swift-book/LanguageGuide/OpaqueTypes.html">Opaque Types</a></l=
+i>
+<li class=3D"toctree-l2"><a class=3D"reference internal" href=3D"https://do=
+cs.swift.org/swift-book/LanguageGuide/AutomaticReferenceCounting.html">Auto=
+matic Reference Counting</a></li>
+<li class=3D"toctree-l2"><a class=3D"reference internal" href=3D"https://do=
+cs.swift.org/swift-book/LanguageGuide/MemorySafety.html">Memory Safety</a><=
+/li>
+<li class=3D"toctree-l2"><a class=3D"reference internal" href=3D"https://do=
+cs.swift.org/swift-book/LanguageGuide/AccessControl.html">Access Control</a=
+></li>
+<li class=3D"toctree-l2"><a class=3D"reference internal" href=3D"https://do=
+cs.swift.org/swift-book/LanguageGuide/AdvancedOperators.html">Advanced Oper=
+ators</a></li>
+</ul>
+</li>
+<li class=3D"toctree-l1"><a class=3D"reference internal" href=3D"https://do=
+cs.swift.org/swift-book/ReferenceManual/AboutTheLanguageReference.html">Lan=
+guage Reference</a></li>
+<li class=3D"toctree-l1"><a class=3D"reference internal" href=3D"https://do=
+cs.swift.org/swift-book/RevisionHistory/RevisionHistory.html">Revision Hist=
+ory</a></li>
+</ul>
+
+    <li class=3D"toctree-l1 return"><a class=3D"reference internal" href=3D=
+"https://swift.org/">=E2=86=90 Return to Swift.org</a></li>
+    </ul>
+</nav>
+
+
+
+
+<main role=3D"main">
+    <article class=3D"page">
+        <menu id=3D"bashful" type=3D"toolbar">
+          <div class=3D"inner">
+            <menuitem id=3D"jump_to" class=3D"menu-bar-item closed">
+            <span id=3D"jump_to_toggle">On This Page</span>
+            <div class=3D"chevron">
+                <div class=3D"chevy chevron-left"></div>
+                <div class=3D"chevy chevron-right"></div>
+            </div>
+            <menu type=3D"list" class=3D"details">
+                <ul>
+<li><a class=3D"reference internal" href=3D"https://docs.swift.org/swift-bo=
+ok/LanguageGuide/Properties.html#">Properties</a><ul>
+<li><a class=3D"reference internal" href=3D"https://docs.swift.org/swift-bo=
+ok/LanguageGuide/Properties.html#ID255">Stored Properties</a><ul>
+<li><a class=3D"reference internal" href=3D"https://docs.swift.org/swift-bo=
+ok/LanguageGuide/Properties.html#ID256">Stored Properties of Constant Struc=
+ture Instances</a></li>
+<li><a class=3D"reference internal" href=3D"https://docs.swift.org/swift-bo=
+ok/LanguageGuide/Properties.html#ID257">Lazy Stored Properties</a></li>
+<li><a class=3D"reference internal" href=3D"https://docs.swift.org/swift-bo=
+ok/LanguageGuide/Properties.html#ID258">Stored Properties and Instance Vari=
+ables</a></li>
+</ul>
+</li>
+<li><a class=3D"reference internal" href=3D"https://docs.swift.org/swift-bo=
+ok/LanguageGuide/Properties.html#ID259">Computed Properties</a><ul>
+<li><a class=3D"reference internal" href=3D"https://docs.swift.org/swift-bo=
+ok/LanguageGuide/Properties.html#ID260">Shorthand Setter Declaration</a></l=
+i>
+<li><a class=3D"reference internal" href=3D"https://docs.swift.org/swift-bo=
+ok/LanguageGuide/Properties.html#ID608">Shorthand Getter Declaration</a></l=
+i>
+<li><a class=3D"reference internal" href=3D"https://docs.swift.org/swift-bo=
+ok/LanguageGuide/Properties.html#ID261">Read-Only Computed Properties</a></=
+li>
+</ul>
+</li>
+<li><a class=3D"reference internal" href=3D"https://docs.swift.org/swift-bo=
+ok/LanguageGuide/Properties.html#ID262">Property Observers</a></li>
+<li><a class=3D"reference internal" href=3D"https://docs.swift.org/swift-bo=
+ok/LanguageGuide/Properties.html#ID263">Global and Local Variables</a></li>
+<li><a class=3D"reference internal" href=3D"https://docs.swift.org/swift-bo=
+ok/LanguageGuide/Properties.html#ID264">Type Properties</a><ul>
+<li><a class=3D"reference internal" href=3D"https://docs.swift.org/swift-bo=
+ok/LanguageGuide/Properties.html#ID265">Type Property Syntax</a></li>
+<li><a class=3D"reference internal" href=3D"https://docs.swift.org/swift-bo=
+ok/LanguageGuide/Properties.html#ID266">Querying and Setting Type Propertie=
+s</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+            </menu>
+            </menuitem>
+          </div>
+        </menu>
+
+       =20
+  <div class=3D"section" id=3D"properties">
+<h1>Properties<a class=3D"headerlink" href=3D"https://docs.swift.org/swift-=
+book/LanguageGuide/Properties.html#properties" title=3D"Permalink to this h=
+eadline">=C2=B6</a></h1>
+<p><em>Properties</em> associate values with a particular class, structure,=
+ or enumeration. Stored properties store constant and variable values as pa=
+rt of an instance, whereas computed properties calculate (rather than store=
+) a value. Computed properties are provided by classes, structures, and enu=
+merations. Stored properties are provided only by classes and structures.</=
+p>
+<p>Stored and computed properties are usually associated with instances of =
+a particular type. However, properties can also be associated with the type=
+ itself. Such properties are known as type properties.</p>
+<p>In addition, you can define property observers to monitor changes in a p=
+roperty=E2=80=99s value, which you can respond to with custom actions. Prop=
+erty observers can be added to stored properties you define yourself, and a=
+lso to properties that a subclass inherits from its superclass.</p>
+<div class=3D"section" id=3D"ID255">
+<h2>Stored Properties<a class=3D"headerlink" href=3D"https://docs.swift.org=
+/swift-book/LanguageGuide/Properties.html#ID255" title=3D"Permalink to this=
+ headline">=C2=B6</a></h2>
+<p>In its simplest form, a stored property is a constant or variable that i=
+s stored as part of an instance of a particular class or structure. Stored =
+properties can be either <em>variable stored properties</em> (introduced by=
+ the <code class=3D"docutils literal notranslate"><span class=3D"pre">var</=
+span></code> keyword) or <em>constant stored properties</em> (introduced by=
+ the <code class=3D"docutils literal notranslate"><span class=3D"pre">let</=
+span></code> keyword).</p>
+<p>You can provide a default value for a stored property as part of its def=
+inition, as described in <a class=3D"reference internal" href=3D"https://do=
+cs.swift.org/swift-book/LanguageGuide/Initialization.html#ID206"><span clas=
+s=3D"std std-ref">Default Property Values</span></a>. You can also set and =
+modify the initial value for a stored property during initialization. This =
+is true even for constant stored properties, as described in <a class=3D"re=
+ference internal" href=3D"https://docs.swift.org/swift-book/LanguageGuide/I=
+nitialization.html#ID212"><span class=3D"std std-ref">Assigning Constant Pr=
+operties During Initialization</span></a>.</p>
+<p>The example below defines a structure called <code class=3D"docutils lit=
+eral notranslate"><span class=3D"pre">FixedLengthRange</span></code>, which=
+ describes a range of integers whose range length cannot be changed after i=
+t is created:</p>
+<div class=3D"highlight-swift notranslate"><div class=3D"code-sample"><div =
+class=3D"Swift highlight"><ol class=3D"code-lines"><li><span class=3D"k">st=
+ruct</span> <span class=3D"nv">FixedLengthRange</span> {
+</li><li>    <span class=3D"k">var</span> <span class=3D"nv">firstValue</sp=
+an>: <span class=3D"nc">Int</span>
+</li><li>    <span class=3D"k">let</span> <span class=3D"nv">length</span>:=
+ <span class=3D"nc">Int</span>
+</li><li>}
+</li><li><span class=3D"k">var</span> <span class=3D"nv">rangeOfThreeItems<=
+/span> =3D <span class=3D"nv">FixedLengthRange</span>(<span class=3D"nv">fi=
+rstValue</span>: <span class=3D"m">0</span>, <span class=3D"nv">length</spa=
+n>: <span class=3D"m">3</span>)
+</li><li><span class=3D"c">// the range represents integer values 0, 1, and=
+ 2</span>
+</li><li><span class=3D"nv">rangeOfThreeItems</span>.<span class=3D"nv">fir=
+stValue</span> =3D <span class=3D"m">6</span>
+</li><li><span class=3D"c">// the range now represents integer values 6, 7,=
+ and 8</span>
+</li></ol></div></div></div>
+<p>Instances of <code class=3D"docutils literal notranslate"><span class=3D=
+"pre">FixedLengthRange</span></code> have a variable stored property called=
+ <code class=3D"docutils literal notranslate"><span class=3D"pre">firstValu=
+e</span></code> and a constant stored property called <code class=3D"docuti=
+ls literal notranslate"><span class=3D"pre">length</span></code>. In the ex=
+ample above, <code class=3D"docutils literal notranslate"><span class=3D"pr=
+e">length</span></code> is initialized when the new range is created and ca=
+nnot be changed thereafter, because it is a constant property.</p>
+<div class=3D"section" id=3D"ID256">
+<h3>Stored Properties of Constant Structure Instances<a class=3D"headerlink=
+" href=3D"https://docs.swift.org/swift-book/LanguageGuide/Properties.html#I=
+D256" title=3D"Permalink to this headline">=C2=B6</a></h3>
+<p>If you create an instance of a structure and assign that instance to a c=
+onstant, you cannot modify the instance=E2=80=99s properties, even if they =
+were declared as variable properties:</p>
+<div class=3D"highlight-swift notranslate"><div class=3D"code-sample"><div =
+class=3D"Swift highlight"><ol class=3D"code-lines"><li><span class=3D"k">le=
+t</span> <span class=3D"nv">rangeOfFourItems</span> =3D <span class=3D"nv">=
+FixedLengthRange</span>(<span class=3D"nv">firstValue</span>: <span class=
+=3D"m">0</span>, <span class=3D"nv">length</span>: <span class=3D"m">4</spa=
+n>)
+</li><li><span class=3D"c">// this range represents integer values 0, 1, 2,=
+ and 3</span>
+</li><li><span class=3D"nv">rangeOfFourItems</span>.<span class=3D"nv">firs=
+tValue</span> =3D <span class=3D"m">6</span>
+</li><li><span class=3D"c">// this will report an error, even though firstV=
+alue is a variable property</span>
+</li></ol></div></div></div>
+<p>Because <code class=3D"docutils literal notranslate"><span class=3D"pre"=
+>rangeOfFourItems</span></code> is declared as a constant (with the <code c=
+lass=3D"docutils literal notranslate"><span class=3D"pre">let</span></code>=
+ keyword), it is not possible to change its <code class=3D"docutils literal=
+ notranslate"><span class=3D"pre">firstValue</span></code> property, even t=
+hough <code class=3D"docutils literal notranslate"><span class=3D"pre">firs=
+tValue</span></code> is a variable property.</p>
+<p>This behavior is due to structures being <em>value types</em>. When an i=
+nstance of a value type is marked as a constant, so are all of its properti=
+es.</p>
+<p>The same is not true for classes, which are <em>reference types</em>. If=
+ you assign an instance of a reference type to a constant, you can still ch=
+ange that instance=E2=80=99s variable properties.</p>
+</div>
+<div class=3D"section" id=3D"ID257">
+<h3>Lazy Stored Properties<a class=3D"headerlink" href=3D"https://docs.swif=
+t.org/swift-book/LanguageGuide/Properties.html#ID257" title=3D"Permalink to=
+ this headline">=C2=B6</a></h3>
+<p>A <em>lazy stored property</em> is a property whose initial value is not=
+ calculated until the first time it is used. You indicate a lazy stored pro=
+perty by writing the <code class=3D"docutils literal notranslate"><span cla=
+ss=3D"pre">lazy</span></code> modifier before its declaration.</p>
+<div class=3D"admonition note">
+<p class=3D"first admonition-title">Note</p>
+<p class=3D"last">You must always declare a lazy property as a variable (wi=
+th the <code class=3D"docutils literal notranslate"><span class=3D"pre">var=
+</span></code> keyword), because its initial value might not be retrieved u=
+ntil after instance initialization completes. Constant properties must alwa=
+ys have a value <em>before</em> initialization completes, and therefore can=
+not be declared as lazy.</p>
+</div>
+<p>Lazy properties are useful when the initial value for a property is depe=
+ndent on outside factors whose values are not known until after an instance=
+=E2=80=99s initialization is complete. Lazy properties are also useful when=
+ the initial value for a property requires complex or computationally expen=
+sive setup that should not be performed unless or until it is needed.</p>
+<p>The example below uses a lazy stored property to avoid unnecessary initi=
+alization of a complex class. This example defines two classes called <code=
+ class=3D"docutils literal notranslate"><span class=3D"pre">DataImporter</s=
+pan></code> and <code class=3D"docutils literal notranslate"><span class=3D=
+"pre">DataManager</span></code>, neither of which is shown in full:</p>
+<div class=3D"highlight-swift notranslate"><div class=3D"code-sample"><div =
+class=3D"Swift highlight"><ol class=3D"code-lines"><li><span class=3D"k">cl=
+ass</span> <span class=3D"nv">DataImporter</span> {
+</li><li>    <span class=3D"c">/*</span>
+</li><li><span class=3D"c">    DataImporter is a class to import data from =
+an external file.</span>
+</li><li><span class=3D"c">    The class is assumed to take a nontrivial am=
+ount of time to initialize.</span>
+</li><li><span class=3D"c">    */</span>
+</li><li>    <span class=3D"k">var</span> <span class=3D"nv">filename</span=
+> =3D <span class=3D"s">"data.txt"</span>
+</li><li>    <span class=3D"c">// the DataImporter class would provide data=
+ importing functionality here</span>
+</li><li>}
+</li><li>
+</li><li><span class=3D"k">class</span> <span class=3D"nv">DataManager</spa=
+n> {
+</li><li>    <span class=3D"k">lazy</span> <span class=3D"k">var</span> <sp=
+an class=3D"nv">importer</span> =3D <span class=3D"nv">DataImporter</span>(=
+)
+</li><li>    <span class=3D"k">var</span> <span class=3D"nv">data</span> =
+=3D [<span class=3D"nv">String</span>]()
+</li><li>    <span class=3D"c">// the DataManager class would provide data =
+management functionality here</span>
+</li><li>}
+</li><li>
+</li><li><span class=3D"k">let</span> <span class=3D"nv">manager</span> =3D=
+ <span class=3D"nv">DataManager</span>()
+</li><li><span class=3D"nv">manager</span>.<span class=3D"nv">data</span>.<=
+span class=3D"nv">append</span>(<span class=3D"s">"Some data"</span>)
+</li><li><span class=3D"nv">manager</span>.<span class=3D"nv">data</span>.<=
+span class=3D"nv">append</span>(<span class=3D"s">"Some more data"</span>)
+</li><li><span class=3D"c">// the DataImporter instance for the importer pr=
+operty has not yet been created</span>
+</li></ol></div></div></div>
+<p>The <code class=3D"docutils literal notranslate"><span class=3D"pre">Dat=
+aManager</span></code> class has a stored property called <code class=3D"do=
+cutils literal notranslate"><span class=3D"pre">data</span></code>, which i=
+s initialized with a new, empty array of <code class=3D"docutils literal no=
+translate"><span class=3D"pre">String</span></code> values. Although the re=
+st of its functionality is not shown, the purpose of this <code class=3D"do=
+cutils literal notranslate"><span class=3D"pre">DataManager</span></code> c=
+lass is to manage and provide access to this array of <code class=3D"docuti=
+ls literal notranslate"><span class=3D"pre">String</span></code> data.</p>
+<p>Part of the functionality of the <code class=3D"docutils literal notrans=
+late"><span class=3D"pre">DataManager</span></code> class is the ability to=
+ import data from a file. This functionality is provided by the <code class=
+=3D"docutils literal notranslate"><span class=3D"pre">DataImporter</span></=
+code> class, which is assumed to take a nontrivial amount of time to initia=
+lize. This might be because a <code class=3D"docutils literal notranslate">=
+<span class=3D"pre">DataImporter</span></code> instance needs to open a fil=
+e and read its contents into memory when the <code class=3D"docutils litera=
+l notranslate"><span class=3D"pre">DataImporter</span></code> instance is i=
+nitialized.</p>
+<p>It is possible for a <code class=3D"docutils literal notranslate"><span =
+class=3D"pre">DataManager</span></code> instance to manage its data without=
+ ever importing data from a file, so there is no need to create a new <code=
+ class=3D"docutils literal notranslate"><span class=3D"pre">DataImporter</s=
+pan></code> instance when the <code class=3D"docutils literal notranslate">=
+<span class=3D"pre">DataManager</span></code> itself is created. Instead, i=
+t makes more sense to create the <code class=3D"docutils literal notranslat=
+e"><span class=3D"pre">DataImporter</span></code> instance if and when it i=
+s first used.</p>
+<p>Because it is marked with the <code class=3D"docutils literal notranslat=
+e"><span class=3D"pre">lazy</span></code> modifier, the <code class=3D"docu=
+tils literal notranslate"><span class=3D"pre">DataImporter</span></code> in=
+stance for the <code class=3D"docutils literal notranslate"><span class=3D"=
+pre">importer</span></code> property is only created when the <code class=
+=3D"docutils literal notranslate"><span class=3D"pre">importer</span></code=
+> property is first accessed, such as when its <code class=3D"docutils lite=
+ral notranslate"><span class=3D"pre">filename</span></code> property is que=
+ried:</p>
+<div class=3D"highlight-swift notranslate"><div class=3D"code-sample"><div =
+class=3D"Swift highlight"><ol class=3D"code-lines"><li><span class=3D"nv">p=
+rint</span>(<span class=3D"nv">manager</span>.<span class=3D"nv">importer</=
+span>.<span class=3D"nv">filename</span>)
+</li><li><span class=3D"c">// the DataImporter instance for the importer pr=
+operty has now been created</span>
+</li><li><span class=3D"c">// Prints "data.txt"</span>
+</li></ol></div></div></div>
+<div class=3D"admonition note">
+<p class=3D"first admonition-title">Note</p>
+<p class=3D"last">If a property marked with the <code class=3D"docutils lit=
+eral notranslate"><span class=3D"pre">lazy</span></code> modifier is access=
+ed by multiple threads simultaneously and the property has not yet been ini=
+tialized, there is no guarantee that the property will be initialized only =
+once.</p>
+</div>
+</div>
+<div class=3D"section" id=3D"ID258">
+<h3>Stored Properties and Instance Variables<a class=3D"headerlink" href=3D=
+"https://docs.swift.org/swift-book/LanguageGuide/Properties.html#ID258" tit=
+le=3D"Permalink to this headline">=C2=B6</a></h3>
+<p>If you have experience with Objective-C, you may know that it provides <=
+em>two</em> ways to store values and references as part of a class instance=
+. In addition to properties, you can use instance variables as a backing st=
+ore for the values stored in a property.</p>
+<p>Swift unifies these concepts into a single property declaration. A Swift=
+ property does not have a corresponding instance variable, and the backing =
+store for a property is not accessed directly. This approach avoids confusi=
+on about how the value is accessed in different contexts and simplifies the=
+ property=E2=80=99s declaration into a single, definitive statement. All in=
+formation about the property=E2=80=94including its name, type, and memory m=
+anagement characteristics=E2=80=94is defined in a single location as part o=
+f the type=E2=80=99s definition.</p>
+</div>
+</div>
+<div class=3D"section" id=3D"ID259">
+<h2>Computed Properties<a class=3D"headerlink" href=3D"https://docs.swift.o=
+rg/swift-book/LanguageGuide/Properties.html#ID259" title=3D"Permalink to th=
+is headline">=C2=B6</a></h2>
+<p>In addition to stored properties, classes, structures, and enumerations =
+can define <em>computed properties</em>, which do not actually store a valu=
+e. Instead, they provide a getter and an optional setter to retrieve and se=
+t other properties and values indirectly.</p>
+<div class=3D"highlight-swift notranslate"><div class=3D"code-sample"><div =
+class=3D"Swift highlight"><ol class=3D"code-lines"><li><span class=3D"k">st=
+ruct</span> <span class=3D"nv">Point</span> {
+</li><li>    <span class=3D"k">var</span> <span class=3D"nv">x</span> =3D <=
+span class=3D"m">0.0</span>, <span class=3D"nv">y</span> =3D <span class=3D=
+"m">0.0</span>
+</li><li>}
+</li><li><span class=3D"k">struct</span> <span class=3D"nv">Size</span> {
+</li><li>    <span class=3D"k">var</span> <span class=3D"nv">width</span> =
+=3D <span class=3D"m">0.0</span>, <span class=3D"nv">height</span> =3D <spa=
+n class=3D"m">0.0</span>
+</li><li>}
+</li><li><span class=3D"k">struct</span> <span class=3D"nv">Rect</span> {
+</li><li>    <span class=3D"k">var</span> <span class=3D"nv">origin</span> =
+=3D <span class=3D"nv">Point</span>()
+</li><li>    <span class=3D"k">var</span> <span class=3D"nv">size</span> =
+=3D <span class=3D"nv">Size</span>()
+</li><li>    <span class=3D"k">var</span> <span class=3D"nv">center</span>:=
+ <span class=3D"nc">Point</span> {
+</li><li>        <span class=3D"k">get</span> {
+</li><li>            <span class=3D"k">let</span> <span class=3D"nv">center=
+X</span> =3D <span class=3D"nv">origin</span>.<span class=3D"nv">x</span> +=
+ (<span class=3D"nv">size</span>.<span class=3D"nv">width</span> / <span cl=
+ass=3D"m">2</span>)
+</li><li>            <span class=3D"k">let</span> <span class=3D"nv">center=
+Y</span> =3D <span class=3D"nv">origin</span>.<span class=3D"nv">y</span> +=
+ (<span class=3D"nv">size</span>.<span class=3D"nv">height</span> / <span c=
+lass=3D"m">2</span>)
+</li><li>            <span class=3D"k">return</span> <span class=3D"nv">Poi=
+nt</span>(<span class=3D"nv">x</span>: <span class=3D"nv">centerX</span>, <=
+span class=3D"nv">y</span>: <span class=3D"nv">centerY</span>)
+</li><li>        }
+</li><li>        <span class=3D"k">set</span>(<span class=3D"nv">newCenter<=
+/span>) {
+</li><li>            <span class=3D"nv">origin</span>.<span class=3D"nv">x<=
+/span> =3D <span class=3D"nv">newCenter</span>.<span class=3D"nv">x</span> =
+- (<span class=3D"nv">size</span>.<span class=3D"nv">width</span> / <span c=
+lass=3D"m">2</span>)
+</li><li>            <span class=3D"nv">origin</span>.<span class=3D"nv">y<=
+/span> =3D <span class=3D"nv">newCenter</span>.<span class=3D"nv">y</span> =
+- (<span class=3D"nv">size</span>.<span class=3D"nv">height</span> / <span =
+class=3D"m">2</span>)
+</li><li>        }
+</li><li>    }
+</li><li>}
+</li><li><span class=3D"k">var</span> <span class=3D"nv">square</span> =3D =
+<span class=3D"nv">Rect</span>(<span class=3D"nv">origin</span>: <span clas=
+s=3D"nv">Point</span>(<span class=3D"nv">x</span>: <span class=3D"m">0.0</s=
+pan>, <span class=3D"nv">y</span>: <span class=3D"m">0.0</span>),
+</li><li>                  <span class=3D"nv">size</span>: <span class=3D"n=
+v">Size</span>(<span class=3D"nv">width</span>: <span class=3D"m">10.0</spa=
+n>, <span class=3D"nv">height</span>: <span class=3D"m">10.0</span>))
+</li><li><span class=3D"k">let</span> <span class=3D"nv">initialSquareCente=
+r</span> =3D <span class=3D"nv">square</span>.<span class=3D"nv">center</sp=
+an>
+</li><li><span class=3D"nv">square</span>.<span class=3D"nv">center</span> =
+=3D <span class=3D"nv">Point</span>(<span class=3D"nv">x</span>: <span clas=
+s=3D"m">15.0</span>, <span class=3D"nv">y</span>: <span class=3D"m">15.0</s=
+pan>)
+</li><li><span class=3D"nv">print</span>(<span class=3D"s">"square.origin i=
+s now at (</span>\<span class=3D"p">(</span><span class=3D"nv">square</span=
+>.<span class=3D"nv">origin</span>.<span class=3D"nv">x</span><span class=
+=3D"p">)</span><span class=3D"s">, </span>\<span class=3D"p">(</span><span =
+class=3D"nv">square</span>.<span class=3D"nv">origin</span>.<span class=3D"=
+nv">y</span><span class=3D"p">)</span><span class=3D"s">)"</span>)
+</li><li><span class=3D"c">// Prints "square.origin is now at (10.0, 10.0)"=
+</span>
+</li></ol></div></div></div>
+<p>This example defines three structures for working with geometric shapes:=
+</p>
+<ul class=3D"simple">
+<li><code class=3D"docutils literal notranslate"><span class=3D"pre">Point<=
+/span></code> encapsulates the x- and y-coordinate of a point.</li>
+<li><code class=3D"docutils literal notranslate"><span class=3D"pre">Size</=
+span></code> encapsulates a <code class=3D"docutils literal notranslate"><s=
+pan class=3D"pre">width</span></code> and a <code class=3D"docutils literal=
+ notranslate"><span class=3D"pre">height</span></code>.</li>
+<li><code class=3D"docutils literal notranslate"><span class=3D"pre">Rect</=
+span></code> defines a rectangle by an origin point and a size.</li>
+</ul>
+<p>The <code class=3D"docutils literal notranslate"><span class=3D"pre">Rec=
+t</span></code> structure also provides a computed property called <code cl=
+ass=3D"docutils literal notranslate"><span class=3D"pre">center</span></cod=
+e>. The current center position of a <code class=3D"docutils literal notran=
+slate"><span class=3D"pre">Rect</span></code> can always be determined from=
+ its <code class=3D"docutils literal notranslate"><span class=3D"pre">origi=
+n</span></code> and <code class=3D"docutils literal notranslate"><span clas=
+s=3D"pre">size</span></code>, and so you don=E2=80=99t need to store the ce=
+nter point as an explicit <code class=3D"docutils literal notranslate"><spa=
+n class=3D"pre">Point</span></code> value. Instead, <code class=3D"docutils=
+ literal notranslate"><span class=3D"pre">Rect</span></code> defines a cust=
+om getter and setter for a computed variable called <code class=3D"docutils=
+ literal notranslate"><span class=3D"pre">center</span></code>, to enable y=
+ou to work with the rectangle=E2=80=99s <code class=3D"docutils literal not=
+ranslate"><span class=3D"pre">center</span></code> as if it were a real sto=
+red property.</p>
+<p>The example above creates a new <code class=3D"docutils literal notransl=
+ate"><span class=3D"pre">Rect</span></code> variable called <code class=3D"=
+docutils literal notranslate"><span class=3D"pre">square</span></code>. The=
+ <code class=3D"docutils literal notranslate"><span class=3D"pre">square</s=
+pan></code> variable is initialized with an origin point of <code class=3D"=
+docutils literal notranslate"><span class=3D"pre">(0,</span> <span class=3D=
+"pre">0)</span></code>, and a width and height of <code class=3D"docutils l=
+iteral notranslate"><span class=3D"pre">10</span></code>. This square is re=
+presented by the blue square in the diagram below.</p>
+<p>The <code class=3D"docutils literal notranslate"><span class=3D"pre">squ=
+are</span></code> variable=E2=80=99s <code class=3D"docutils literal notran=
+slate"><span class=3D"pre">center</span></code> property is then accessed t=
+hrough dot syntax (<code class=3D"docutils literal notranslate"><span class=
+=3D"pre">square.center</span></code>), which causes the getter for <code cl=
+ass=3D"docutils literal notranslate"><span class=3D"pre">center</span></cod=
+e> to be called, to retrieve the current property value. Rather than return=
+ing an existing value, the getter actually calculates and returns a new <co=
+de class=3D"docutils literal notranslate"><span class=3D"pre">Point</span><=
+/code> to represent the center of the square. As can be seen above, the get=
+ter correctly returns a center point of <code class=3D"docutils literal not=
+ranslate"><span class=3D"pre">(5,</span> <span class=3D"pre">5)</span></cod=
+e>.</p>
+<p>The <code class=3D"docutils literal notranslate"><span class=3D"pre">cen=
+ter</span></code> property is then set to a new value of <code class=3D"doc=
+utils literal notranslate"><span class=3D"pre">(15,</span> <span class=3D"p=
+re">15)</span></code>, which moves the square up and to the right, to the n=
+ew position shown by the orange square in the diagram below. Setting the <c=
+ode class=3D"docutils literal notranslate"><span class=3D"pre">center</span=
+></code> property calls the setter for <code class=3D"docutils literal notr=
+anslate"><span class=3D"pre">center</span></code>, which modifies the <code=
+ class=3D"docutils literal notranslate"><span class=3D"pre">x</span></code>=
+ and <code class=3D"docutils literal notranslate"><span class=3D"pre">y</sp=
+an></code> values of the stored <code class=3D"docutils literal notranslate=
+"><span class=3D"pre">origin</span></code> property, and moves the square t=
+o its new position.</p>
+<img alt=3D"../_images/computedProperties_2x.png" class=3D"align-center" sr=
+c=3D"https://docs.swift.org/swift-book/_images/computedProperties_2x.png" s=
+tyle=3D"width: 388px;">
+<div class=3D"section" id=3D"ID260">
+<h3>Shorthand Setter Declaration<a class=3D"headerlink" href=3D"https://doc=
+s.swift.org/swift-book/LanguageGuide/Properties.html#ID260" title=3D"Permal=
+ink to this headline">=C2=B6</a></h3>
+<p>If a computed property=E2=80=99s setter doesn=E2=80=99t define a name fo=
+r the new value to be set, a default name of <code class=3D"docutils litera=
+l notranslate"><span class=3D"pre">newValue</span></code> is used. Here=E2=
+=80=99s an alternative version of the <code class=3D"docutils literal notra=
+nslate"><span class=3D"pre">Rect</span></code> structure that takes advanta=
+ge of this shorthand notation:</p>
+<div class=3D"highlight-swift notranslate"><div class=3D"code-sample"><div =
+class=3D"Swift highlight"><ol class=3D"code-lines"><li><span class=3D"k">st=
+ruct</span> <span class=3D"nv">AlternativeRect</span> {
+</li><li>    <span class=3D"k">var</span> <span class=3D"nv">origin</span> =
+=3D <span class=3D"nv">Point</span>()
+</li><li>    <span class=3D"k">var</span> <span class=3D"nv">size</span> =
+=3D <span class=3D"nv">Size</span>()
+</li><li>    <span class=3D"k">var</span> <span class=3D"nv">center</span>:=
+ <span class=3D"nc">Point</span> {
+</li><li>        <span class=3D"k">get</span> {
+</li><li>            <span class=3D"k">let</span> <span class=3D"nv">center=
+X</span> =3D <span class=3D"nv">origin</span>.<span class=3D"nv">x</span> +=
+ (<span class=3D"nv">size</span>.<span class=3D"nv">width</span> / <span cl=
+ass=3D"m">2</span>)
+</li><li>            <span class=3D"k">let</span> <span class=3D"nv">center=
+Y</span> =3D <span class=3D"nv">origin</span>.<span class=3D"nv">y</span> +=
+ (<span class=3D"nv">size</span>.<span class=3D"nv">height</span> / <span c=
+lass=3D"m">2</span>)
+</li><li>            <span class=3D"k">return</span> <span class=3D"nv">Poi=
+nt</span>(<span class=3D"nv">x</span>: <span class=3D"nv">centerX</span>, <=
+span class=3D"nv">y</span>: <span class=3D"nv">centerY</span>)
+</li><li>        }
+</li><li>        <span class=3D"k">set</span> {
+</li><li>            <span class=3D"nv">origin</span>.<span class=3D"nv">x<=
+/span> =3D <span class=3D"nv">newValue</span>.<span class=3D"nv">x</span> -=
+ (<span class=3D"nv">size</span>.<span class=3D"nv">width</span> / <span cl=
+ass=3D"m">2</span>)
+</li><li>            <span class=3D"nv">origin</span>.<span class=3D"nv">y<=
+/span> =3D <span class=3D"nv">newValue</span>.<span class=3D"nv">y</span> -=
+ (<span class=3D"nv">size</span>.<span class=3D"nv">height</span> / <span c=
+lass=3D"m">2</span>)
+</li><li>        }
+</li><li>    }
+</li><li>}
+</li></ol></div></div></div>
+</div>
+<div class=3D"section" id=3D"ID608">
+<h3>Shorthand Getter Declaration<a class=3D"headerlink" href=3D"https://doc=
+s.swift.org/swift-book/LanguageGuide/Properties.html#ID608" title=3D"Permal=
+ink to this headline">=C2=B6</a></h3>
+<p>If the entire body of a getter is a single expression, the getter implic=
+itly returns that expression. Here=E2=80=99s an another version of the <cod=
+e class=3D"docutils literal notranslate"><span class=3D"pre">Rect</span></c=
+ode> structure that takes advantage of this shorthand notation and the shor=
+thand notation for setters:</p>
+<div class=3D"highlight-swift notranslate"><div class=3D"code-sample"><div =
+class=3D"Swift highlight"><ol class=3D"code-lines"><li><span class=3D"k">st=
+ruct</span> <span class=3D"nv">CompactRect</span> {
+</li><li>    <span class=3D"k">var</span> <span class=3D"nv">origin</span> =
+=3D <span class=3D"nv">Point</span>()
+</li><li>    <span class=3D"k">var</span> <span class=3D"nv">size</span> =
+=3D <span class=3D"nv">Size</span>()
+</li><li>    <span class=3D"k">var</span> <span class=3D"nv">center</span>:=
+ <span class=3D"nc">Point</span> {
+</li><li>        <span class=3D"k">get</span> {
+</li><li>            <span class=3D"nv">Point</span>(<span class=3D"nv">x</=
+span>: <span class=3D"nv">origin</span>.<span class=3D"nv">x</span> + (<spa=
+n class=3D"nv">size</span>.<span class=3D"nv">width</span> / <span class=3D=
+"m">2</span>),
+</li><li>                  <span class=3D"nv">y</span>: <span class=3D"nv">=
+origin</span>.<span class=3D"nv">y</span> + (<span class=3D"nv">size</span>=
+.<span class=3D"nv">height</span> / <span class=3D"m">2</span>))
+</li><li>        }
+</li><li>        <span class=3D"k">set</span> {
+</li><li>            <span class=3D"nv">origin</span>.<span class=3D"nv">x<=
+/span> =3D <span class=3D"nv">newValue</span>.<span class=3D"nv">x</span> -=
+ (<span class=3D"nv">size</span>.<span class=3D"nv">width</span> / <span cl=
+ass=3D"m">2</span>)
+</li><li>            <span class=3D"nv">origin</span>.<span class=3D"nv">y<=
+/span> =3D <span class=3D"nv">newValue</span>.<span class=3D"nv">y</span> -=
+ (<span class=3D"nv">size</span>.<span class=3D"nv">height</span> / <span c=
+lass=3D"m">2</span>)
+</li><li>        }
+</li><li>    }
+</li><li>}
+</li></ol></div></div></div>
+<p>Omitting the <code class=3D"docutils literal notranslate"><span class=3D=
+"pre">return</span></code> from a getter follows the same rules as omitting=
+ <code class=3D"docutils literal notranslate"><span class=3D"pre">return</s=
+pan></code> from a function, as described in <a class=3D"reference internal=
+" href=3D"https://docs.swift.org/swift-book/LanguageGuide/Functions.html#ID=
+607"><span class=3D"std std-ref">Functions With an Implicit Return</span></=
+a>.</p>
+</div>
+<div class=3D"section" id=3D"ID261">
+<h3>Read-Only Computed Properties<a class=3D"headerlink" href=3D"https://do=
+cs.swift.org/swift-book/LanguageGuide/Properties.html#ID261" title=3D"Perma=
+link to this headline">=C2=B6</a></h3>
+<p>A computed property with a getter but no setter is known as a <em>read-o=
+nly computed property</em>. A read-only computed property always returns a =
+value, and can be accessed through dot syntax, but cannot be set to a diffe=
+rent value.</p>
+<div class=3D"admonition note">
+<p class=3D"first admonition-title">Note</p>
+<p class=3D"last">You must declare computed properties=E2=80=94including re=
+ad-only computed properties=E2=80=94as variable properties with the <code c=
+lass=3D"docutils literal notranslate"><span class=3D"pre">var</span></code>=
+ keyword, because their value is not fixed. The <code class=3D"docutils lit=
+eral notranslate"><span class=3D"pre">let</span></code> keyword is only use=
+d for constant properties, to indicate that their values cannot be changed =
+once they are set as part of instance initialization.</p>
+</div>
+<p>You can simplify the declaration of a read-only computed property by rem=
+oving the <code class=3D"docutils literal notranslate"><span class=3D"pre">=
+get</span></code> keyword and its braces:</p>
+<div class=3D"highlight-swift notranslate"><div class=3D"code-sample"><div =
+class=3D"Swift highlight"><ol class=3D"code-lines"><li><span class=3D"k">st=
+ruct</span> <span class=3D"nv">Cuboid</span> {
+</li><li>    <span class=3D"k">var</span> <span class=3D"nv">width</span> =
+=3D <span class=3D"m">0.0</span>, <span class=3D"nv">height</span> =3D <spa=
+n class=3D"m">0.0</span>, <span class=3D"nv">depth</span> =3D <span class=
+=3D"m">0.0</span>
+</li><li>    <span class=3D"k">var</span> <span class=3D"nv">volume</span>:=
+ <span class=3D"nc">Double</span> {
+</li><li>        <span class=3D"k">return</span> <span class=3D"nv">width</=
+span> * <span class=3D"nv">height</span> * <span class=3D"nv">depth</span>
+</li><li>    }
+</li><li>}
+</li><li><span class=3D"k">let</span> <span class=3D"nv">fourByFiveByTwo</s=
+pan> =3D <span class=3D"nv">Cuboid</span>(<span class=3D"nv">width</span>: =
+<span class=3D"m">4.0</span>, <span class=3D"nv">height</span>: <span class=
+=3D"m">5.0</span>, <span class=3D"nv">depth</span>: <span class=3D"m">2.0</=
+span>)
+</li><li><span class=3D"nv">print</span>(<span class=3D"s">"the volume of f=
+ourByFiveByTwo is </span>\<span class=3D"p">(</span><span class=3D"nv">four=
+ByFiveByTwo</span>.<span class=3D"nv">volume</span><span class=3D"p">)</spa=
+n><span class=3D"s">"</span>)
+</li><li><span class=3D"c">// Prints "the volume of fourByFiveByTwo is 40.0=
+"</span>
+</li></ol></div></div></div>
+<p>This example defines a new structure called <code class=3D"docutils lite=
+ral notranslate"><span class=3D"pre">Cuboid</span></code>, which represents=
+ a 3D rectangular box with <code class=3D"docutils literal notranslate"><sp=
+an class=3D"pre">width</span></code>, <code class=3D"docutils literal notra=
+nslate"><span class=3D"pre">height</span></code>, and <code class=3D"docuti=
+ls literal notranslate"><span class=3D"pre">depth</span></code> properties.=
+ This structure also has a read-only computed property called <code class=
+=3D"docutils literal notranslate"><span class=3D"pre">volume</span></code>,=
+ which calculates and returns the current volume of the cuboid. It doesn=E2=
+=80=99t make sense for <code class=3D"docutils literal notranslate"><span c=
+lass=3D"pre">volume</span></code> to be settable, because it would be ambig=
+uous as to which values of <code class=3D"docutils literal notranslate"><sp=
+an class=3D"pre">width</span></code>, <code class=3D"docutils literal notra=
+nslate"><span class=3D"pre">height</span></code>, and <code class=3D"docuti=
+ls literal notranslate"><span class=3D"pre">depth</span></code> should be u=
+sed for a particular <code class=3D"docutils literal notranslate"><span cla=
+ss=3D"pre">volume</span></code> value. Nonetheless, it is useful for a <cod=
+e class=3D"docutils literal notranslate"><span class=3D"pre">Cuboid</span><=
+/code> to provide a read-only computed property to enable external users to=
+ discover its current calculated volume.</p>
+</div>
+</div>
+<div class=3D"section" id=3D"ID262">
+<h2>Property Observers<a class=3D"headerlink" href=3D"https://docs.swift.or=
+g/swift-book/LanguageGuide/Properties.html#ID262" title=3D"Permalink to thi=
+s headline">=C2=B6</a></h2>
+<p>Property observers observe and respond to changes in a property=E2=80=99=
+s value. Property observers are called every time a property=E2=80=99s valu=
+e is set, even if the new value is the same as the property=E2=80=99s curre=
+nt value.</p>
+<p>You can add property observers to any stored properties you define, exce=
+pt for lazy stored properties. You can also add property observers to any i=
+nherited property (whether stored or computed) by overriding the property w=
+ithin a subclass. You don=E2=80=99t need to define property observers for n=
+onoverridden computed properties, because you can observe and respond to ch=
+anges to their value in the computed property=E2=80=99s setter. Property ov=
+erriding is described in <a class=3D"reference internal" href=3D"https://do=
+cs.swift.org/swift-book/LanguageGuide/Inheritance.html#ID196"><span class=
+=3D"std std-ref">Overriding</span></a>.</p>
+<p>You have the option to define either or both of these observers on a pro=
+perty:</p>
+<ul class=3D"simple">
+<li><code class=3D"docutils literal notranslate"><span class=3D"pre">willSe=
+t</span></code> is called just before the value is stored.</li>
+<li><code class=3D"docutils literal notranslate"><span class=3D"pre">didSet=
+</span></code> is called immediately after the new value is stored.</li>
+</ul>
+<p>If you implement a <code class=3D"docutils literal notranslate"><span cl=
+ass=3D"pre">willSet</span></code> observer, it=E2=80=99s passed the new pro=
+perty value as a constant parameter. You can specify a name for this parame=
+ter as part of your <code class=3D"docutils literal notranslate"><span clas=
+s=3D"pre">willSet</span></code> implementation. If you don=E2=80=99t write =
+the parameter name and parentheses within your implementation, the paramete=
+r is made available with a default parameter name of <code class=3D"docutil=
+s literal notranslate"><span class=3D"pre">newValue</span></code>.</p>
+<p>Similarly, if you implement a <code class=3D"docutils literal notranslat=
+e"><span class=3D"pre">didSet</span></code> observer, it=E2=80=99s passed a=
+ constant parameter containing the old property value. You can name the par=
+ameter or use the default parameter name of <code class=3D"docutils literal=
+ notranslate"><span class=3D"pre">oldValue</span></code>. If you assign a v=
+alue to a property within its own <code class=3D"docutils literal notransla=
+te"><span class=3D"pre">didSet</span></code> observer, the new value that y=
+ou assign replaces the one that was just set.</p>
+<div class=3D"admonition note">
+<p class=3D"first admonition-title">Note</p>
+<p>The <code class=3D"docutils literal notranslate"><span class=3D"pre">wil=
+lSet</span></code> and <code class=3D"docutils literal notranslate"><span c=
+lass=3D"pre">didSet</span></code> observers of superclass properties are ca=
+lled when a property is set in a subclass initializer, after the superclass=
+ initializer has been called. They are not called while a class is setting =
+its own properties, before the superclass initializer has been called.</p>
+<p class=3D"last">For more information about initializer delegation, see <a=
+ class=3D"reference internal" href=3D"https://docs.swift.org/swift-book/Lan=
+guageGuide/Initialization.html#ID215"><span class=3D"std std-ref">Initializ=
+er Delegation for Value Types</span></a> and <a class=3D"reference internal=
+" href=3D"https://docs.swift.org/swift-book/LanguageGuide/Initialization.ht=
+ml#ID219"><span class=3D"std std-ref">Initializer Delegation for Class Type=
+s</span></a>.</p>
+</div>
+<p>Here=E2=80=99s an example of <code class=3D"docutils literal notranslate=
+"><span class=3D"pre">willSet</span></code> and <code class=3D"docutils lit=
+eral notranslate"><span class=3D"pre">didSet</span></code> in action. The e=
+xample below defines a new class called <code class=3D"docutils literal not=
+ranslate"><span class=3D"pre">StepCounter</span></code>, which tracks the t=
+otal number of steps that a person takes while walking. This class might be=
+ used with input data from a pedometer or other step counter to keep track =
+of a person=E2=80=99s exercise during their daily routine.</p>
+<div class=3D"highlight-swift notranslate"><div class=3D"code-sample"><div =
+class=3D"Swift highlight"><ol class=3D"code-lines"><li><span class=3D"k">cl=
+ass</span> <span class=3D"nv">StepCounter</span> {
+</li><li>    <span class=3D"k">var</span> <span class=3D"nv">totalSteps</sp=
+an>: <span class=3D"nc">Int</span> =3D <span class=3D"m">0</span> {
+</li><li>        <span class=3D"k">willSet</span>(<span class=3D"nv">newTot=
+alSteps</span>) {
+</li><li>            <span class=3D"nv">print</span>(<span class=3D"s">"Abo=
+ut to set totalSteps to </span>\<span class=3D"p">(</span><span class=3D"nv=
+">newTotalSteps</span><span class=3D"p">)</span><span class=3D"s">"</span>)
+</li><li>        }
+</li><li>        <span class=3D"k">didSet</span> {
+</li><li>            <span class=3D"k">if</span> <span class=3D"nv">totalSt=
+eps</span> &gt; <span class=3D"nv">oldValue</span>  {
+</li><li>                <span class=3D"nv">print</span>(<span class=3D"s">=
+"Added </span>\<span class=3D"p">(</span><span class=3D"nv">totalSteps</spa=
+n> - <span class=3D"nv">oldValue</span><span class=3D"p">)</span><span clas=
+s=3D"s"> steps"</span>)
+</li><li>            }
+</li><li>        }
+</li><li>    }
+</li><li>}
+</li><li><span class=3D"k">let</span> <span class=3D"nv">stepCounter</span>=
+ =3D <span class=3D"nv">StepCounter</span>()
+</li><li><span class=3D"nv">stepCounter</span>.<span class=3D"nv">totalStep=
+s</span> =3D <span class=3D"m">200</span>
+</li><li><span class=3D"c">// About to set totalSteps to 200</span>
+</li><li><span class=3D"c">// Added 200 steps</span>
+</li><li><span class=3D"nv">stepCounter</span>.<span class=3D"nv">totalStep=
+s</span> =3D <span class=3D"m">360</span>
+</li><li><span class=3D"c">// About to set totalSteps to 360</span>
+</li><li><span class=3D"c">// Added 160 steps</span>
+</li><li><span class=3D"nv">stepCounter</span>.<span class=3D"nv">totalStep=
+s</span> =3D <span class=3D"m">896</span>
+</li><li><span class=3D"c">// About to set totalSteps to 896</span>
+</li><li><span class=3D"c">// Added 536 steps</span>
+</li></ol></div></div></div>
+<p>The <code class=3D"docutils literal notranslate"><span class=3D"pre">Ste=
+pCounter</span></code> class declares a <code class=3D"docutils literal not=
+ranslate"><span class=3D"pre">totalSteps</span></code> property of type <co=
+de class=3D"docutils literal notranslate"><span class=3D"pre">Int</span></c=
+ode>. This is a stored property with <code class=3D"docutils literal notran=
+slate"><span class=3D"pre">willSet</span></code> and <code class=3D"docutil=
+s literal notranslate"><span class=3D"pre">didSet</span></code> observers.<=
+/p>
+<p>The <code class=3D"docutils literal notranslate"><span class=3D"pre">wil=
+lSet</span></code> and <code class=3D"docutils literal notranslate"><span c=
+lass=3D"pre">didSet</span></code> observers for <code class=3D"docutils lit=
+eral notranslate"><span class=3D"pre">totalSteps</span></code> are called w=
+henever the property is assigned a new value. This is true even if the new =
+value is the same as the current value.</p>
+<p>This example=E2=80=99s <code class=3D"docutils literal notranslate"><spa=
+n class=3D"pre">willSet</span></code> observer uses a custom parameter name=
+ of <code class=3D"docutils literal notranslate"><span class=3D"pre">newTot=
+alSteps</span></code> for the upcoming new value. In this example, it simpl=
+y prints out the value that is about to be set.</p>
+<p>The <code class=3D"docutils literal notranslate"><span class=3D"pre">did=
+Set</span></code> observer is called after the value of <code class=3D"docu=
+tils literal notranslate"><span class=3D"pre">totalSteps</span></code> is u=
+pdated. It compares the new value of <code class=3D"docutils literal notran=
+slate"><span class=3D"pre">totalSteps</span></code> against the old value. =
+If the total number of steps has increased, a message is printed to indicat=
+e how many new steps have been taken. The <code class=3D"docutils literal n=
+otranslate"><span class=3D"pre">didSet</span></code> observer does not prov=
+ide a custom parameter name for the old value, and the default name of <cod=
+e class=3D"docutils literal notranslate"><span class=3D"pre">oldValue</span=
+></code> is used instead.</p>
+<div class=3D"admonition note">
+<p class=3D"first admonition-title">Note</p>
+<p class=3D"last">If you pass a property that has observers to a function a=
+s an in-out parameter, the <code class=3D"docutils literal notranslate"><sp=
+an class=3D"pre">willSet</span></code> and <code class=3D"docutils literal =
+notranslate"><span class=3D"pre">didSet</span></code> observers are always =
+called. This is because of the copy-in copy-out memory model for in-out par=
+ameters: The value is always written back to the property at the end of the=
+ function. For a detailed discussion of the behavior of in-out parameters, =
+see <a class=3D"reference internal" href=3D"https://docs.swift.org/swift-bo=
+ok/ReferenceManual/Declarations.html#ID545"><span class=3D"std std-ref">In-=
+Out Parameters</span></a>.</p>
+</div>
+</div>
+<div class=3D"section" id=3D"ID263">
+<h2>Global and Local Variables<a class=3D"headerlink" href=3D"https://docs.=
+swift.org/swift-book/LanguageGuide/Properties.html#ID263" title=3D"Permalin=
+k to this headline">=C2=B6</a></h2>
+<p>The capabilities described above for computing and observing properties =
+are also available to <em>global variables</em> and <em>local variables</em=
+>. Global variables are variables that are defined outside of any function,=
+ method, closure, or type context. Local variables are variables that are d=
+efined within a function, method, or closure context.</p>
+<p>The global and local variables you have encountered in previous chapters=
+ have all been <em>stored variables</em>. Stored variables, like stored pro=
+perties, provide storage for a value of a certain type and allow that value=
+ to be set and retrieved.</p>
+<p>However, you can also define <em>computed variables</em> and define obse=
+rvers for stored variables, in either a global or local scope. Computed var=
+iables calculate their value, rather than storing it, and they are written =
+in the same way as computed properties.</p>
+<div class=3D"admonition note">
+<p class=3D"first admonition-title">Note</p>
+<p>Global constants and variables are always computed lazily, in a similar =
+manner to <a class=3D"reference internal" href=3D"https://docs.swift.org/sw=
+ift-book/LanguageGuide/Properties.html#ID257"><span class=3D"std std-ref">L=
+azy Stored Properties</span></a>. Unlike lazy stored properties, global con=
+stants and variables do not need to be marked with the <code class=3D"docut=
+ils literal notranslate"><span class=3D"pre">lazy</span></code> modifier.</=
+p>
+<p class=3D"last">Local constants and variables are never computed lazily.<=
+/p>
+</div>
+</div>
+<div class=3D"section" id=3D"ID264">
+<h2>Type Properties<a class=3D"headerlink" href=3D"https://docs.swift.org/s=
+wift-book/LanguageGuide/Properties.html#ID264" title=3D"Permalink to this h=
+eadline">=C2=B6</a></h2>
+<p>Instance properties are properties that belong to an instance of a parti=
+cular type. Every time you create a new instance of that type, it has its o=
+wn set of property values, separate from any other instance.</p>
+<p>You can also define properties that belong to the type itself, not to an=
+y one instance of that type. There will only ever be one copy of these prop=
+erties, no matter how many instances of that type you create. These kinds o=
+f properties are called <em>type properties</em>.</p>
+<p>Type properties are useful for defining values that are universal to <em=
+>all</em> instances of a particular type, such as a constant property that =
+all instances can use (like a static constant in C), or a variable property=
+ that stores a value that is global to all instances of that type (like a s=
+tatic variable in C).</p>
+<p>Stored type properties can be variables or constants. Computed type prop=
+erties are always declared as variable properties, in the same way as compu=
+ted instance properties.</p>
+<div class=3D"admonition note">
+<p class=3D"first admonition-title">Note</p>
+<p>Unlike stored instance properties, you must always give stored type prop=
+erties a default value. This is because the type itself does not have an in=
+itializer that can assign a value to a stored type property at initializati=
+on time.</p>
+<p class=3D"last">Stored type properties are lazily initialized on their fi=
+rst access. They are guaranteed to be initialized only once, even when acce=
+ssed by multiple threads simultaneously, and they do not need to be marked =
+with the <code class=3D"docutils literal notranslate"><span class=3D"pre">l=
+azy</span></code> modifier.</p>
+</div>
+<div class=3D"section" id=3D"ID265">
+<h3>Type Property Syntax<a class=3D"headerlink" href=3D"https://docs.swift.=
+org/swift-book/LanguageGuide/Properties.html#ID265" title=3D"Permalink to t=
+his headline">=C2=B6</a></h3>
+<p>In C and Objective-C, you define static constants and variables associat=
+ed with a type as <em>global</em> static variables. In Swift, however, type=
+ properties are written as part of the type=E2=80=99s definition, within th=
+e type=E2=80=99s outer curly braces, and each type property is explicitly s=
+coped to the type it supports.</p>
+<p>You define type properties with the <code class=3D"docutils literal notr=
+anslate"><span class=3D"pre">static</span></code> keyword. For computed typ=
+e properties for class types, you can use the <code class=3D"docutils liter=
+al notranslate"><span class=3D"pre">class</span></code> keyword instead to =
+allow subclasses to override the superclass=E2=80=99s implementation. The e=
+xample below shows the syntax for stored and computed type properties:</p>
+<div class=3D"highlight-swift notranslate"><div class=3D"code-sample"><div =
+class=3D"Swift highlight"><ol class=3D"code-lines"><li><span class=3D"k">st=
+ruct</span> <span class=3D"nv">SomeStructure</span> {
+</li><li>    <span class=3D"k">static</span> <span class=3D"k">var</span> <=
+span class=3D"nv">storedTypeProperty</span> =3D <span class=3D"s">"Some val=
+ue."</span>
+</li><li>    <span class=3D"k">static</span> <span class=3D"k">var</span> <=
+span class=3D"nv">computedTypeProperty</span>: <span class=3D"nc">Int</span=
+> {
+</li><li>        <span class=3D"k">return</span> <span class=3D"m">1</span>
+</li><li>    }
+</li><li>}
+</li><li><span class=3D"k">enum</span> <span class=3D"nv">SomeEnumeration</=
+span> {
+</li><li>    <span class=3D"k">static</span> <span class=3D"k">var</span> <=
+span class=3D"nv">storedTypeProperty</span> =3D <span class=3D"s">"Some val=
+ue."</span>
+</li><li>    <span class=3D"k">static</span> <span class=3D"k">var</span> <=
+span class=3D"nv">computedTypeProperty</span>: <span class=3D"nc">Int</span=
+> {
+</li><li>        <span class=3D"k">return</span> <span class=3D"m">6</span>
+</li><li>    }
+</li><li>}
+</li><li><span class=3D"k">class</span> <span class=3D"nv">SomeClass</span>=
+ {
+</li><li>    <span class=3D"k">static</span> <span class=3D"k">var</span> <=
+span class=3D"nv">storedTypeProperty</span> =3D <span class=3D"s">"Some val=
+ue."</span>
+</li><li>    <span class=3D"k">static</span> <span class=3D"k">var</span> <=
+span class=3D"nv">computedTypeProperty</span>: <span class=3D"nc">Int</span=
+> {
+</li><li>        <span class=3D"k">return</span> <span class=3D"m">27</span=
+>
+</li><li>    }
+</li><li>    <span class=3D"k">class</span> <span class=3D"k">var</span> <s=
+pan class=3D"nv">overrideableComputedTypeProperty</span>: <span class=3D"nc=
+">Int</span> {
+</li><li>        <span class=3D"k">return</span> <span class=3D"m">107</spa=
+n>
+</li><li>    }
+</li><li>}
+</li></ol></div></div></div>
+<div class=3D"admonition note">
+<p class=3D"first admonition-title">Note</p>
+<p class=3D"last">The computed type property examples above are for read-on=
+ly computed type properties, but you can also define read-write computed ty=
+pe properties with the same syntax as for computed instance properties.</p>
+</div>
+</div>
+<div class=3D"section" id=3D"ID266">
+<h3>Querying and Setting Type Properties<a class=3D"headerlink" href=3D"htt=
+ps://docs.swift.org/swift-book/LanguageGuide/Properties.html#ID266" title=
+=3D"Permalink to this headline">=C2=B6</a></h3>
+<p>Type properties are queried and set with dot syntax, just like instance =
+properties. However, type properties are queried and set on the <em>type</e=
+m>, not on an instance of that type. For example:</p>
+<div class=3D"highlight-swift notranslate"><div class=3D"code-sample"><div =
+class=3D"Swift highlight"><ol class=3D"code-lines"><li><span class=3D"nv">p=
+rint</span>(<span class=3D"nv">SomeStructure</span>.<span class=3D"nv">stor=
+edTypeProperty</span>)
+</li><li><span class=3D"c">// Prints "Some value."</span>
+</li><li><span class=3D"nv">SomeStructure</span>.<span class=3D"nv">storedT=
+ypeProperty</span> =3D <span class=3D"s">"Another value."</span>
+</li><li><span class=3D"nv">print</span>(<span class=3D"nv">SomeStructure</=
+span>.<span class=3D"nv">storedTypeProperty</span>)
+</li><li><span class=3D"c">// Prints "Another value."</span>
+</li><li><span class=3D"nv">print</span>(<span class=3D"nv">SomeEnumeration=
+</span>.<span class=3D"nv">computedTypeProperty</span>)
+</li><li><span class=3D"c">// Prints "6"</span>
+</li><li><span class=3D"nv">print</span>(<span class=3D"nv">SomeClass</span=
+>.<span class=3D"nv">computedTypeProperty</span>)
+</li><li><span class=3D"c">// Prints "27"</span>
+</li></ol></div></div></div>
+<p>The examples that follow use two stored type properties as part of a str=
+ucture that models an audio level meter for a number of audio channels. Eac=
+h channel has an integer audio level between <code class=3D"docutils litera=
+l notranslate"><span class=3D"pre">0</span></code> and <code class=3D"docut=
+ils literal notranslate"><span class=3D"pre">10</span></code> inclusive.</p=
+>
+<p>The figure below illustrates how two of these audio channels can be comb=
+ined to model a stereo audio level meter. When a channel=E2=80=99s audio le=
+vel is <code class=3D"docutils literal notranslate"><span class=3D"pre">0</=
+span></code>, none of the lights for that channel are lit. When the audio l=
+evel is <code class=3D"docutils literal notranslate"><span class=3D"pre">10=
+</span></code>, all of the lights for that channel are lit. In this figure,=
+ the left channel has a current level of <code class=3D"docutils literal no=
+translate"><span class=3D"pre">9</span></code>, and the right channel has a=
+ current level of <code class=3D"docutils literal notranslate"><span class=
+=3D"pre">7</span></code>:</p>
+<img alt=3D"../_images/staticPropertiesVUMeter_2x.png" class=3D"align-cente=
+r" src=3D"https://docs.swift.org/swift-book/_images/staticPropertiesVUMeter=
+_2x.png" style=3D"width: 243px;">
+<p>The audio channels described above are represented by instances of the <=
+code class=3D"docutils literal notranslate"><span class=3D"pre">AudioChanne=
+l</span></code> structure:</p>
+<div class=3D"highlight-swift notranslate"><div class=3D"code-sample"><div =
+class=3D"Swift highlight"><ol class=3D"code-lines"><li><span class=3D"k">st=
+ruct</span> <span class=3D"nv">AudioChannel</span> {
+</li><li>    <span class=3D"k">static</span> <span class=3D"k">let</span> <=
+span class=3D"nv">thresholdLevel</span> =3D <span class=3D"m">10</span>
+</li><li>    <span class=3D"k">static</span> <span class=3D"k">var</span> <=
+span class=3D"nv">maxInputLevelForAllChannels</span> =3D <span class=3D"m">=
+0</span>
+</li><li>    <span class=3D"k">var</span> <span class=3D"nv">currentLevel</=
+span>: <span class=3D"nc">Int</span> =3D <span class=3D"m">0</span> {
+</li><li>        <span class=3D"k">didSet</span> {
+</li><li>            <span class=3D"k">if</span> <span class=3D"nv">current=
+Level</span> &gt; <span class=3D"nv">AudioChannel</span>.<span class=3D"nv"=
+>thresholdLevel</span> {
+</li><li>                <span class=3D"c">// cap the new audio level to th=
+e threshold level</span>
+</li><li>                <span class=3D"nv">currentLevel</span> =3D <span c=
+lass=3D"nv">AudioChannel</span>.<span class=3D"nv">thresholdLevel</span>
+</li><li>            }
+</li><li>            <span class=3D"k">if</span> <span class=3D"nv">current=
+Level</span> &gt; <span class=3D"nv">AudioChannel</span>.<span class=3D"nv"=
+>maxInputLevelForAllChannels</span> {
+</li><li>                <span class=3D"c">// store this as the new overall=
+ maximum input level</span>
+</li><li>                <span class=3D"nv">AudioChannel</span>.<span class=
+=3D"nv">maxInputLevelForAllChannels</span> =3D <span class=3D"nv">currentLe=
+vel</span>
+</li><li>            }
+</li><li>        }
+</li><li>    }
+</li><li>}
+</li></ol></div></div></div>
+<p>The <code class=3D"docutils literal notranslate"><span class=3D"pre">Aud=
+ioChannel</span></code> structure defines two stored type properties to sup=
+port its functionality. The first, <code class=3D"docutils literal notransl=
+ate"><span class=3D"pre">thresholdLevel</span></code>, defines the maximum =
+threshold value an audio level can take. This is a constant value of <code =
+class=3D"docutils literal notranslate"><span class=3D"pre">10</span></code>=
+ for all <code class=3D"docutils literal notranslate"><span class=3D"pre">A=
+udioChannel</span></code> instances. If an audio signal comes in with a hig=
+her value than <code class=3D"docutils literal notranslate"><span class=3D"=
+pre">10</span></code>, it will be capped to this threshold value (as descri=
+bed below).</p>
+<p>The second type property is a variable stored property called <code clas=
+s=3D"docutils literal notranslate"><span class=3D"pre">maxInputLevelForAllC=
+hannels</span></code>. This keeps track of the maximum input value that has=
+ been received by <em>any</em> <code class=3D"docutils literal notranslate"=
+><span class=3D"pre">AudioChannel</span></code> instance. It starts with an=
+ initial value of <code class=3D"docutils literal notranslate"><span class=
+=3D"pre">0</span></code>.</p>
+<p>The <code class=3D"docutils literal notranslate"><span class=3D"pre">Aud=
+ioChannel</span></code> structure also defines a stored instance property c=
+alled <code class=3D"docutils literal notranslate"><span class=3D"pre">curr=
+entLevel</span></code>, which represents the channel=E2=80=99s current audi=
+o level on a scale of <code class=3D"docutils literal notranslate"><span cl=
+ass=3D"pre">0</span></code> to <code class=3D"docutils literal notranslate"=
+><span class=3D"pre">10</span></code>.</p>
+<p>The <code class=3D"docutils literal notranslate"><span class=3D"pre">cur=
+rentLevel</span></code> property has a <code class=3D"docutils literal notr=
+anslate"><span class=3D"pre">didSet</span></code> property observer to chec=
+k the value of <code class=3D"docutils literal notranslate"><span class=3D"=
+pre">currentLevel</span></code> whenever it is set. This observer performs =
+two checks:</p>
+<ul class=3D"simple">
+<li>If the new value of <code class=3D"docutils literal notranslate"><span =
+class=3D"pre">currentLevel</span></code> is greater than the allowed <code =
+class=3D"docutils literal notranslate"><span class=3D"pre">thresholdLevel</=
+span></code>, the property observer caps <code class=3D"docutils literal no=
+translate"><span class=3D"pre">currentLevel</span></code> to <code class=3D=
+"docutils literal notranslate"><span class=3D"pre">thresholdLevel</span></c=
+ode>.</li>
+<li>If the new value of <code class=3D"docutils literal notranslate"><span =
+class=3D"pre">currentLevel</span></code> (after any capping) is higher than=
+ any value previously received by <em>any</em> <code class=3D"docutils lite=
+ral notranslate"><span class=3D"pre">AudioChannel</span></code> instance, t=
+he property observer stores the new <code class=3D"docutils literal notrans=
+late"><span class=3D"pre">currentLevel</span></code> value in the <code cla=
+ss=3D"docutils literal notranslate"><span class=3D"pre">maxInputLevelForAll=
+Channels</span></code> type property.</li>
+</ul>
+<div class=3D"admonition note">
+<p class=3D"first admonition-title">Note</p>
+<p class=3D"last">In the first of these two checks, the <code class=3D"docu=
+tils literal notranslate"><span class=3D"pre">didSet</span></code> observer=
+ sets <code class=3D"docutils literal notranslate"><span class=3D"pre">curr=
+entLevel</span></code> to a different value. This does not, however, cause =
+the observer to be called again.</p>
+</div>
+<p>You can use the <code class=3D"docutils literal notranslate"><span class=
+=3D"pre">AudioChannel</span></code> structure to create two new audio chann=
+els called <code class=3D"docutils literal notranslate"><span class=3D"pre"=
+>leftChannel</span></code> and <code class=3D"docutils literal notranslate"=
+><span class=3D"pre">rightChannel</span></code>, to represent the audio lev=
+els of a stereo sound system:</p>
+<div class=3D"highlight-swift notranslate"><div class=3D"code-sample"><div =
+class=3D"Swift highlight"><ol class=3D"code-lines"><li><span class=3D"k">va=
+r</span> <span class=3D"nv">leftChannel</span> =3D <span class=3D"nv">Audio=
+Channel</span>()
+</li><li><span class=3D"k">var</span> <span class=3D"nv">rightChannel</span=
+> =3D <span class=3D"nv">AudioChannel</span>()
+</li></ol></div></div></div>
+<p>If you set the <code class=3D"docutils literal notranslate"><span class=
+=3D"pre">currentLevel</span></code> of the <em>left</em> channel to <code c=
+lass=3D"docutils literal notranslate"><span class=3D"pre">7</span></code>, =
+you can see that the <code class=3D"docutils literal notranslate"><span cla=
+ss=3D"pre">maxInputLevelForAllChannels</span></code> type property is updat=
+ed to equal <code class=3D"docutils literal notranslate"><span class=3D"pre=
+">7</span></code>:</p>
+<div class=3D"highlight-swift notranslate"><div class=3D"code-sample"><div =
+class=3D"Swift highlight"><ol class=3D"code-lines"><li><span class=3D"nv">l=
+eftChannel</span>.<span class=3D"nv">currentLevel</span> =3D <span class=3D=
+"m">7</span>
+</li><li><span class=3D"nv">print</span>(<span class=3D"nv">leftChannel</sp=
+an>.<span class=3D"nv">currentLevel</span>)
+</li><li><span class=3D"c">// Prints "7"</span>
+</li><li><span class=3D"nv">print</span>(<span class=3D"nv">AudioChannel</s=
+pan>.<span class=3D"nv">maxInputLevelForAllChannels</span>)
+</li><li><span class=3D"c">// Prints "7"</span>
+</li></ol></div></div></div>
+<p>If you try to set the <code class=3D"docutils literal notranslate"><span=
+ class=3D"pre">currentLevel</span></code> of the <em>right</em> channel to =
+<code class=3D"docutils literal notranslate"><span class=3D"pre">11</span><=
+/code>, you can see that the right channel=E2=80=99s <code class=3D"docutil=
+s literal notranslate"><span class=3D"pre">currentLevel</span></code> prope=
+rty is capped to the maximum value of <code class=3D"docutils literal notra=
+nslate"><span class=3D"pre">10</span></code>, and the <code class=3D"docuti=
+ls literal notranslate"><span class=3D"pre">maxInputLevelForAllChannels</sp=
+an></code> type property is updated to equal <code class=3D"docutils litera=
+l notranslate"><span class=3D"pre">10</span></code>:</p>
+<div class=3D"highlight-swift notranslate"><div class=3D"code-sample"><div =
+class=3D"Swift highlight"><ol class=3D"code-lines"><li><span class=3D"nv">r=
+ightChannel</span>.<span class=3D"nv">currentLevel</span> =3D <span class=
+=3D"m">11</span>
+</li><li><span class=3D"nv">print</span>(<span class=3D"nv">rightChannel</s=
+pan>.<span class=3D"nv">currentLevel</span>)
+</li><li><span class=3D"c">// Prints "10"</span>
+</li><li><span class=3D"nv">print</span>(<span class=3D"nv">AudioChannel</s=
+pan>.<span class=3D"nv">maxInputLevelForAllChannels</span>)
+</li><li><span class=3D"c">// Prints "10"</span>
+</li></ol></div></div></div>
+</div>
+</div>
+</div>
+
+
+    </article>
+    <div class=3D"next_previous">
+        <p class=3D"previous"><a href=3D"https://docs.swift.org/swift-book/=
+LanguageGuide/ClassesAndStructures.html">Structures and Classes</a></p>
+        <p class=3D"next"><a href=3D"https://docs.swift.org/swift-book/Lang=
+uageGuide/Methods.html">Methods</a></p>
+    </div>
+    <div class=3D"admonition-beta admonition">
+        <p class=3D"first admonition-title">Beta Software</p>
+        <p>
+          This documentation contains preliminary information about an API =
+or technology in development.
+          This information is subject to change, and software implemented a=
+ccording to this documentation should be tested with final operating system=
+ software.
+        </p>
+        <p class=3D"last"><a class=3D"reference external" href=3D"https://d=
+eveloper.apple.com/support/beta-software/">Learn more about using Apple's b=
+eta software</a></p>
+    </div>
+</main>
+
+
+<footer role=3D"contentinfo">
+  <aside>
+    <a href=3D"https://swift.org/atom.xml" title=3D"Subscribe to Site Updat=
+es"><i class=3D"feed">Subscribe</i></a>
+    <a href=3D"https://twitter.com/swiftlang" rel=3D"nofollow" title=3D"Fol=
+low @SwiftLang on Twitter"><i class=3D"twitter">Twitter</i></a>
+  </aside>
+
+  <p class=3D"copyright">Copyright =C2=A9 2019 Apple Inc. All rights reserv=
+ed.</p>
+  <p class=3D"trademark">Swift and the Swift logo are trademarks of Apple I=
+nc.</p>
+  <p class=3D"privacy">
+    <a href=3D"https://www.apple.com/privacy/privacy-policy/">Privacy Polic=
+y</a>
+    <a href=3D"https://www.apple.com/legal/privacy/en-ww/cookies/">Cookies<=
+/a>
+  </p>
+</footer>
+<div id=3D"jump_to_overlay"></div>
+
+ =20
+
+<span id=3D"buffer-extension-hover-button" style=3D"display: none; position=
+: absolute; z-index: 8675309; width: 100px; height: 25px; background-image:=
+ url(&quot;chrome-extension://noojglkidnpfjbincgijbaiedldjfbhh/data/shared/=
+img/buffer-hover-icon@2x.png&quot;); background-size: 100px 25px; opacity: =
+0.9; cursor: pointer;"></span><div id=3D"syno-nsc-ext-comp-1008" class=3D" =
+x-tip-invalid" style=3D"position: absolute; z-index: 11000; visibility: hid=
+den; display: none;"><div class=3D"x-tip-invalid-tl"><div class=3D"x-tip-in=
+valid-tr"><div class=3D"x-tip-invalid-tc"><div class=3D"x-tip-invalid-heade=
+r x-unselectable" id=3D"syno-nsc-ext-gen4"><span class=3D"x-tip-invalid-hea=
+der-text"></span></div></div></div></div><div class=3D"x-tip-invalid-bwrap"=
+ id=3D"syno-nsc-ext-gen5"><div class=3D"x-tip-invalid-ml"><div class=3D"x-t=
+ip-invalid-mr"><div class=3D"x-tip-invalid-mc" id=3D"syno-nsc-ext-gen8"><di=
+v class=3D"x-tip-invalid-body" id=3D"syno-nsc-ext-gen6" style=3D"height: au=
+to;"></div></div></div></div><div class=3D"x-tip-invalid-bl x-panel-nofoote=
+r" id=3D"syno-nsc-ext-gen7"><div class=3D"x-tip-invalid-br"><div class=3D"x=
+-tip-invalid-bc"></div></div></div></div><div class=3D"x-tip-anchor x-tip-a=
+nchor-top" id=3D"syno-nsc-ext-gen9" style=3D"z-index: 11001;"></div></div><=
+/body></html>
+------MultipartBoundary--f9LTJPDjGEa4x3KXxrJO5hGw3oasyO51EUlneAb4cL----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://docs.swift.org/swift-book/_static/stylesheets/application.css
+
+@charset "utf-8";
+
+html { font-size: 100%; text-size-adjust: 100%; }
+
+body { margin: 0px; padding: 0px; }
+
+ul, ol, li, dl, dt, dd, h1, h2, h3, h4, h5, h6, hgroup, p, blockquote, figu=
+re, form, fieldset, input, legend, pre, abbr { margin: 0px; padding: 0px; }
+
+pre, code, address, caption, th, figcaption { font-size: 1em; font-weight: =
+normal; font-style: normal; }
+
+fieldset, iframe, img { border: none; }
+
+caption, th { text-align: left; }
+
+table { border-collapse: collapse; border-spacing: 0px; }
+
+article, aside, footer, header, nav, main, section, summary, details, hgrou=
+p, figure, figcaption { display: block; }
+
+audio, canvas, video, progress { display: inline-block; vertical-align: bas=
+eline; }
+
+button { font: inherit; vertical-align: middle; }
+
+.highlight { background: rgb(255, 255, 255); }
+
+.highlight .c, .highlight .cm, .highlight .cp, .highlight .c1, .highlight .=
+cs { color: rgb(0, 116, 0); }
+
+.highlight .k, .highlight .kc, .highlight .kd, .highlight .kp, .highlight .=
+kr, .highlight .nb { color: rgb(170, 13, 145); }
+
+.highlight .kt { color: rgb(63, 110, 116); }
+
+.highlight .err { color: rgb(166, 23, 23); }
+
+.highlight .o { font-weight: bold; }
+
+.highlight .gd { color: rgb(0, 0, 0); background-color: rgb(255, 221, 221);=
+ }
+
+.highlight .gd .x { color: rgb(0, 0, 0); background-color: rgb(255, 170, 17=
+0); }
+
+.highlight .ge { font-style: italic; }
+
+.highlight .gr { color: rgb(170, 0, 0); }
+
+.highlight .gh { color: rgb(153, 153, 153); }
+
+.highlight .gi { color: rgb(0, 0, 0); background-color: rgb(221, 255, 221);=
+ }
+
+.highlight .gi .x { color: rgb(0, 0, 0); background-color: rgb(170, 255, 17=
+0); }
+
+.highlight .go { color: rgb(136, 136, 136); }
+
+.highlight .gp { color: rgb(85, 85, 85); }
+
+.highlight .gs { font-weight: bold; }
+
+.highlight .gu { color: rgb(170, 170, 170); }
+
+.highlight .gt { color: rgb(170, 0, 0); }
+
+.highlight .m, .highlight .mf, .highlight .mh, .highlight .mi, .highlight .=
+mo { color: rgb(28, 0, 207); }
+
+.highlight .s { color: rgb(196, 26, 22); }
+
+.highlight .na { color: teal; }
+
+.highlight .nc { color: rgb(92, 38, 153); }
+
+.highlight .no { color: teal; }
+
+.highlight .ni { color: purple; }
+
+.highlight .ne { color: rgb(153, 0, 0); }
+
+.highlight .nn { color: rgb(85, 85, 85); }
+
+.highlight .nt { color: navy; }
+
+.highlight .nv, .highlight .nf { color: rgb(63, 110, 116); }
+
+.highlight .ow { font-weight: bold; }
+
+.highlight .w { color: rgb(187, 187, 187); }
+
+.highlight .sb { color: rgb(221, 17, 68); }
+
+.highlight .sc { color: rgb(221, 17, 68); }
+
+.highlight .sd { color: rgb(221, 17, 68); }
+
+.highlight .s2 { color: rgb(221, 17, 68); }
+
+.highlight .se { color: rgb(221, 17, 68); }
+
+.highlight .sh { color: rgb(221, 17, 68); }
+
+.highlight .si { color: rgb(221, 17, 68); }
+
+.highlight .sx { color: rgb(221, 17, 68); }
+
+.highlight .sr { color: rgb(0, 153, 38); }
+
+.highlight .s1 { color: rgb(221, 17, 68); }
+
+.highlight .ss { color: rgb(153, 0, 115); }
+
+.highlight .bp { color: rgb(153, 153, 153); }
+
+.highlight .vc { color: teal; }
+
+.highlight .vg { color: teal; }
+
+.highlight .vi { color: teal; }
+
+.highlight .il { color: rgb(0, 153, 153); }
+
+*, ::before, ::after { box-sizing: border-box; }
+
+html, body { height: 100%; }
+
+body { font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", He=
+lvetica, Arial, Verdana, sans-serif; font-size: 18px; line-height: 1.5; col=
+or: rgb(51, 51, 51); font-weight: 300; }
+
+body pre, body code { font-family: Menlo, Consolas, Monaco, "Courier New", =
+monospace, serif; }
+
+a:link { color: rgb(0, 136, 204); text-decoration: none; }
+
+a:visited { color: rgb(119, 102, 204); }
+
+a:active { color: rgb(0, 136, 204); }
+
+a:hover { color: rgb(0, 136, 204); text-decoration: underline; }
+
+p { margin-bottom: 1.5em; }
+
+h1 { margin-bottom: 0.8em; font-size: 3em; font-weight: 300; line-height: 1=
+; }
+
+h1.active + .main-nav { border-top: 1px solid rgb(51, 51, 51); }
+
+h2 { margin-bottom: 0.5em; font-size: 2.5em; font-weight: 300; line-height:=
+ 1; }
+
+h3 { margin-bottom: 0.5em; font-size: 1.5em; font-weight: 300; line-height:=
+ 1; }
+
+h4 { margin-bottom: 0.5em; font-size: 1.25em; font-weight: 300; line-height=
+: 1.2; }
+
+h5 { margin-bottom: 0.5em; font-size: 1.175em; font-weight: 500; line-heigh=
+t: 1.4; }
+
+h6 { margin-bottom: 0.5em; font-size: 1em; font-weight: 700; line-height: 1=
+.5; }
+
+pre { font-size: 14px; line-height: 18px; border-left: 3px solid rgb(239, 8=
+1, 56); margin: 0.5em 0.5em 1.5em 10px; padding: 0.5em 0.5em 0.5em 1em; ove=
+rflow: scroll; }
+
+p > code, li > code, dd > code, blockquote > code, td > code { color: rgb(0=
+, 0, 0); padding: 3px 8px; font-size: 14px; white-space: nowrap; border: 1p=
+x solid rgb(229, 229, 229); background-color: rgb(247, 247, 247); }
+
+hr { border-right: none; border-bottom: none; border-left: none; border-ima=
+ge: initial; border-top: 1px solid rgb(243, 243, 243); margin: 2em 0px; }
+
+hr:last-child { display: none; }
+
+details { margin-bottom: 2em; }
+
+details :first-child { margin-top: 1.5em; }
+
+cite { display: block; }
+
+cite::before { content: "=E2=80=94 "; }
+
+#logo { text-indent: -9999px; height: 48px; width: 100%; margin-top: 20px; =
+margin-bottom: 0.5em; padding-bottom: 10px; }
+
+#logo a { display: block; width: 190px; height: 48px; background-image: url=
+("../images/swift.svg"); background-repeat: no-repeat; background-size: 190=
+px 48px; background-position-x: -8px; }
+
+nav[role=3D"navigation"] { width: 250px; position: fixed; overflow: scroll;=
+ left: 0px; top: 0px; bottom: 0px; background: rgb(250, 250, 250); border-r=
+ight: 1px solid rgb(230, 230, 230); padding: 20px 30px; }
+
+nav[role=3D"navigation"] ul { border-top: 1px solid rgb(230, 230, 230); fon=
+t-weight: 400; margin-bottom: 30px; list-style: none; }
+
+nav[role=3D"navigation"] ul ul { list-style: none; }
+
+nav[role=3D"navigation"] ul li { border-bottom: 1px solid rgb(230, 230, 230=
+); }
+
+nav[role=3D"navigation"] ul li.active { border-bottom: 1px solid rgb(51, 51=
+, 51); }
+
+nav[role=3D"navigation"] ul li.active a { font-weight: 700; }
+
+nav[role=3D"navigation"] ul li a:link { color: rgb(51, 51, 51); text-decora=
+tion: none; text-transform: uppercase; letter-spacing: 1px; font-size: 12px=
+; display: block; padding: 10px; }
+
+nav[role=3D"navigation"] ul li a:visited { color: rgb(51, 51, 51); }
+
+nav[role=3D"navigation"] ul li a:active { font-weight: 700; }
+
+nav[role=3D"navigation"] ul li a:hover { color: rgb(0, 136, 204); }
+
+nav[role=3D"navigation"] ul li ul { margin-bottom: 10px; border-top: none; =
+}
+
+nav[role=3D"navigation"] ul li ul li { border-bottom: none; padding: 0.1em;=
+ }
+
+nav[role=3D"navigation"] ul li ul li.active { border-bottom: none; }
+
+nav[role=3D"navigation"] ul li ul li.active a { font-weight: 700; }
+
+nav[role=3D"navigation"] ul li ul a:link { color: rgb(0, 136, 204); text-de=
+coration: none; text-transform: none; letter-spacing: 0px; font-size: 12px;=
+ display: block; margin-left: 15px; padding: 0px 0px 3px; border-bottom: no=
+ne; font-weight: 300; }
+
+nav[role=3D"navigation"] ul li ul a:hover { text-decoration: underline; }
+
+nav[role=3D"navigation"] h2 { font-size: 0.75em; font-weight: 600; text-tra=
+nsform: lowercase; font-variant: small-caps; color: rgb(153, 153, 153); pad=
+ding-bottom: 0.5em; }
+
+main { max-width: 798px; min-width: 320px; margin-left: 250px; padding: 35p=
+x 30px 0px; min-height: 100%; height: auto !important; }
+
+footer[role=3D"contentinfo"] { background: rgb(51, 51, 51); color: white; p=
+adding: 20px 30px; margin-left: 250px; min-height: 74px; }
+
+footer[role=3D"contentinfo"] p { font-size: 0.625em; color: rgb(204, 204, 2=
+04); line-height: 1em; margin-bottom: 1em; }
+
+footer[role=3D"contentinfo"] p.privacy a { color: rgb(204, 204, 204); borde=
+r-right: 1px solid rgb(204, 204, 204); margin-right: 6px; padding-right: 8p=
+x; }
+
+footer[role=3D"contentinfo"] p.privacy a:last-child { border: none; margin:=
+ 0px; padding: 0px; }
+
+footer[role=3D"contentinfo"] aside { position: relative; width: 100%; max-w=
+idth: 700px; margin-right: 68px; }
+
+footer[role=3D"contentinfo"] aside i { width: 16px; height: 16px; backgroun=
+d-repeat: no-repeat; background-size: 16px; display: block; margin-left: 1e=
+m; float: right; text-indent: -5000em; }
+
+footer[role=3D"contentinfo"] aside i.twitter { background-image: url("../im=
+ages/icon-twitter.svg"); }
+
+footer[role=3D"contentinfo"] aside i.feed { background-image: url("../image=
+s/icon-feed.svg"); }
+
+article:first-of-type { padding-bottom: 36px; }
+
+article h2 { padding-top: 1.1em; }
+
+article h3 { padding-top: 1em; }
+
+article h4 { padding-top: 1em; border-bottom: 1px solid rgb(243, 243, 243);=
+ padding-bottom: 0.5em; }
+
+article h5 { margin-top: 1em; }
+
+article header { width: 100%; display: inline-block; padding-bottom: 3em; }
+
+article header h1 { padding-bottom: 0.125em; }
+
+article header .byline { float: left; font-size: 14px; margin-left: 3em; }
+
+article header .byline img { width: 32px; height: 32px; border-radius: 50%;=
+ border: 1px solid rgb(204, 204, 204); position: absolute; margin-right: 0.=
+25em; margin-top: -6px; }
+
+article header .byline span { padding-left: 42px; }
+
+article header time { float: left; text-transform: uppercase; font-size: 14=
+px; font-weight: 400; color: rgb(170, 170, 170); }
+
+article header .tags { display: block; font-size: 12px; font-weight: 400; m=
+argin-top: 0px; }
+
+article:not(:first-of-type) { border-top: 1px solid rgb(230, 230, 230); pad=
+ding: 36px 0px; }
+
+article blockquote { border-left: 3px solid rgb(195, 195, 195); margin: 0.5=
+em 0.5em 1.5em 10px; padding: 0.5em 0.5em 0.5em 1em; color: rgb(51, 51, 51)=
+; }
+
+article ul, article ol { padding-left: 40px; margin: 1em 0px; }
+
+article ul ul, article ul ol, article ol ul, article ol ol { margin: 0px; }
+
+article ul { list-style: disc; }
+
+article ul ul { list-style: circle; }
+
+article ul ul ul { list-style: square; }
+
+article ol { list-style: decimal; }
+
+article dl { margin: 2em 0px 1em; }
+
+article dl dt { display: block; }
+
+article dl dd { margin: 0px 0px 1em 1em; }
+
+article table { width: auto; min-width: 68%; margin: 2em auto 3em; border-c=
+ollapse: separate; border: 1px solid rgb(227, 227, 227); }
+
+article table th { background: rgb(250, 250, 250); font-weight: 700; text-a=
+lign: center; }
+
+article table th, article table td { padding: 0.5em 1.5em; border-bottom: 1=
+px solid rgb(243, 243, 243); }
+
+article table th:not(:first-child), article table td:not(:first-child) { bo=
+rder-left: 1px solid rgb(243, 243, 243); }
+
+article table tr:last-child td { border-bottom: none; }
+
+article details { margin-top: 0px; cursor: pointer; }
+
+article details summary { padding-bottom: 0.5em; outline: none; margin-top:=
+ 0px; }
+
+article details summary::after { content: "Expand"; text-transform: lowerca=
+se; font-variant: small-caps; border-bottom: 1px dashed rgb(204, 204, 204);=
+ }
+
+article details[open] summary::after { content: "Collapse"; }
+
+article details[open] :not(summary) { cursor: auto; }
+
+article details.download { margin-top: 0px; cursor: pointer; }
+
+article details.download summary { padding-bottom: 0.5em; outline: none; ma=
+rgin-top: 0px; }
+
+article details.download summary::after { content: none; text-transform: lo=
+wercase; font-variant: small-caps; border-bottom: 1px dashed rgb(204, 204, =
+204); }
+
+article details.download[open] summary::after { content: none; }
+
+article details.download[open] :not(summary) { cursor: auto; }
+
+article > details { margin-left: 40px; }
+
+article .good pre, article pre.good { background: rgb(230, 255, 229); borde=
+r-color: rgb(192, 255, 188); }
+
+article .good pre::before, article pre.good::before { content: "=E2=9C=85";=
+ float: right; }
+
+article .bad pre, article pre.bad { background: rgb(249, 226, 228); border-=
+color: rgb(246, 183, 190); }
+
+article .bad pre::before, article pre.bad::before { content: "=E2=9B=94=EF=
+=B8=8F"; float: right; }
+
+article footer { margin: 4em 0px 0px; padding: 1.5em 0px 1em; border-top: 1=
+px solid rgb(243, 243, 243); }
+
+article footer::after { content: ""; display: table; clear: both; }
+
+article footer nav [rel=3D"prev"] { width: 45%; float: left; text-align: le=
+ft; }
+
+article footer nav [rel=3D"prev"]::before { content: "=E2=86=90 "; }
+
+article footer nav [rel=3D"next"] { width: 45%; float: right; text-align: r=
+ight; }
+
+article footer nav [rel=3D"next"]::after { content: " =E2=86=92"; }
+
+.title a:link, .title a:visited { color: rgb(51, 51, 51); }
+
+.alert, .success, .info, .warning, .danger { border-width: 1px; border-styl=
+e: solid; padding: 0.5em; margin: 0.5em 0px 1.5em; }
+
+.alert p:first-child, .success p:first-child, .info p:first-child, .warning=
+ p:first-child, .danger p:first-child { margin-top: 0px; }
+
+.alert p:last-child, .success p:last-child, .info p:last-child, .warning p:=
+last-child, .danger p:last-child { margin-bottom: 0px; }
+
+.alert code, .success code, .info code, .warning code, .danger code { borde=
+r: none; background: transparent; padding: 0px; }
+
+code { white-space: pre-line; }
+
+pre code { white-space: inherit; }
+
+pre code .graphic { font-size: 19px; line-height: 0; }
+
+pre code .commentary, pre code .graphic { font-family: "Helvetica Neue", He=
+lvetica, Arial, Verdana, sans-serif; }
+
+@supports (overflow: -webkit-marquee) and (justify-content: inherit) {
+  .alert::before, .success::before, .info::before, .warning::before, .dange=
+r::before { font-size: 1em; float: left; clear: left; padding-left: 0.125em=
+; width: 2em; }
+  .alert p, .success p, .info p, .warning p, .danger p { padding-left: 2em;=
+ }
+  .success::before { content: "=E2=9C=85"; }
+  .info::before { content: "=E2=84=B9=EF=B8=8F"; }
+  .warning::before { content: "=E2=9A=A0=EF=B8=8F"; }
+  .danger::before { content: "=E2=9D=97=EF=B8=8F"; }
+}
+
+.success { border-color: rgb(20, 158, 57); background-color: rgb(224, 255, =
+232); }
+
+.info { border-color: rgb(19, 156, 254); background-color: rgb(222, 240, 25=
+3); }
+
+.warning { border-color: rgb(255, 255, 16); background-color: rgb(255, 255,=
+ 235); }
+
+.danger { border-color: rgb(213, 0, 27); background-color: rgb(254, 225, 22=
+6); }
+
+table.downloads { width: 100%; table-layout: fixed; }
+
+table.downloads th { font-size: 0.75em; }
+
+table.downloads .platform { width: 40%; }
+
+table.downloads .download { width: 60%; }
+
+table.downloads .download a.debug, table.downloads .download a.signature { =
+font-size: 0.7em; display: block; }
+
+table.downloads .download a { font-weight: 700; font-size: 1em; }
+
+table.downloads .download a:not([download]) { font-weight: 400; }
+
+table.downloads .download a:not([download])::before { content: "("; }
+
+table.downloads .download a:not([download])::after { content: ")"; }
+
+article input.detail[type=3D"checkbox"] { visibility: hidden; cursor: point=
+er; height: 0px; width: 100%; margin-bottom: 2em; display: block; font-size=
+: inherit; font-style: inherit; font-weight: inherit; font-family: inherit;=
+ position: relative; top: -0.85rem; }
+
+article p + input.detail[type=3D"checkbox"] { margin-top: auto; }
+
+article .screenonly { display: none; }
+
+@media screen {
+  article .screenonly { display: inherit; }
+  article input.detail[type=3D"checkbox"]::before { content: "=E2=96=B6 "; =
+visibility: visible; font-size: 80%; }
+  article input.detail[type=3D"checkbox"]::after { text-transform: lowercas=
+e; font-variant: small-caps; border-bottom: 1px dashed rgb(204, 204, 204); =
+color: rgb(102, 102, 102); content: "More detail"; visibility: visible; }
+  article input.detail[type=3D"checkbox"]:checked::before { content: "=E2=
+=96=BC "; }
+  article input.detail[type=3D"checkbox"]:checked::after { content: "Less d=
+etail"; }
+  article input.detail[type=3D"checkbox"] + .more { transition: opacity 0.5=
+s ease 0s, max-height 0.5s ease 0s; }
+  article input.detail[type=3D"checkbox"]:checked + .more { visibility: vis=
+ible; max-height: 1000rem; }
+  article input.detail[type=3D"checkbox"]:not(:checked) + .more { overflow:=
+ hidden; max-height: 0px; opacity: 0; }
+}
+
+article .more > p:first-of-type { margin-top: 0px; }
+
+@media only screen and (max-width: 767px) {
+  nav[role=3D"navigation"] { width: 100%; position: relative; background: r=
+gb(250, 250, 250); border-bottom: 1px solid rgb(230, 230, 230); border-righ=
+t: none; padding: 20px 30px; overflow: hidden; }
+  nav[role=3D"navigation"].open > * { display: block; }
+  nav[role=3D"navigation"] > h2, nav[role=3D"navigation"] ul { display: non=
+e; }
+  .menu-toggle { float: right; content: " "; height: 20px; width: 20px; bac=
+kground-image: url("../images/icon-close.svg"); background-repeat: no-repea=
+t; background-position: center center; background-size: 21px 21px; margin-t=
+op: -48px; margin-right: 12px; cursor: pointer; }
+  .menu-toggle.open { background-image: url("../images/icon-menu.svg"); }
+  #logo a { width: 198px; margin: 0px auto; }
+  main { max-width: 100%; min-width: 320px; margin-left: 0px; padding: 30px=
+ 30px 0px; }
+  footer[role=3D"contentinfo"] { margin-left: 0px; }
+  h1 { font-size: 48px; font-weight: 200; line-height: 1; }
+  h2 { font-size: 40px; font-weight: 300; line-height: 1.1; }
+  h3 { font-size: 38px; font-weight: 300; line-height: 1.1; }
+  h4 { font-size: 36px; font-weight: 300; line-height: 1.2; }
+  h5 { font-size: 24px; font-weight: 500; line-height: 1.4; }
+  h6 { font-size: 18px; font-weight: 700; line-height: 1.5; }
+  table.downloads { border: 1px solid rgb(243, 243, 243); }
+  table.downloads, table.downloads thead, table.downloads tbody, table.down=
+loads th, table.downloads td, table.downloads tr { display: block !importan=
+t; }
+  table.downloads thead tr { position: absolute; top: -9999px; left: -9999p=
+x; }
+  table.downloads tr { border: 1px solid rgb(243, 243, 243); }
+  table.downloads td { position: relative; padding-left: 35%; border-left: =
+none !important; border-right: none !important; border-bottom: 1px solid rg=
+b(243, 243, 243) !important; width: 100% !important; }
+  table.downloads td::before { position: absolute; top: 0.5em; left: 0.5em;=
+ width: 27.5%; padding-right: 10px; white-space: nowrap; text-align: right;=
+ }
+  table.downloads td.platform::before { content: "Platform"; }
+  table.downloads td.download::before { content: "Download"; top: 1em; }
+  table.downloads td.date::before { content: "Date"; }
+}
+
+@media only print {
+  html body { background: white; font-size: 12pt; padding: 0.5in; }
+  html body * { -webkit-print-color-adjust: exact; }
+  a { color: black !important; text-decoration: underline !important; }
+  h1, h2, h3, h4, h5, h6, p, article > div, pre, table { break-inside: avoi=
+d; }
+  details:not([open]) { visibility: visible; }
+  details:not([open]) summary { display: none !important; }
+  details:not([open]) > *, details:not([open]) { display: block; }
+  .alert, .success, .info, .warning, .danger { margin: 1.5em 0px; }
+  main { width: auto; padding: 0px; border: 0px; color: black; background: =
+transparent; margin: 0px; max-width: 100%; min-height: 1in; float: none !im=
+portant; }
+  nav[role=3D"navigation"] { background: transparent; border: none; width: =
+auto; position: static; padding: 0px; }
+  nav[role=3D"navigation"] h2, nav[role=3D"navigation"] ul { display: none;=
+ }
+  nav[role=3D"navigation"] #logo { position: static; margin-bottom: 1.5em; =
+}
+  nav[role=3D"navigation"] #logo a { background-position: -15px center; }
+  footer[role=3D"contentinfo"] { display: none; }
+}
+------MultipartBoundary--f9LTJPDjGEa4x3KXxrJO5hGw3oasyO51EUlneAb4cL----
+Content-Type: image/svg+xml
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://docs.swift.org/swift-book/_static/images/swift.svg
+
+<?xml version=3D"1.0" encoding=3D"iso-8859-1"?>
+<svg version=3D"1.1" id=3D"artwork" xmlns=3D"http://www.w3.org/2000/svg" xm=
+lns:xlink=3D"http://www.w3.org/1999/xlink" x=3D"0px" y=3D"0px"
+	 width=3D"191.1856px" height=3D"59.3911px" viewBox=3D"0 0 191.1856 59.3911=
+" enable-background=3D"new 0 0 191.1856 59.3911"
+	 xml:space=3D"preserve">
+<g>
+	<g>
+		<path fill=3D"#F05138" d=3D"M59.3867,16.4501c-0.0035-0.5973-0.0101-1.1943=
+-0.0266-1.7923c-0.0348-1.3008-0.1117-2.6134-0.3429-3.9003
+			c-0.2346-1.3069-0.6181-2.5221-1.2225-3.7093c-0.5933-1.1659-1.3689-2.2328=
+-2.2941-3.158
+			c-0.925-0.9252-1.9919-1.7007-3.1583-2.2943c-1.1862-0.6037-2.4016-0.9871-=
+3.7073-1.2217
+			c-1.2876-0.2319-2.6002-0.3083-3.902-0.3435c-0.5977-0.0162-1.1948-0.023-1=
+.7923-0.0267C42.2315,0,41.5218,0,40.8128,0H25.0912
+			h-6.5131c-0.7097,0-1.4186,0-2.1276,0.0041c-0.5977,0.0037-1.1955,0.0105-1=
+.7923,0.0267
+			c-0.3254,0.0088-0.6515,0.0202-0.9778,0.0359c-0.9788,0.0472-1.9591,0.1337=
+-2.9243,0.3076
+			c-0.9793,0.176-1.9079,0.4356-2.8113,0.8091C7.6437,1.3078,7.3453,1.445,7.=
+0487,1.5959C6.1739,2.0411,5.3549,2.5886,4.61,3.2248
+			c-0.2483,0.2121-0.4884,0.434-0.7196,0.6653c-0.9254,0.9252-1.701,1.9921-2=
+.2943,3.158
+			c-0.6044,1.1872-0.9874,2.4024-1.2222,3.7093c-0.231,1.2869-0.3078,2.5995-=
+0.3428,3.9003
+			c-0.0164,0.598-0.0233,1.195-0.0272,1.7923C-0.0006,17.1594,0,17.8689,0,18=
+.5781V28.26v12.5525
+			c0,0.7099-0.0007,1.4187,0.0039,2.1286c0.0039,0.5973,0.0108,1.1943,0.0272=
+,1.7913c0.035,1.3015,0.1117,2.6144,0.3428,3.9007
+			c0.2348,1.3065,0.6178,2.5228,1.2222,3.7097c0.5933,1.1662,1.3689,2.2328,2=
+.2943,3.1576c0.9247,0.9256,1.9919,1.701,3.1584,2.295
+			c1.1863,0.6038,2.4016,0.9867,3.7076,1.2213c1.2868,0.2316,2.6004,0.3086,3=
+.9019,0.3434c0.5968,0.0159,1.1946,0.023,1.7923,0.0264
+			c0.709,0.0051,1.4179,0.0044,2.1276,0.0044h22.2346c0.709,0,1.4187,0.0007,=
+2.1278-0.0044
+			c0.5975-0.0034,1.1946-0.0105,1.7923-0.0264c1.3018-0.0348,2.6144-0.1119,3=
+.902-0.3434c1.3057-0.2346,2.5211-0.6176,3.7073-1.2213
+			c1.1664-0.5939,2.2333-1.3694,3.1583-2.295c0.9252-0.9249,1.7009-1.9914,2.=
+2941-3.1576c0.6044-1.1869,0.9879-2.4031,1.2225-3.7097
+			c0.2312-1.2863,0.3081-2.5992,0.3429-3.9007c0.0164-0.597,0.023-1.1939,0.0=
+266-1.7913c0.0046-0.7099,0.0042-1.4187,0.0042-2.1286
+			V18.5781C59.3909,17.8689,59.3912,17.1594,59.3867,16.4501z"/>
+		<path fill=3D"#FFFFFF" d=3D"M47.0606,36.6607c-0.0014-0.0018-0.0027-0.0031=
+-0.0042-0.0048c0.0657-0.2236,0.1335-0.4458,0.191-0.675
+			c2.465-9.8209-3.5511-21.4319-13.7316-27.5454c4.4613,6.0479,6.4339,13.373=
+3,4.6813,19.7795
+			c-0.1563,0.5714-0.3442,1.1198-0.5519,1.6528c-0.2254-0.1481-0.5094-0.3162=
+-0.8908-0.5265c0,0-10.1269-6.2527-21.1028-17.3122
+			c-0.288-0.2903,5.8528,8.777,12.8219,16.1399c-3.2834-1.8427-12.4338-8.500=
+4-18.2266-13.8023
+			c0.7117,1.1869,1.5582,2.3298,2.4887,3.4301c4.8375,6.1349,11.1462,13.7044=
+,18.7043,19.5169
+			c-5.3104,3.2498-12.8141,3.5025-20.2852,0.0034c-1.8479-0.866-3.5851-1.910=
+9-5.1932-3.0981
+			c3.1625,5.0585,8.0332,9.4229,13.9613,11.9708c7.0695,3.0381,14.0996,2.832=
+1,19.3356,0.0498l-0.0041,0.006
+			c0.0239-0.0151,0.0543-0.0316,0.0791-0.0469c0.215-0.1156,0.4284-0.2333,0.=
+6371-0.3576
+			c2.5157-1.3058,7.4847-2.6306,10.1518,2.5588C50.7755,49.6699,52.1635,42.9=
+395,47.0606,36.6607z"/>
+	</g>
+</g>
+<g id=3D"XMLID_1_">
+	<g>
+		<path d=3D"M81.9306,38.5423c0.464,4.1203,4.3938,6.8217,9.8514,6.8217c5.18=
+54,0,8.9239-2.7014,8.9239-6.4393
+			c0-3.2203-2.2648-5.186-7.4776-6.4953l-5.0484-1.2825c-7.259-1.8013-10.534=
+-5.0764-10.534-10.4792
+			c0-6.6585,5.8127-11.2709,14.0819-11.2709c8.0226,0,13.7263,4.6392,13.9175=
+,11.3257h-5.3212
+			c-0.4098-4.0935-3.7391-6.6049-8.7327-6.6049c-4.94,0-8.3783,2.5382-8.3783=
+,6.2493c0,2.8926,2.129,4.6124,7.3686,5.9497
+			l4.2025,1.0913c8.1323,1.9926,11.4615,5.158,11.4615,10.8617c0,7.259-5.758=
+5,11.8166-14.9278,11.8166
+			c-8.5141,0-14.3268-4.5308-14.7634-11.5437H81.9306z"/>
+		<path d=3D"M140.0488,49.4308h-5.3492l-6.2493-21.777h-0.109l-6.2219,21.777=
+h-5.3486l-7.9142-28.5183h5.1848l5.5124,22.8963h0.1096
+			l6.2219-22.8963h5.021l6.2767,22.8963h0.1096l5.5125-22.8963h5.13L140.0488=
+,49.4308z"/>
+		<path d=3D"M151.3891,13.2442c0-1.7185,1.4195-3.1106,3.1387-3.1106c1.7466,=
+0,3.1655,1.3921,3.1655,3.1106
+			c0,1.7197-1.4189,3.1387-3.1655,3.1387C152.8086,16.3829,151.3891,14.964,1=
+51.3891,13.2442z M151.9353,20.9125h5.2122v28.5183
+			h-5.2122V20.9125z"/>
+		<path d=3D"M191.1856,25.1156v-4.2032h-5.5125v-6.8217h-5.1854v6.8217h-4.22=
+99h-5.7335v-2.5102
+			c0.0268-2.5382,1.0096-3.6027,3.3567-3.6027c0.7636,0,1.5279,0.0828,2.1558=
+,0.1912v-4.0935
+			c-0.9281-0.1364-1.774-0.218-2.7562-0.218c-5.5673,0-7.9142,2.3202-7.9142,=
+7.6414v2.5918h-3.9839v4.2032h3.9839v24.3151h5.1848
+			V25.1156h5.7067h4.2299v16.8381c0,5.5125,2.1016,7.6402,7.5592,7.6402c1.17=
+35,0,2.5108-0.0816,3.1113-0.218v-4.2567
+			c-0.355,0.0548-1.3922,0.1364-1.9651,0.1364c-2.4286,0-3.5199-1.1461-3.519=
+9-3.7111V25.1156H191.1856z"/>
+	</g>
+</g>
+</svg>=0A
+------MultipartBoundary--f9LTJPDjGEa4x3KXxrJO5hGw3oasyO51EUlneAb4cL----
+Content-Type: image/svg+xml
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://docs.swift.org/swift-book/_static/images/icon-twitter.svg
+
+<?xml version=3D"1.0" encoding=3D"utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/=
+SVG/1.1/DTD/svg11.dtd">
+<svg version=3D"1.1" xmlns=3D"http://www.w3.org/2000/svg" xmlns:xlink=3D"ht=
+tp://www.w3.org/1999/xlink" width=3D"16" height=3D"16" viewBox=3D"0 0 16 16=
+">
+<path fill=3D"#cccccc" d=3D"M16 3.038c-0.589 0.261-1.221 0.438-1.885 0.517 =
+0.678-0.406 1.198-1.050 1.443-1.816-0.634 0.376-1.337 0.649-2.085 0.797-0.5=
+99-0.638-1.452-1.037-2.396-1.037-1.813 0-3.283 1.47-3.283 3.282 0 0.257 0.0=
+29 0.508 0.085 0.748-2.728-0.137-5.147-1.444-6.766-3.43-0.283 0.485-0.444 1=
+.049-0.444 1.65 0 1.139 0.579 2.144 1.46 2.732-0.538-0.017-1.044-0.165-1.48=
+7-0.411-0 0.014-0 0.027-0 0.041 0 1.59 1.132 2.917 2.633 3.219-0.275 0.075-=
+0.565 0.115-0.865 0.115-0.212 0-0.417-0.021-0.618-0.059 0.418 1.304 1.63 2.=
+253 3.066 2.28-1.123 0.88-2.539 1.405-4.077 1.405-0.265 0-0.526-0.016-0.783=
+-0.046 1.453 0.931 3.178 1.475 5.032 1.475 6.038 0 9.34-5.002 9.34-9.34 0-0=
+.142-0.003-0.284-0.010-0.425 0.642-0.463 1.198-1.041 1.638-1.699z"></path>
+</svg>=0A
+------MultipartBoundary--f9LTJPDjGEa4x3KXxrJO5hGw3oasyO51EUlneAb4cL----
+Content-Type: image/svg+xml
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://docs.swift.org/swift-book/_static/images/icon-feed.svg
+
+<?xml version=3D"1.0" encoding=3D"utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/=
+SVG/1.1/DTD/svg11.dtd">
+<svg version=3D"1.1" xmlns=3D"http://www.w3.org/2000/svg" xmlns:xlink=3D"ht=
+tp://www.w3.org/1999/xlink" width=3D"16" height=3D"16" viewBox=3D"0 0 16 16=
+">
+<path fill=3D"#cccccc" d=3D"M2.13 11.733c-1.175 0-2.13 0.958-2.13 2.126 0 1=
+.174 0.955 2.122 2.13 2.122 1.179 0 2.133-0.948 2.133-2.122-0-1.168-0.954-2=
+.126-2.133-2.126zM0.002 5.436v3.067c1.997 0 3.874 0.781 5.288 2.196 1.412 1=
+.411 2.192 3.297 2.192 5.302h3.080c-0-5.825-4.739-10.564-10.56-10.564zM0.00=
+6 0v3.068c7.122 0 12.918 5.802 12.918 12.932h3.076c0-8.82-7.176-16-15.994-1=
+6z"></path>
+</svg>=0A
+------MultipartBoundary--f9LTJPDjGEa4x3KXxrJO5hGw3oasyO51EUlneAb4cL----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://docs.swift.org/swift-book/_static/stylesheets/tspl.css
+
+@charset "utf-8";
+
+div.Swift { font-family: Menlo, monospace; font-size: 14px; line-height: 18=
+px; margin: 0.5em 0.5em 1.5em 10px; padding: 0.5em 0.5em 0.5em 1em; overflo=
+w: scroll; }
+
+.code-sample { display: block; font-size: 1.4em; margin-left: 21px; }
+
+.code-sample .code-lines { margin-left: 0px; }
+
+.code-lines { counter-reset: li 0; line-height: 1.6em; list-style: none; ma=
+rgin: 0px 0px 0px 20px; padding: 0px; }
+
+.code-sample .code-lines li { list-style-type: none; margin: 0px; padding-r=
+ight: 10px; }
+
+.code-lines li { padding-left: 0px; text-indent: -13px; white-space: pre-wr=
+ap; border-left: 18px solid transparent; }
+
+.code-lines li::before { color: rgb(128, 128, 128); content: counter(li); c=
+ounter-increment: li 1; font-family: Menlo, monospace; font-size: 0.9em; ma=
+rgin-right: 16px; user-select: none; }
+
+.code-sample .code-lines li::before { margin-left: -35px; margin-right: 25p=
+x; }
+
+.code-sample .code-lines li:nth-child(n+10)::before { margin-left: -43px; m=
+argin-right: 25px; }
+
+.code-sample .code-lines li:only-of-type::before { color: rgb(255, 255, 255=
+); content: " "; }
+
+.syntax-outline .code-lines li::before { content: " "; }
+
+.syntax-outline .code-lines { line-height: 1.9em; }
+
+.syntax-outline div.Swift { border-color: transparent; }
+
+.code-sample div.Swift { width: 93%; margin-left: 13px; overflow: visible; =
+}
+
+div.Swift { border-left: 5px solid rgb(205, 233, 244); padding: 4px 0px 2px=
+ 10px; margin: 10px 0px 21px; line-height: 22px; }
+
+.highlight .gi { background-color: rgb(233, 239, 250); border: 1px solid rg=
+b(196, 212, 241); border-radius: 10px; color: rgb(0, 0, 0); padding: 2px 6p=
+x; font-style: inherit; white-space: nowrap; }
+
+.admonition.grammar { border-left: 5px solid rgb(233, 233, 233); margin: 20=
+px 0px; padding-left: 15px; padding-bottom: 1px; font-size: 0.8em; backgrou=
+nd: transparent; }
+
+.admonition.grammar p.admonition-title { margin-bottom: 8px; }
+
+.admonition.grammar p { margin: 0px; }
+
+.admonition.grammar p.syntax-def { margin-left: 25px; text-indent: -25px; }
+
+.admonition.grammar .syntax-def-name { color: rgb(128, 128, 128); font-styl=
+e: italic; font-size: 15px; }
+
+.admonition.grammar .arrow { padding: 0px 6px; }
+
+.admonition.grammar code { border: 0px; background: transparent; font-size:=
+ 14px; font-weight: bold; padding: 0px 3px; }
+
+.admonition.grammar a.syntax-def { font-size: 15px; font-style: italic; pad=
+ding: 0px 3px; }
+
+.admonition.grammar sub { color: rgb(128, 128, 128); font-size: 12px; font-=
+style: italic; margin-left: -3px; padding-right: 5px; vertical-align: basel=
+ine; position: relative; top: 0.3em; }
+
+.admonition.grammar .syntax-group { margin-bottom: 10px; }
+
+nav[role=3D"navigation"] h2 { font-size: 1em; color: rgb(51, 51, 51); paddi=
+ng: 0px 12px 2px; }
+
+nav[role=3D"navigation"] h2 div { font-weight: 100; padding-top: 3px; }
+
+nav[role=3D"navigation"] ul li ul a:link { color: rgb(51, 51, 51); }
+
+nav[role=3D"navigation"] ul li ul a.current:link { font-weight: bold; }
+
+nav[role=3D"navigation"] .return { padding: 0px 0px 20px; text-indent: -18p=
+x; margin-left: 18px; }
+
+img.align-center { max-width: 100%; height: auto; margin: 10px auto; displa=
+y: block; }
+
+a.headerlink { display: none; }
+
+body { background: rgb(255, 255, 255); }
+
+p { margin-bottom: 1em; }
+
+h2 { font-size: 2em; }
+
+h3 { font-size: 1.4em; }
+
+@media only screen and (max-width: 767px) {
+  h2 { font-size: 2em; }
+  h3 { font-size: 1.4em; }
+}
+
+.playground_link a { font-weight: bold; }
+
+p > code.literal, li > code.literal, dt > code.literal, dd > code.literal {=
+ background-color: transparent; border: none; padding: 0px; color: rgb(102,=
+ 102, 102); font-size: 0.9em; }
+
+a > code.literal { background-color: transparent; border: none; padding: 0p=
+x; font-size: 0.9em; }
+
+article table { border-collapse: collapse; border-color: rgb(221, 221, 221)=
+; }
+
+article table th, article table td, article table th:not(:first-child), art=
+icle table td:not(:first-child) { border-color: rgb(221, 221, 221); }
+
+.admonition { margin-left: 34px; border-left: 5px solid rgb(204, 204, 204);=
+ background-color: rgb(245, 245, 245); padding: 10px; font-size: 0.85em; ma=
+rgin-bottom: 1.5em; }
+
+.admonition-experiment { border-color: rgb(0, 136, 204); }
+
+.admonition-beta { margin-top: 4em; clear: both; }
+
+.admonition .admonition-title { text-transform: uppercase; color: rgb(119, =
+119, 119); font-weight: normal; font-size: 0.7em; letter-spacing: 2px; marg=
+in-bottom: 0.7em; }
+
+.admonition .last { margin-bottom: 0px; }
+
+nav[role=3D"navigation"].open ul { display: block; }
+
+#bashful { position: fixed; left: 0px; top: 0px; width: 100%; margin: 0px; =
+z-index: 10; }
+
+#bashful .inner { position: relative; width: 100%; max-width: 985px; }
+
+#jump_to { position: absolute; right: 15px; }
+
+#jump_to_toggle { display: block; float: right; background: url("../images/=
+icon-caret-sm.svg") right 1px no-repeat rgb(250, 250, 250); border-right: 1=
+px solid rgb(230, 230, 230); border-bottom: 1px solid rgb(230, 230, 230); b=
+order-left: 1px solid rgb(230, 230, 230); border-image: initial; border-top=
+: none; padding: 5px 27px 5px 8px; color: rgb(51, 51, 51); font: 12px/14px =
+Helvetica, Arial, Verdana, sans-serif; letter-spacing: 1px; text-transform:=
+ uppercase; height: 25px; cursor: pointer; }
+
+#jump_to.open #jump_to_toggle { border-bottom-color: rgb(250, 250, 250); ba=
+ckground-image: url("../images/icon-close-sm.svg"); }
+
+#jump_to menu { display: none; }
+
+#jump_to.open menu { display: block; margin: 24px 0px 0px; padding: 0px 15p=
+x; background: rgb(250, 250, 250); border: 1px solid rgb(230, 230, 230); wi=
+dth: 300px; font-size: 12px; line-height: 15px; color: rgb(102, 102, 102); =
+}
+
+#jump_to menu ul { list-style: none; margin: 15px 0px; padding: 0px; }
+
+#jump_to menu ul ul { margin: 0px; }
+
+#jump_to menu ul a { display: none; }
+
+#jump_to menu ul ul a { display: inline; color: rgb(51, 51, 51); }
+
+#jump_to menu ul ul ul { display: none; padding-left: 15px; margin-bottom: =
+10px; }
+
+#jump_to menu ul ul ul ul { display: none; }
+
+#jump_to menu ul ul li { margin: 6px 0px; }
+
+#jump_to_overlay { position: fixed; display: none; width: 100%; height: 100=
+%; top: 0px; left: 0px; background-color: transparent; z-index: 5; cursor: =
+default; }
+
+.next_previous p { display: inline; margin: 0px; }
+
+.next_previous .previous a { float: left; padding: 0px 25px; background: ur=
+l("../images/icon-next_previous.svg") 0px 3px no-repeat; display: block; }
+
+.next_previous .next a { float: right; padding: 0px 25px; background: url("=
+../images/icon-next_previous.svg") right -18px no-repeat; display: block; }
+
+footer { margin-top: 4em; clear: both; }
+
+@media only screen and (max-width: 767px) {
+  #jump_to, #bashful { display: none; }
+  .code-sample { margin-left: 10px; }
+  .admonition { margin-left: 23px; }
+}
+------MultipartBoundary--f9LTJPDjGEa4x3KXxrJO5hGw3oasyO51EUlneAb4cL----
+Content-Type: image/svg+xml
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://docs.swift.org/swift-book/_static/images/icon-caret-sm.svg
+
+<?xml version=3D"1.0" encoding=3D"utf-8"?>
+<!-- Generator: Adobe Illustrator 15.1.0, SVG Export Plug-In . SVG Version:=
+ 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/=
+SVG/1.1/DTD/svg11.dtd">
+<svg version=3D"1.1" id=3D"Layer_1" xmlns=3D"http://www.w3.org/2000/svg" xm=
+lns:xlink=3D"http://www.w3.org/1999/xlink" x=3D"0px" y=3D"0px"
+	 width=3D"21px" height=3D"21px" viewBox=3D"0 0 21 21" enable-background=3D=
+"new 0 0 21 21" xml:space=3D"preserve">
+<title>icon-close</title>
+<desc>Close Icon</desc>
+<g id=3D"Container">
+	<g id=3D"icon-close">
+		<path id=3D"Line-Copy-8" fill=3D"none" stroke=3D"#333333" stroke-linecap=
+=3D"square" d=3D"M7.002,8.338l3.655,3.655"/>
+		<path id=3D"Line-Copy-7" fill=3D"none" stroke=3D"#333333" stroke-linecap=
+=3D"square" d=3D"M10.657,11.993l3.655-3.655"/>
+	</g>
+</g>
+</svg>
+
+------MultipartBoundary--f9LTJPDjGEa4x3KXxrJO5hGw3oasyO51EUlneAb4cL----
+Content-Type: image/svg+xml
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://docs.swift.org/swift-book/_static/images/icon-next_previous.svg
+
+<?xml version=3D"1.0" encoding=3D"utf-8"?>
+<!-- Generator: Adobe Illustrator 15.1.0, SVG Export Plug-In . SVG Version:=
+ 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/=
+SVG/1.1/DTD/svg11.dtd">
+<svg version=3D"1.1" id=3D"Layer_1" xmlns=3D"http://www.w3.org/2000/svg" xm=
+lns:xlink=3D"http://www.w3.org/1999/xlink" x=3D"0px" y=3D"0px"
+	 width=3D"21px" height=3D"41.918px" viewBox=3D"0 0 21 41.918" enable-backg=
+round=3D"new 0 0 21 41.918" xml:space=3D"preserve">
+<title>icon-close</title>
+<desc>Close Icon</desc>
+<g id=3D"Container">
+	<g id=3D"icon-close">
+		<path id=3D"Line-Copy-8" fill=3D"none" stroke=3D"#333333" stroke-linecap=
+=3D"square" d=3D"M7.005,10.5l5.5,5.813"/>
+		<path id=3D"Line-Copy-7" fill=3D"none" stroke=3D"#333333" stroke-linecap=
+=3D"square" d=3D"M7.005,10.5l5.5-5.5"/>
+	</g>
+</g>
+<g id=3D"Container_1_">
+	<g id=3D"icon-close_1_">
+		<path id=3D"Line-Copy-8_1_" fill=3D"none" stroke=3D"#333333" stroke-linec=
+ap=3D"square" d=3D"M8.006,37.347l5.5-5.813"/>
+		<path id=3D"Line-Copy-7_1_" fill=3D"none" stroke=3D"#333333" stroke-linec=
+ap=3D"square" d=3D"M8.006,26.033l5.5,5.5"/>
+	</g>
+</g>
+</svg>
+
+------MultipartBoundary--f9LTJPDjGEa4x3KXxrJO5hGw3oasyO51EUlneAb4cL----
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: https://docs.swift.org/swift-book/_images/computedProperties_2x.png
+
+iVBORw0KGgoAAAANSUhEUgAAAwgAAAMGCAMAAABh0VNVAAAACXBIWXMAAAsTAAALEwEAmpwYAAAK
+T2lDQ1BQaG90b3Nob3AgSUNDIHByb2ZpbGUAAHjanVNnVFPpFj333vRCS4iAlEtvUhUIIFJCi4AU
+kSYqIQkQSoghodkVUcERRUUEG8igiAOOjoCMFVEsDIoK2AfkIaKOg6OIisr74Xuja9a89+bN/rXX
+Pues852zzwfACAyWSDNRNYAMqUIeEeCDx8TG4eQuQIEKJHAAEAizZCFz/SMBAPh+PDwrIsAHvgAB
+eNMLCADATZvAMByH/w/qQplcAYCEAcB0kThLCIAUAEB6jkKmAEBGAYCdmCZTAKAEAGDLY2LjAFAt
+AGAnf+bTAICd+Jl7AQBblCEVAaCRACATZYhEAGg7AKzPVopFAFgwABRmS8Q5ANgtADBJV2ZIALC3
+AMDOEAuyAAgMADBRiIUpAAR7AGDIIyN4AISZABRG8lc88SuuEOcqAAB4mbI8uSQ5RYFbCC1xB1dX
+Lh4ozkkXKxQ2YQJhmkAuwnmZGTKBNA/g88wAAKCRFRHgg/P9eM4Ors7ONo62Dl8t6r8G/yJiYuP+
+5c+rcEAAAOF0ftH+LC+zGoA7BoBt/qIl7gRoXgugdfeLZrIPQLUAoOnaV/Nw+H48PEWhkLnZ2eXk
+5NhKxEJbYcpXff5nwl/AV/1s+X48/Pf14L7iJIEyXYFHBPjgwsz0TKUcz5IJhGLc5o9H/LcL//wd
+0yLESWK5WCoU41EScY5EmozzMqUiiUKSKcUl0v9k4t8s+wM+3zUAsGo+AXuRLahdYwP2SycQWHTA
+4vcAAPK7b8HUKAgDgGiD4c93/+8//UegJQCAZkmScQAAXkQkLlTKsz/HCAAARKCBKrBBG/TBGCzA
+BhzBBdzBC/xgNoRCJMTCQhBCCmSAHHJgKayCQiiGzbAdKmAv1EAdNMBRaIaTcA4uwlW4Dj1wD/ph
+CJ7BKLyBCQRByAgTYSHaiAFiilgjjggXmYX4IcFIBBKLJCDJiBRRIkuRNUgxUopUIFVIHfI9cgI5
+h1xGupE7yAAygvyGvEcxlIGyUT3UDLVDuag3GoRGogvQZHQxmo8WoJvQcrQaPYw2oefQq2gP2o8+
+Q8cwwOgYBzPEbDAuxsNCsTgsCZNjy7EirAyrxhqwVqwDu4n1Y8+xdwQSgUXACTYEd0IgYR5BSFhM
+WE7YSKggHCQ0EdoJNwkDhFHCJyKTqEu0JroR+cQYYjIxh1hILCPWEo8TLxB7iEPENyQSiUMyJ7mQ
+AkmxpFTSEtJG0m5SI+ksqZs0SBojk8naZGuyBzmULCAryIXkneTD5DPkG+Qh8lsKnWJAcaT4U+Io
+UspqShnlEOU05QZlmDJBVaOaUt2ooVQRNY9aQq2htlKvUYeoEzR1mjnNgxZJS6WtopXTGmgXaPdp
+r+h0uhHdlR5Ol9BX0svpR+iX6AP0dwwNhhWDx4hnKBmbGAcYZxl3GK+YTKYZ04sZx1QwNzHrmOeZ
+D5lvVVgqtip8FZHKCpVKlSaVGyovVKmqpqreqgtV81XLVI+pXlN9rkZVM1PjqQnUlqtVqp1Q61Mb
+U2epO6iHqmeob1Q/pH5Z/YkGWcNMw09DpFGgsV/jvMYgC2MZs3gsIWsNq4Z1gTXEJrHN2Xx2KruY
+/R27iz2qqaE5QzNKM1ezUvOUZj8H45hx+Jx0TgnnKKeX836K3hTvKeIpG6Y0TLkxZVxrqpaXllir
+SKtRq0frvTau7aedpr1Fu1n7gQ5Bx0onXCdHZ4/OBZ3nU9lT3acKpxZNPTr1ri6qa6UbobtEd79u
+p+6Ynr5egJ5Mb6feeb3n+hx9L/1U/W36p/VHDFgGswwkBtsMzhg8xTVxbzwdL8fb8VFDXcNAQ6Vh
+lWGX4YSRudE8o9VGjUYPjGnGXOMk423GbcajJgYmISZLTepN7ppSTbmmKaY7TDtMx83MzaLN1pk1
+mz0x1zLnm+eb15vft2BaeFostqi2uGVJsuRaplnutrxuhVo5WaVYVVpds0atna0l1rutu6cRp7lO
+k06rntZnw7Dxtsm2qbcZsOXYBtuutm22fWFnYhdnt8Wuw+6TvZN9un2N/T0HDYfZDqsdWh1+c7Ry
+FDpWOt6azpzuP33F9JbpL2dYzxDP2DPjthPLKcRpnVOb00dnF2e5c4PziIuJS4LLLpc+Lpsbxt3I
+veRKdPVxXeF60vWdm7Obwu2o26/uNu5p7ofcn8w0nymeWTNz0MPIQ+BR5dE/C5+VMGvfrH5PQ0+B
+Z7XnIy9jL5FXrdewt6V3qvdh7xc+9j5yn+M+4zw33jLeWV/MN8C3yLfLT8Nvnl+F30N/I/9k/3r/
+0QCngCUBZwOJgUGBWwL7+Hp8Ib+OPzrbZfay2e1BjKC5QRVBj4KtguXBrSFoyOyQrSH355jOkc5p
+DoVQfujW0Adh5mGLw34MJ4WHhVeGP45wiFga0TGXNXfR3ENz30T6RJZE3ptnMU85ry1KNSo+qi5q
+PNo3ujS6P8YuZlnM1VidWElsSxw5LiquNm5svt/87fOH4p3iC+N7F5gvyF1weaHOwvSFpxapLhIs
+OpZATIhOOJTwQRAqqBaMJfITdyWOCnnCHcJnIi/RNtGI2ENcKh5O8kgqTXqS7JG8NXkkxTOlLOW5
+hCepkLxMDUzdmzqeFpp2IG0yPTq9MYOSkZBxQqohTZO2Z+pn5mZ2y6xlhbL+xW6Lty8elQfJa7OQ
+rAVZLQq2QqboVFoo1yoHsmdlV2a/zYnKOZarnivN7cyzytuQN5zvn//tEsIS4ZK2pYZLVy0dWOa9
+rGo5sjxxedsK4xUFK4ZWBqw8uIq2Km3VT6vtV5eufr0mek1rgV7ByoLBtQFr6wtVCuWFfevc1+1d
+T1gvWd+1YfqGnRs+FYmKrhTbF5cVf9go3HjlG4dvyr+Z3JS0qavEuWTPZtJm6ebeLZ5bDpaql+aX
+Dm4N2dq0Dd9WtO319kXbL5fNKNu7g7ZDuaO/PLi8ZafJzs07P1SkVPRU+lQ27tLdtWHX+G7R7ht7
+vPY07NXbW7z3/T7JvttVAVVN1WbVZftJ+7P3P66Jqun4lvttXa1ObXHtxwPSA/0HIw6217nU1R3S
+PVRSj9Yr60cOxx++/p3vdy0NNg1VjZzG4iNwRHnk6fcJ3/ceDTradox7rOEH0x92HWcdL2pCmvKa
+RptTmvtbYlu6T8w+0dbq3nr8R9sfD5w0PFl5SvNUyWna6YLTk2fyz4ydlZ19fi753GDborZ752PO
+32oPb++6EHTh0kX/i+c7vDvOXPK4dPKy2+UTV7hXmq86X23qdOo8/pPTT8e7nLuarrlca7nuer21
+e2b36RueN87d9L158Rb/1tWeOT3dvfN6b/fF9/XfFt1+cif9zsu72Xcn7q28T7xf9EDtQdlD3YfV
+P1v+3Njv3H9qwHeg89HcR/cGhYPP/pH1jw9DBY+Zj8uGDYbrnjg+OTniP3L96fynQ89kzyaeF/6i
+/suuFxYvfvjV69fO0ZjRoZfyl5O/bXyl/erA6xmv28bCxh6+yXgzMV70VvvtwXfcdx3vo98PT+R8
+IH8o/2j5sfVT0Kf7kxmTk/8EA5jz/GMzLdsAAAAgY0hSTQAAeiUAAICDAAD5/wAAgOkAAHUwAADq
+YAAAOpgAABdvkl/FRgAAAwBQTFRFAAAA////vW1vvYWJvYqPvJKXvKGnIx8gMS0uRUFCvKivKSYn
+aGVmfnt8fHl6dnN0cm9weHZ3dHJzc3FycnBxbGprqaeoqKanpaOkiIaHhYOEgoCBr62urausu7C4
+q6qro6Kju77HXGdtQ0hLu9Hbj5SW8vn8utnleIyT2u714fH36/b6uuDsvOHtv+LuwOPuw+TvxeXv
+x+bwzejx0ery0+vz3vD2W15f9Pr8+v3++fz9veLtvuLtyefw1u305vT4h46Q8fn7hYmKhIiJ+f3+
+7vj69/z9/P7+/v//+fr69/j48/T08fLy8PHx7/Dw7u/v7e7u7O3t6+zs6uvr6erq6Onp5+jo5ufn
+5OXl4uPj4eLi4OHh09TUo6SklpeXlJWViouLhYaGko2H//v2/N6+/ebN/ejR/erVsaSVpZuQ/u/f
+/vLlmpOL//ny/Nm1/Nq2/Nm2/Nu4/Ny6/N28/d/A/eDD/eLG/eTK/uzasqie/vbu//r1h4WD//37
+//79+9Wy//n0//v49cem//z6662U3oh0zWRbwj05xVFMvzIvsS4swDYzHgkJwURCVzo69+bmoJ6e
+nZubioiIh4WFhYODg4GBgH5+fXx8eXh4dnV1c3JycXBwpqWlpaSkpKOjoqGhnp2dnZyclJOTh4aG
+/v7+/Pz8+/v7+vr6+Pj49/f39vb29PT08vLy5ubm5OTk39/f3d3d29vb2dnZ2NjY19fX1NTU09PT
+0tLS0NDQzs7OzMzMyMjIxcXFwcHBv7+/urq6t7e3tLS0sbGxrq6urKysqKiop6enpqamoaGhoKCg
+n5+fm5ubmpqak5OTkZGRj4+PjY2NiYmJhISEg4ODgYGBgICAe3t7eXl5dHR0b29vbW1tbGxsaWlp
+Z2dnZWVlY2NjYGBgXl5eWlpaV1dXVVVVUVFRT09PS0tLSEhIRUVFQEBAPz8/Ozs7ODg4NDQ0MTEx
+Ly8vKysrJiYmIiIiICAgHR0dGhoaFRUVERERDg4OCgoKBwcHBAQEAgICAQEB////Zn30EAAAAQB0
+Uk5T////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////AFP3ByUAADTcSURBVHja7J15fJTVvf8/zzN7
+NsIiqC3FvWK9XnH5KSiLiIgYyL4QEiAouFz9vX702t9trRZ73S62/d1WKygoW0K2yULCIgZBCEq0
+otTeWqxWRRARCBAIJJnM9vsjQZhM5ptmJkOemefz/msy3zzPc+ac837OObN8j6KAEKKyCgihCIRQ
+BEIoAiEUgRCKQAhFIIQiEEIRCKEIhFAEQkIUoTBjatDhlyyW16WDU6eJl56WJobLMiZL4SkZJeK1
+31gnnn16ihiemiGGSzKKpXBRRpkUtr+xsf/KBrnBS954Qzz83vQeGq1ICq/JKA1T2VKmhzoiqAVB
+hx/3esWzK/L3/XoKq6G8MFUN6eIFahjLtkpV+7NsBfLRIZUN/VU2RQlVBEI4NSKEIhBCEQihCIRQ
+BEIoAiEUgRCKQAhFIIQiEEIoAiEUgRCKQAhFIIQiEEIRCKEIhFAEQigCIRSBkP4TwQt4tfqyvWz5
+aGzTEMrmk+diml/SC8XicklHS+G7F2DR28LBFm+7VDKT6pDCRqNDetmq2ekWwrFz3K9IZzcr4sVN
+hjYpbDC1e4KtNcA217u438oGq9spnXw+XnEHf/HQGi2Espnh39dyc3yK5lNJ3YwPqlEeUYzSYHP7
+DlFC8dRqD2EYpTpVIGYuyuzyyv0PDy1sUOWyGcVwP5ath1aZARiV4C/eY6MZlPCUrbtyqV2HBImi
+7Iqgw4stltekg9OTxUsnZ4hhe/bdUvie7FLx2nUbxLOnpInhimwxXJZdIoXXZJeLJ697s//KpsgN
+XlpXVyzFp2WKJy/PXiOFS7LLwlS2tBSlB8K4Rvh5D3e2/kTLm+qu0nDZFA1XXWhl47tGhFAEQigC
+IRSBEIpACEUghCIQQhEIoQiEUARCKAIhFIEQikAIRSDkfImQz988EooAYFoWq5BQBOSzBglFIIQi
+EEIRira98tUXczZ0/lX98ZdffJTNyiSRS3A/r6+aMBAAXh9yQx2AD68zAmhfcCurk+hKhCkTB7Re
+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
+z/z/AQB42BFgvp8i3AAAAABJRU5ErkJggg==
+
+------MultipartBoundary--f9LTJPDjGEa4x3KXxrJO5hGw3oasyO51EUlneAb4cL----
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: https://docs.swift.org/swift-book/_images/staticPropertiesVUMeter_2x.png
+
+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
+YAAAOpgAABdvkl/FRgAAAwBQTFRFAAAA////VFVVU1RUfn9/fX5+fH19eXp6bG1ta2xsaWpqZ2ho
+ZWZmZGVlY2RkX2BgXV5eW1xcV1hYRlBLSU9MTE5NImI9JWE+LG9IOHxVO4BYPoJbQIVdLV1BQ4hg
+RIlhR41lSI1lL1xCSo9nTpRsUZdvU5lxVZxzVp10VZtyWaB4WJ52MlpDX6d+XKJ6ZKyDYqmAZa2E
+Y6qCZ6+GZq6FZq2EabGIaLCHarKJaK+GNVlEN1hFOFdFPVVHP1RIRVFKIWM8I2U+JGY/JWdAJGI9
+JWE9K21GJmE+MHRML3JKKGA/NHhQKV8/NnpSK15ALl1BMFxCMVtCNFpDOFhFOldGO1ZGPlRHOldF
+PFZGQ1NJSFBLRFJJSU9LS05MiIaDSkE1S0I2OzYvMi8rjImFTEI2S0E2SD81RDwzQDkxxLGcrqGT
+o5mOnJSL/dm0/Ni0+9iz+9ez+day+NWy9dOx8tGv78+u68yt6sus5ciq4MSo2sCl07uiy7Wfvqya
+uqmYODMut6eXs6SVLSsplI6IhoSCKygnNiwpMSoo86aT86eU7pyL8aORSTItPC4rNCsp6ZGBRjEt
+QC8s44N212hfy0tGvzAwwTQ0ujIysTQ0qzU1oDg4kjw8ij4+iD4+hj8/gUBAekJCbUVFXklJLSgo
+UkxMKCcnhIOD/v7+/f39+/v7+fn59vb29PT08/Pz8PDw7u7u7Ozs6urq6enp5ubm4+Pj4eHh3t7e
+3d3d29vb2NjY1dXV09PT0NDQz8/PzMzMycnJxsbGwsLCv7+/vLy8urq6t7e3tbW1s7OzsbGxra2t
+qqqqpqamo6OjoaGhnp6enJycm5ubmJiYlpaWlZWVk5OTkZGRj4+PjY2NioqKhoaGgYGBgICAe3t7
+eHh4d3d3dnZ2dHR0c3NzcnJycHBwbm5ua2traWlpZmZmY2NjYmJiYWFhXl5eXV1dW1tbWFhYV1dX
+U1NTUFBQTk5OTU1NSEhIQ0NDPj4+Ojo6ODg4NjY2NTU1MTExLS0tKysrJiYm////1Q/nBgAAAQB0
+Uk5T////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////AFP3ByUAACjnSURBVHja7J15cJTnnee//fat
+u3ULoZNDh22MwSYBO7YxxjYOhzlskLOb1NbOwkyqpmpTs7WJa1PlddVUJbOzO5n9x4mdZHaSmSAk
+gzDGNtgxGNvYxMEHvgQCBJLQhe677/fdPyRhiNXdb/fL+z79iu/nH12t7l//Pv289/t8LRaQWwCJ
+LaBnQs+Engk9E3om9EzomdAzoWd6JvMM2xy/a3DbbfRvUuRwwLvzm7+2fOM8RkOaC44UB89vmBIl
+4PXDP74zpuemDCn3vk42zLwsfH8gPL41hudDae7HaNnk+FqnJjdH9dyUmb6Uq2bzr6QvjI1tjbK9
+3ZDhpub5sBe1JDW9IYrnVKmCmueF6EektMie97k9qezRvKAz19UQ0XMKFrBD84T74Yro2e5ws0Hz
+hA63PaJnGzXPH9zWiJ4lB9szb3BIkbe3ubE9f7DQ7K24o8UW0DOhZ0LPhJ4JPRN6JvRM6JnQMz0T
+eib0TOiZ0DOhZ0LPhJ7JddgM+jhZjL7PVpGVeVxnUnq2OF6qE/ARlgPh+Vlnknq2H6jr+IUVIWOX
+U5bJku8pPjmeOh24+gursWUmUmdiY+365dSxgtKb/wIu6Z+lEERgn3jGHzJBnRbfM76bP6Q7u9Yb
+uB1mcTX8QhbTPgRT/8FpM0GdSuo/uKwm3952SgMKRBGy/4NTMkedLsnUnq3WnwdF7k64f+ZSWecv
+TFFnsnp2/kzsLVuhNIuqJaLzD4op6kxSz5LFBbEE/+BQVWefKepMVs/2ekVw/9AnWUxR5xXJktSe
+s6Lt+kkdotsHm5q3mAR1pqpWkSUn1IY48V+aQEXu7NLmfI98JKsi4mwXDU5ZdP+CUDFOGoQPZygR
+61z45iQWe2bfTkuPfMQzuElnz5OXOncC52Zf9NRGHAxuwEdLIzy87udJcOe8Cs91PxdeZShCnQuO
+vvhtwDo8/VPg1CYcDD6GTxbr6rnzszoc2XDtx+aNL63IC3+w5kJ+FogudPz6vus7/tWm/Stzwifv
+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
+
+------MultipartBoundary--f9LTJPDjGEa4x3KXxrJO5hGw3oasyO51EUlneAb4cL----
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: chrome-extension://noojglkidnpfjbincgijbaiedldjfbhh/data/shared/img/buffer-hover-icon@2x.png
+
+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
+
+------MultipartBoundary--f9LTJPDjGEa4x3KXxrJO5hGw3oasyO51EUlneAb4cL------
